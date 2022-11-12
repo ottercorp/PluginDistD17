@@ -5,5 +5,12 @@ effective_version = "1.1.7.2"
 [channels.stable.plugins.MapLinker.changelogs."1.1.7.2"]
 time_released = 2022-10-31T05:22:31.860
 changelog = "Fix linw wrap & UI mod during combat"
+[channels.stable.plugins.ChatBubbles]
+built_commit = "185e94da04f9a619b3b85e19f428303d7911f389"
+time_built = 2022-11-12T23:54:47.706
+effective_version = "2.1.2.0"
+[channels.stable.plugins.ChatBubbles.changelogs."2.1.2.0"]
+time_released = 2022-11-12T23:54:47.706
+changelog = "Update for 6.2, API7 compatibility + UI update"
 [channels.testing-live.plugins]
 [channels.testing-net6.plugins]
