@@ -12,6 +12,13 @@ effective_version = "2.1.2.0"
 [channels.stable.plugins.ChatBubbles.changelogs."2.1.2.0"]
 time_released = 2022-11-12T23:54:47.706
 changelog = "Update for 6.2, API7 compatibility + UI update"
+[channels.stable.plugins.UsedName]
+built_commit = "4eb4883e357db09d9b96e49a50cc8c2fa6885cb6"
+time_built = 2022-11-16T04:36:26.434
+effective_version = "0.7.6.8"
+[channels.stable.plugins.UsedName.changelogs."0.7.6.8"]
+time_released = 2022-11-16T04:36:26.434
+changelog = "- 修复.Net6兼容性问题\r\n"
 [channels.testing-live.plugins.OBSPlugin]
 built_commit = "88d676f25cb9712622656aba3f82e1929b1bb8b0"
 time_built = 2022-11-13T00:02:00.424
