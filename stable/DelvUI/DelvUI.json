@@ -1,0 +1,17 @@
+{
+  "Author": "jdsmith2816",
+  "Name": "DelvUI",
+  "InternalName": "DelvUI",
+  "AssemblyVersion": "1.4.5.2",
+  "Description": "DelvUI provides a highly configurable HUD replacement and is highly inspired by ElvUI from WoW",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/delvui/delvui",
+  "Tags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "A modern HUD replacement built for customization.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

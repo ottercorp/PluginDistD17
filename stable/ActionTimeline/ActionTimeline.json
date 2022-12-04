@@ -1,0 +1,18 @@
+{
+  "Author": "Tischel",
+  "Name": "ActionTimeline",
+  "InternalName": "ActionTimeline",
+  "AssemblyVersion": "1.0.0.0",
+  "Description": "Configurable timeline display of all the actions you use.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Tischel/ActionTimeline",
+  "Tags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "Show your actions in real-time.",
+  "Changelog": "1.0.0.0\n- Moving plugin out of testing.\n- Fixed Red Mage's Resolution not behaving correctly in the timeline with GCD clipping enabled.",
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
