@@ -6,7 +6,7 @@
   "Description": "Turn off profanity filter.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Loskh/StarlightBreaker",
-  "DalamudApiLevel": 6,
+  "DalamudApiLevel": 7,
   "LoadPriority": 0,
   "Punchline": "Turn off profanity filter.",
   "_isDip17Plugin": true,
