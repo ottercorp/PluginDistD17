@@ -6,7 +6,7 @@
   "Description": "This plugin automatically backups your game and plugin configurations upon game/plugin starting.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/NightmareXIV/JustBackup",
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 7,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "LoadPriority": 0,
