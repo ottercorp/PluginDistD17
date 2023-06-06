@@ -2,7 +2,7 @@
   "Author": "Kouzukii, VeroFess",
   "Name": "Price Insight CN",
   "InternalName": "PriceInsightCN",
-  "AssemblyVersion": "2.5.0.1",
+  "AssemblyVersion": "2.5.0.2",
   "Description": "每当您将鼠标悬停在商品上时, 这个插件都会在底部显示 NQ/HQ 市场价格以及最近购买的价格.\n价格从 Universalis.app 检索并缓存 90 分钟。\n要刷新价格, 您可以将鼠标悬停在某个项目上的同时点击 Alt .\n",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/VeroFess/ffxiv-priceinsight-cn",
