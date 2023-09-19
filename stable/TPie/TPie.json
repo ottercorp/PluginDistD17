@@ -2,8 +2,8 @@
   "Author": "Tischel",
   "Name": "TPie",
   "InternalName": "TPie",
-  "AssemblyVersion": "1.7.0.0",
-  "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets or Macros.",
+  "AssemblyVersion": "1.7.1.1",
+  "Description": "Highly configurable hotbars that can be toggled with a keybind. They can be filled with Actions, Items, Gear Sets, Macros and more...",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Tischel/TPie",
   "Tags": [
@@ -14,7 +14,7 @@
   "LoadSync": false,
   "LoadPriority": 0,
   "Punchline": "Customizable ring-shaped hotbars",
-  "Changelog": "1.7.0.0\n- Added support for Patch 6.3 and Dalamud Api8.",
+  "Changelog": "1.7.1.1\n\n- Fixed crash if Wotsit is not installed.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
