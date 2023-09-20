@@ -1,0 +1,18 @@
+{
+  "Author": "Anna, LittleNightmare",
+  "Name": "Remote Party Finder Uploader",
+  "InternalName": "RemotePartyFinder",
+  "AssemblyVersion": "1.0.11.0",
+  "Description": "将您检索到的队员招募信息上传到众包远程的\n队伍招募网站 (https://xivpf.littlenightmare.top).",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/LittleNightmare/remote-party-finder",
+  "DalamudApiLevel": 8,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "众包远程网站 (上传队员招募到 xivpf.littlenightmare.top)",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
