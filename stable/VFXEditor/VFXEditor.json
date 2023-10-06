@@ -1,11 +1,11 @@
 {
-  "Author": "ocealot, AtmoOmen",
+  "Author": "ocealot",
   "Name": "VFXEditor",
   "InternalName": "VFXEditor",
   "AssemblyVersion": "1.7.9.2",
-  "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN",
+  "Description": "VFX, animation, and sound editing plugin. Icon by PAPACHIN",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
+  "RepoUrl": "https://github.com/0ceal0t/Dalamud-VFXEditor",
   "Tags": [
     "VFX",
     "AVFX"
@@ -15,7 +15,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 69,
-  "Punchline": "游戏视觉效果编辑器、查看器",
+  "Punchline": "VFX editor and viewer",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
