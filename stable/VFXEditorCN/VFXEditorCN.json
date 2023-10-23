@@ -3,9 +3,9 @@
   "Name": "VFXEditorCN",
   "InternalName": "VFXEditorCN",
   "AssemblyVersion": "1.7.9.0",
-  "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen\n\n使用过程中出现任何问题请直接在獭频 @ 我/点击下方 浏览插件主页 按钮提交 Issue",
+  "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen\n\n使用过程中出现任何问题请直接在獭频 @ 我 或 点击下方 浏览插件主页 按钮提交 Issue",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CN",
+  "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CNTR",
   "Tags": [
     "VFX",
     "AVFX"
@@ -15,7 +15,7 @@
   "LoadSync": false,
   "LoadPriority": 69,
   "Punchline": "VFX编辑器、查看器 (中文汉化版)",
-  "Changelog": "- 彻底修复了 .avfx 文件解析错误的问题\n新增了大约 40 条左右翻译",
+  "Changelog": "- 新增了约 140 条字符串翻译，并完成了 Atch 编辑器界面的翻译",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
