@@ -15,7 +15,7 @@
   "LoadSync": false,
   "LoadPriority": 69,
   "Punchline": "VFX编辑器、查看器 (中文汉化版)",
-  "Changelog": "- 新增了约 140 条字符串翻译，并完成了 Atch 编辑器界面的翻译",
+  "Changelog": "- 修正了两处翻译\n- 新增了约 130 条翻译",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
