@@ -17,9 +17,10 @@
     "Ring",
     "Target"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "ImageUrls": [
     "https://github.com/PunishedPineapple/Distance/raw/main/docs/Images/image1.png",
