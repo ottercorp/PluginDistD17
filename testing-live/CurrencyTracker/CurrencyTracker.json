@@ -12,7 +12,7 @@
     "Tracker",
     "Transaction"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 8,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
