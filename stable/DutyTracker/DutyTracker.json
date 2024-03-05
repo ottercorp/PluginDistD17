@@ -1,0 +1,19 @@
+{
+  "Author": "X'pahtalo",
+  "Name": "Duty Tracker",
+  "InternalName": "DutyTracker",
+  "AssemblyVersion": "1.0.1.8",
+  "Description": "Track some duty info. /dt open the menu",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Xpahtalo/DutyTracker",
+  "Tags": [],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Track some duty info.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

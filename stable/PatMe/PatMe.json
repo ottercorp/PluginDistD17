@@ -1,0 +1,24 @@
+{
+  "Author": "MgAl2O4",
+  "Name": "Pat Me",
+  "InternalName": "PatMe",
+  "AssemblyVersion": "1.9.0.0",
+  "Description": "Did you ever wonder how many times your Lala gets a pat? Well, now you can count it!",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "pat",
+    "lala"
+  ],
+  "CategoryTags": [
+    "social"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Pat counter",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

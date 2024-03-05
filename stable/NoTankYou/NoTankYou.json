@@ -1,0 +1,25 @@
+{
+  "Author": "MidoriKami",
+  "Name": "No Tank You",
+  "InternalName": "NoTankYou",
+  "AssemblyVersion": "6.0.2.1",
+  "Description": "Displays warnings when you or any party members are missing role specific actions such as partner buffs, pets, and tank stances.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/NoTankYou",
+  "Tags": [
+    "utility"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Warns you when yourself or others are missing role-specific actions",
+  "AcceptsFeedback": false,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

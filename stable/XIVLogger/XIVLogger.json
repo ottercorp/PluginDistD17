@@ -1,0 +1,24 @@
+{
+  "Author": "Infi, Cadaeix, AtmoOmen (本地化)",
+  "Name": "XIVLogger",
+  "InternalName": "XIVLogger",
+  "AssemblyVersion": "1.0.6.1",
+  "Description": "从插件加载开始，保存你的聊天记录到本地文件或者剪贴板里!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/XIVLogger",
+  "Tags": [
+    "xivlauncher",
+    "plugin",
+    "chat",
+    "chat log"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "保存你的聊天记录到本地文件或者剪贴板里!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

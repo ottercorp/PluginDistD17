@@ -1,0 +1,29 @@
+{
+  "Author": "Ottermandias",
+  "Name": "RezPls",
+  "InternalName": "RezPls",
+  "AssemblyVersion": "1.2.6.1",
+  "Description": "轻松查看谁在复活谁，谁已被复活，谁有可康复的负面状态。\n在世界中与小队、团队界面都能轻松查看。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Ottermandias/RezPls",
+  "Tags": [
+    "Resurrection",
+    "Raise",
+    "Debuff",
+    "Condition",
+    "Status Effect",
+    "Cleanse",
+    "Esuna",
+    "Highlight",
+    "Interface"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "高亮复活与负面状态。",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

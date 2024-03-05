@@ -1,0 +1,33 @@
+{
+  "Author": "Snowy",
+  "Name": "Eureka Helper",
+  "InternalName": "EurekaHelper",
+  "AssemblyVersion": "1.5.2.0",
+  "Description": "A tool to assist you on your Eureka adventures. Type /eurekahelper to get started.\n\nFeatures include:\n- In-Game Tracker GUI\n- Instance Tracker\n- Elementals Tracker\n- Relic Helper\n- Alarms\n- Money NM weather timings\n- More to come",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/snorux/EurekaHelper",
+  "Tags": [
+    "Eureka",
+    "Tracker",
+    "QoL",
+    "Instance",
+    "Weather",
+    "NM",
+    "Elemental",
+    "Fairy",
+    "Relic",
+    "Alarms"
+  ],
+  "CategoryTags": [
+    "Utility"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Eureka Tracker in a plugin with many other features.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

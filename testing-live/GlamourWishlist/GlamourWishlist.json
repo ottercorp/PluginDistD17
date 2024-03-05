@@ -1,0 +1,22 @@
+{
+  "Author": "DragonFlyy",
+  "Name": "GlamourWishlist",
+  "InternalName": "GlamourWishlist",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "Create and manage lists of items that you want to save for glamouring later. Right-click context menus on items can be used to quickly add an item to a list.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Imaginary-Narwhal/GlamourWishlist",
+  "Tags": [
+    "glamour",
+    "wishlist"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Create wish lists of items you want to glamour",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "testing-live"
+}
