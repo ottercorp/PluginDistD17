@@ -1,0 +1,29 @@
+{
+  "Author": "MidoriKami, Lharz",
+  "Name": "CurrencyAlert",
+  "InternalName": "CurrencyAlert",
+  "AssemblyVersion": "1.0.1.2",
+  "Description": "This plugin lets you easily manage your various currencies to prevent from wasting precious resources.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/MidoriKami/CurrencyAlert",
+  "Tags": [
+    "Currency",
+    "Tomestones",
+    "Utility",
+    "Other"
+  ],
+  "CategoryTags": [
+    "Utility",
+    "Other",
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Display alerts upon reaching configurable currencies thresholds.",
+  "AcceptsFeedback": false,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

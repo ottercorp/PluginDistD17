@@ -1,0 +1,22 @@
+{
+  "Author": "Nightshade System",
+  "Name": "PushyFinder",
+  "InternalName": "PushyFinder",
+  "AssemblyVersion": "1.1.1.0",
+  "Description": "A plugin that uses Pushover (https://pushover.net) to send mobile push notifications when party members join or leave, or when a duty finder queue is initiated.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "party-finder",
+    "afk",
+    "notifications"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Mobile push notifications for the Party Finder.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

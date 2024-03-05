@@ -1,0 +1,26 @@
+{
+  "Author": "Haplo064, maintained by Franz",
+  "Name": "WOLdo",
+  "InternalName": "WheresWOLdo",
+  "AssemblyVersion": "1.4.0.0",
+  "Description": "Movable text overlay of the current location name. Please consider migrationg to WhereAmIAgain, which is actively maintained and has more features.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/reiichi001/WheresWOLdo",
+  "Tags": [
+    "Location",
+    "UI",
+    "Overlay"
+  ],
+  "CategoryTags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 9,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Making it easier to know where you are.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
