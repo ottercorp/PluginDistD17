@@ -5,764 +5,181 @@ effective_version = "1.5.6.0"
 [channels.stable.plugins.Browsingway.changelogs."1.5.6.0"]
 time_released = 2024-03-05T19:40:41.350
 changelog = "- Chromium 121.0.6167.184 (fix for various CVEs)\n- Fullscreen mode by Una (experimental, unsupported)\n- Minor UI fixes\n"
-[channels.stable.plugins.FauxHollowsSolver]
-built_commit = "8dfa2a49e05f5cff282acd1ae235a9e140262cd7"
-time_built = 2024-03-05T19:53:55.874
-effective_version = "1.3.0.0"
-[channels.stable.plugins.FauxHollowsSolver.changelogs]
-[channels.stable.plugins.Wordsmith]
-built_commit = "96b16f3c03495c1882cf44236a3e50652461a99d"
-time_built = 2024-03-05T19:54:01.261
-effective_version = "1.11.1.0"
-[channels.stable.plugins.Wordsmith.changelogs."1.11.1.0"]
-time_released = 2024-03-05T19:54:01.261
-changelog = "# Wordsmith v1.11.1 Patch Notes:\n[FIXED] Fixed a crash related to zero-length words in the Tally system."
-[channels.stable.plugins.FantasyPlayer]
-built_commit = "42a009dff5db8f3fd4c2eca59eb2fc9205e352aa"
-time_built = 2024-03-05T19:54:10.547
-effective_version = "2.2.0.1"
-[channels.stable.plugins.FantasyPlayer.changelogs."2.2.0.1"]
-time_released = 2024-03-05T19:54:10.547
-changelog = "**Bug Fixes**\n- Fix slash commands\n"
-[channels.stable.plugins.AdventurerInNeed]
-built_commit = "33ebdaca59f12604394304943d4191c9acf41aa8"
-time_built = 2024-03-05T19:54:14.420
-effective_version = "1.4.0.0"
-[channels.stable.plugins.AdventurerInNeed.changelogs]
-[channels.stable.plugins.RemotePartyFinder]
-built_commit = "ae1d2a3a82dfe61d3d255e441f392a8f6d2e4f74"
-time_built = 2024-03-05T19:54:18.497
-effective_version = "1.0.12.0"
-[channels.stable.plugins.RemotePartyFinder.changelogs."1.0.12.0"]
-time_released = 2024-03-05T19:54:18.497
-changelog = "API 9"
-[channels.stable.plugins.PriceCheck]
-built_commit = "381892ec5471afda712cece87c8cc91c78b3b048"
-time_built = 2024-03-05T19:54:24.059
-effective_version = "2.6.1.0"
-[channels.stable.plugins.PriceCheck.changelogs]
-[channels.stable.plugins.Collections]
-built_commit = "c5f4959baa1fd0e1b3343e81e8119850140950ce"
-time_built = 2024-03-05T19:54:34.422
-effective_version = "1.0.1.5"
-[channels.stable.plugins.Collections.changelogs."1.0.1.5"]
-time_released = 2024-03-05T19:54:34.422
-changelog = "Collections v1.0.1.5\r\n- Added Progress Bar\r\n- Tool Tip UI improvements\r\n- Job selector buttons changed: left click to switch, right click to toggle\r\n"
-[channels.stable.plugins.StanleyParableXiv]
-built_commit = "0ddcabcf41774dc0de8737d58734fbbaaa8aef71"
-time_built = 2024-03-05T19:54:42.844
+[channels.stable.plugins.XIVCombo]
+built_commit = "64d14678443cd72e2baf62842114069730f63d8c"
+time_built = 2024-03-05T19:41:12.418
+effective_version = "1.7.25.0"
+[channels.stable.plugins.XIVCombo.changelogs."1.7.25.0"]
+time_released = 2024-03-05T19:41:12.418
+changelog = "6.5\n\t\t"
+[channels.stable.plugins.FlashOnTell]
+built_commit = "1261502e2c9b867c27078a7dcc6b932374dfba68"
+time_built = 2024-03-05T19:41:16.221
+effective_version = "0.0.5.0"
+[channels.stable.plugins.FlashOnTell.changelogs."0.0.5.0"]
+time_released = 2024-03-05T19:41:16.221
+changelog = "API 9 updates.\nThe /pflash command will also now try to flash the window if you tab out fast enough. You no longer need to test if it's working by actually talking to people."
+[channels.stable.plugins.GearsetHelperPlugin]
+built_commit = "c97cf824f6dbf2401bfcbe0ade425bed99671316"
+time_built = 2024-03-05T19:41:21.902
+effective_version = "2.2.1.0"
+[channels.stable.plugins.GearsetHelperPlugin.changelogs."2.2.1.0"]
+time_released = 2024-03-05T19:41:21.902
+changelog = "- Fixed stats for relic weapons not being handled correctly.\n"
+[channels.stable.plugins.MapPartyAssist]
+built_commit = "25ccbc0e75e01b134ba5e83d8e46e9c38b622a48"
+time_built = 2024-03-05T19:41:26.859
 effective_version = "2.1.1.0"
-[channels.stable.plugins.StanleyParableXiv.changelogs."2.1.1.0"]
-time_released = 2024-03-05T19:54:42.844
-changelog = "- Added the option to choose between MP3 and OGG assets (defaults to MP3)\n"
-[channels.stable.plugins.ReadyCheckHelper]
-built_commit = "77d5647e7ac5fd4ae430bf6be5617f6f36b1e6d2"
-time_built = 2024-03-05T19:54:46.942
-effective_version = "1.0.4.4"
-[channels.stable.plugins.ReadyCheckHelper.changelogs]
-[channels.stable.plugins.EurekaHelper]
-built_commit = "97b0af33aa82308bf432010e43dee683f19b21bc"
-time_built = 2024-03-29T08:59:08.796
-effective_version = "1.5.2.0"
-[channels.stable.plugins.EurekaHelper.changelogs."1.5.2.0"]
-time_released = 2024-03-29T08:59:08.796
-changelog = "Elemental Manager\n- Added crowdsourced positions\n\nMisc\n- Updated to API 9\n"
-[channels.stable.plugins.EnmityHp]
-built_commit = "4bd0b42eb63b15882cd2277a0fcec1ec2fdd7de4"
-time_built = 2024-03-05T19:53:38.053
-effective_version = "2.0.1.1"
-[channels.stable.plugins.EnmityHp.changelogs]
-[channels.stable.plugins.AutoMountBgm]
-built_commit = "b604afb8f2efbdc64a16b6e4192978cf5e2c4f7a"
-time_built = 2024-03-05T19:55:05.076
-effective_version = "2.0.1.0"
-[channels.stable.plugins.AutoMountBgm.changelogs."2.0.1.0"]
-time_released = 2024-03-05T19:55:05.076
-changelog = "Mount BGM will now be automatically disabled when unmounting, so that volume doesn't stutter when using a BGM-disabled mount."
-[channels.stable.plugins.PartyPlanner]
-built_commit = "77c882e3260133376a2cf18334278365331ad011"
-time_built = 2024-03-05T19:46:56.392
-effective_version = "1.6.0.0"
-[channels.stable.plugins.PartyPlanner.changelogs."1.6.0.0"]
-time_released = 2024-03-05T19:46:56.392
-changelog = "- Minor Internal Refactorings.\r\n- Auto update events when the window is opened if not updated before for 5 minutes.\r\n"
-[channels.stable.plugins.IslandWorkshopSearch]
-built_commit = "2d2ebc68867bf8c4a56123b4b4c65daac8a11c5e"
-time_built = 2024-03-05T19:55:09.521
-effective_version = "0.0.0.3"
-[channels.stable.plugins.IslandWorkshopSearch.changelogs]
-[channels.stable.plugins.Snooper]
-built_commit = "a0fa7be17b3e9645818b5f06ad42adc98d3c4d5d"
-time_built = 2024-03-05T19:55:13.985
-effective_version = "1.2.1.1"
-[channels.stable.plugins.Snooper.changelogs."1.2.1.1"]
-time_released = 2024-03-05T19:55:13.985
-changelog = "* Snooper will no longer play a sound when you send a tell. This was never intended. (#18)\n* If saving logs to disk is disabled, Snooper will no longer load already existing logs from disk.\n* Reduced plugin log spam, fixing an issue where exception stack traces were logged for normal operation.\n"
-[channels.stable.plugins.MBHistory]
-built_commit = "e42b6a969f2994f60a69ab1cfcd673634d661c92"
-time_built = 2024-03-05T19:55:17.930
-effective_version = "1.0.0.2"
-[channels.stable.plugins.MBHistory.changelogs]
-[channels.stable.plugins.CrossUp]
-built_commit = "9fc8ec21b6e29a0232296558251c74ff82972344"
-time_built = 2024-03-05T19:55:23.205
-effective_version = "1.0.1.5"
-[channels.stable.plugins.CrossUp.changelogs."1.0.1.5"]
-time_released = 2024-03-05T19:55:23.205
-changelog = "- The \"Fade Outside Combat\" feature will now also consider crafting, gathering, and fishing to be forms of combat, and keep the bars visible while engaging in such pastimes.\r\n- Implemented a fix to prevent icons from briefly flashing white when switching bars with cooldowns ticking.\r\n"
-[channels.stable.plugins.InventorySearchBar]
-built_commit = "b1d599b3e053a0fcc346466b6a5fef4b640a5be1"
-time_built = 2024-03-05T19:55:40.360
-effective_version = "1.4.0.0"
-[channels.stable.plugins.InventorySearchBar.changelogs."1.4.0.0"]
-time_released = 2024-03-05T19:55:40.360
-changelog = "- Added support for Patch 6.4 and Dalamud API 9."
-[channels.stable.plugins.PlayerTags]
-built_commit = "52f8723f84c710feda245b9e533807db35625e44"
-time_built = 2024-03-05T19:55:45.886
-effective_version = "1.10.2.0"
-[channels.stable.plugins.PlayerTags.changelogs."1.10.2.0"]
-time_released = 2024-03-05T19:55:45.886
-changelog = "- Minor code optimizations\n"
-[channels.stable.plugins.UsedName]
-built_commit = "f63745f7e6cbd74c39d8bcadb0b2ab048a6d85d9"
-time_built = 2024-03-05T19:55:50.034
-effective_version = "0.8.4.0"
-[channels.stable.plugins.UsedName.changelogs."0.8.4.0"]
-time_released = 2024-03-05T19:55:50.034
-changelog = "- Support API9\n"
-[channels.stable.plugins.TextToTalk]
-built_commit = "7a54207f0f093c2d73d3067c7dc0e506288e9925"
-time_built = 2024-03-05T19:56:17.132
-effective_version = "1.28.9.0"
-[channels.stable.plugins.TextToTalk.changelogs."1.28.9.0"]
-time_released = 2024-03-05T19:56:17.132
-changelog = "- Fixes being unable to add lexicons to the Azure voice backend\n- Fixes being unable to save changes to existing chat type presets\n- Small internal refactor which might fix some other minor bugs in voice playback\n"
-[channels.stable.plugins.SkillSwap]
-built_commit = "5130f0440b96cd16fcc9854e6de071177e74ec0a"
-time_built = 2024-03-05T19:56:21.619
-effective_version = "1.2.2.2"
-[channels.stable.plugins.SkillSwap.changelogs]
-[channels.stable.plugins.DeviceChangeFix]
-built_commit = "557f9fe39a9f4f9e7577722f8ab7e43f959c1b6a"
-time_built = 2024-03-05T19:53:47.734
-effective_version = "2.0.3.0"
-[channels.stable.plugins.DeviceChangeFix.changelogs."2.0.3.0"]
-time_released = 2024-03-05T19:53:47.734
-changelog = "Update to API 9"
-[channels.stable.plugins.owofy]
-built_commit = "23de78eb8d419533d69412b779294dc052e53706"
-time_built = 2024-03-05T19:55:01.015
-effective_version = "1.5.0.0"
-[channels.stable.plugins.owofy.changelogs."1.5.0.0"]
-time_released = 2024-03-05T19:55:01.015
-changelog = "The most important plugin, now updated for API 9!"
-[channels.stable.plugins.MiniCactpotSolver]
-built_commit = "149808ea1d2243938f11be2525559820b1f67e42"
-time_built = 2024-03-05T19:53:52.033
-effective_version = "1.3.0.3"
-[channels.stable.plugins.MiniCactpotSolver.changelogs]
-[channels.stable.plugins."XIVDeck.FFXIVPlugin"]
-built_commit = "cca5a774ab3a739cc5e2f89b4e42171be1a805b0"
-time_built = 2024-03-05T19:54:57.010
-effective_version = "0.3.16"
-[channels.stable.plugins."XIVDeck.FFXIVPlugin".changelogs]
-[channels.stable.plugins.GentleTouch]
-built_commit = "3e114c5c272a588cdc17126d2faa6a7b385b555f"
-time_built = 2024-03-05T19:45:53.991
-effective_version = "1.11.0"
-[channels.stable.plugins.GentleTouch.changelogs]
-[channels.stable.plugins.TargetLines]
-built_commit = "afa643a240e655d376577960a47a1d8a12373555"
-time_built = 2024-03-05T19:50:08.535
-effective_version = "1.5.1.0"
-[channels.stable.plugins.TargetLines.changelogs."1.5.1.0"]
-time_released = 2024-03-05T19:50:08.535
-changelog = "- UI occlusion now checks for line intersections, so there should no longer be segments appearing if it's rect overlaped a UI element, but did not intersect it under certain circumstances\n- Fixed a bug which would cause the end cap to have the wrong opacity when 'Fade to End' is enabled\n- Adjusted the rendering of the end caps so they appear uniform\n- Fixed issue where the first/third person transition for lines which target or source the player would appear disjointed\n- Minor optimizations in the broad phase of UI occlusion\n"
-[channels.stable.plugins."Dalamud.DiscordBridge"]
-built_commit = "6af77bbf3f8030f10101b6eb87cd3a3d7a1b4012"
-time_built = 2024-03-05T19:52:43.921
-effective_version = "1.4.4.0"
-[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.4.4.0"]
-time_released = 2024-03-05T19:52:43.921
-changelog = "Updated for API 9.\n"
-[channels.stable.plugins.LogogramHelper]
-built_commit = "2bc0ea1cfcb04a25bf2b055531d250def8c7da1a"
-time_built = 2024-03-05T19:53:34.266
-effective_version = "0.0.3.0"
-[channels.stable.plugins.LogogramHelper.changelogs."0.0.3.0"]
-time_released = 2024-03-05T19:53:34.266
-changelog = "- Update for 6.5\n"
-[channels.stable.plugins.HotbarUnlimited]
-built_commit = "360f0f19182ac2dee9ed19292fa44c2c934ded1b"
-time_built = 2024-03-05T19:52:52.881
-effective_version = "1.0.2.2"
-[channels.stable.plugins.HotbarUnlimited.changelogs]
-[channels.stable.plugins.AutoTimer]
-built_commit = "82cf760dd6c9cc32bfa6dbb3aeeffd290fda9ec0"
-time_built = 2024-03-05T19:57:55.525
-effective_version = "1.0.0.3"
-[channels.stable.plugins.AutoTimer.changelogs."1.0.0.3"]
-time_released = 2024-03-05T19:57:55.525
-changelog = "- Fix crash related to usage of non-auto-attack actions (eating food, etc.)"
-[channels.stable.plugins.QuestAWAY]
-built_commit = "6d0d62b976d73795b4a558da6b46ff5faa69fbb5"
-time_built = 2024-03-05T19:51:51.671
-effective_version = "2.0.0.4"
-[channels.stable.plugins.QuestAWAY.changelogs]
-[channels.stable.plugins.ChillFrames]
-built_commit = "f7f33964ad58817df3c323a27e87e8960cc6d7e7"
-time_built = 2024-03-05T19:53:43.057
-effective_version = "2.1.1.3"
-[channels.stable.plugins.ChillFrames.changelogs]
-[channels.stable.plugins.ChatBubbles]
-built_commit = "64883cac88828d7543ba381c0496547f344c1a4c"
-time_built = 2024-03-05T19:52:00.206
-effective_version = "2.1.5.0"
-[channels.stable.plugins.ChatBubbles.changelogs."2.1.5.0"]
-time_released = 2024-03-05T19:52:00.206
-changelog = "### Updated for 6.5 & API9 compatibility\nHaplo064 did all the work there, thanks Haplo "
-[channels.stable.plugins.RepairMe]
-built_commit = "9f0978ce57b30c4c4990d181e3e72d3754394e4f"
-time_built = 2024-03-05T19:52:30.729
-effective_version = "1.0.1.15"
-[channels.stable.plugins.RepairMe.changelogs."1.0.1.15"]
-time_released = 2024-03-05T19:52:30.729
-changelog = "update for api 9"
-[channels.stable.plugins."Dalamud.LoadingImage"]
-built_commit = "fd25d8c5cbd7c48b88dfba80916bcfe761629f36"
-time_built = 2024-03-05T19:52:11.918
-effective_version = "1.0.0.12"
-[channels.stable.plugins."Dalamud.LoadingImage".changelogs]
-[channels.stable.plugins.Tf2CriticalHitsPlugin]
-built_commit = "67ce7e09f4014b3634462718565d77aa7ca6f729"
-time_built = 2024-03-05T20:02:02.431
-effective_version = "3.4.1.0"
-[channels.stable.plugins.Tf2CriticalHitsPlugin.changelogs."3.4.1.0"]
-time_released = 2024-03-05T20:02:02.431
-changelog = "Update for API 9.\n"
-[channels.stable.plugins.TeleporterPlugin]
-built_commit = "f9f3b40e75fe00e6a424ab756990ca93b86acd41"
-time_built = 2024-03-05T19:52:19.888
-effective_version = "2.0.2.3"
-[channels.stable.plugins.TeleporterPlugin.changelogs]
-[channels.stable.plugins.TitleRoulette]
-built_commit = "81e6744f8e8fe081d13da94fa1432492a64f3caf"
-time_built = 2024-03-06T08:00:46.558
-effective_version = "2.0"
-[channels.stable.plugins.TitleRoulette.changelogs]
-[channels.stable.plugins.TextBoxStyler]
-built_commit = "2b02013ebf87f1e1479823ec16c01ef5966c1eda"
-time_built = 2024-03-05T19:56:25.766
-effective_version = "1.1.8.0"
-[channels.stable.plugins.TextBoxStyler.changelogs."1.1.8.0"]
-time_released = 2024-03-05T19:56:25.766
-changelog = "API 9"
-[channels.stable.plugins.MacroRecorded]
-built_commit = "4006a155c7c4755eac94b8a08bb6d8dd81d04841"
-time_built = 2024-03-05T19:46:24.066
-effective_version = "1.0.1.2"
-[channels.stable.plugins.MacroRecorded.changelogs."1.0.1.2"]
-time_released = 2024-03-05T19:46:24.066
-changelog = "- Patch 6.5 update\n- Dalamud API update\n "
-[channels.stable.plugins.NamePlateDebuffs]
-built_commit = "52c22f9937a77bd053b667943c04e49a90d5a97e"
-time_built = 2024-03-05T19:52:47.835
-effective_version = "1.0.3.0"
-[channels.stable.plugins.NamePlateDebuffs.changelogs."1.0.3.0"]
-time_released = 2024-03-05T19:52:47.835
-changelog = "- Update for 6.51\n"
-[channels.stable.plugins.NoSoliciting]
-built_commit = "f08baba71b8c06c86202ca8354d90adbfb91993e"
-time_built = 2024-03-06T08:00:31.910
-effective_version = "3.0.8"
-[channels.stable.plugins.NoSoliciting.changelogs."3.0.8"]
-time_released = 2024-03-06T08:00:31.910
-changelog = "- API 9\n"
-[channels.stable.plugins.WhereAmIAgain]
-built_commit = "c73dfccf5b06da93d9c0bd8bc2c40086f0844f43"
-time_built = 2024-03-05T19:56:30.653
-effective_version = "1.0.0.3"
-[channels.stable.plugins.WhereAmIAgain.changelogs]
-[channels.stable.plugins.NoTankYou]
-built_commit = "973987b7e2a7580f873eb48ee8b77574b164d71c"
-time_built = 2024-03-21T12:16:27.241
-effective_version = "6.0.3.1"
-[channels.stable.plugins.NoTankYou.changelogs]
-[channels.stable.plugins.SoundFilter]
-built_commit = "894ee400f63e08762cbdd08533d49d4c5f09c74e"
-time_built = 2024-03-05T19:53:01.472
-effective_version = "1.4.13.0"
-[channels.stable.plugins.SoundFilter.changelogs."1.4.13.0"]
-time_released = 2024-03-05T19:53:01.472
-changelog = "API 9"
-[channels.stable.plugins.NotificationMaster]
-built_commit = "8edbc8426faef0651caabbcf2e62469709b01750"
-time_built = 2024-03-05T19:49:39.452
-effective_version = "2.1.1.1"
-[channels.stable.plugins.NotificationMaster.changelogs]
-[channels.stable.plugins.Congratulations]
-built_commit = "51631abb71636e2a49e3a27701a78ced94145c1d"
-time_built = 2024-03-05T19:53:10.617
-effective_version = "1.2.3.0"
-[channels.stable.plugins.Congratulations.changelogs."1.2.3.0"]
-time_released = 2024-03-05T19:53:10.617
-changelog = "Update to API 9 / patch 6.5.\n"
-[channels.stable.plugins.Namingway]
-built_commit = "e1f759bd58ff584f7dc01c89993ea4708149ab1b"
-time_built = 2024-03-05T19:49:43.538
-effective_version = "1.1.12.0"
-[channels.stable.plugins.Namingway.changelogs."1.1.12.0"]
-time_released = 2024-03-05T19:49:43.538
-changelog = "API 9"
-[channels.stable.plugins.PrefPro]
-built_commit = "1af1da2e05f0e64792f4aa4c55cab9bf6a463eef"
-time_built = 2024-03-14T02:00:25.233
-effective_version = "1.2.1.2"
-[channels.stable.plugins.PrefPro.changelogs]
-[channels.stable.plugins.AdaptiveHud]
-built_commit = "1f9e069fd76117e9995a32f9abbbb11096bbbc37"
-time_built = 2024-03-05T19:49:47.397
-effective_version = "1.0.8.1"
-[channels.stable.plugins.AdaptiveHud.changelogs."1.0.8.1"]
-time_released = 2024-03-05T19:49:47.397
-changelog = "fix problem where config window can get stuck"
-[channels.stable.plugins."Dalamud.FullscreenCutscenes"]
-built_commit = "3c74b8f3137db360aa5988230046ddc103b8e779"
-time_built = 2024-03-05T19:53:30.161
-effective_version = "1.0.0.2"
-[channels.stable.plugins."Dalamud.FullscreenCutscenes".changelogs]
-[channels.stable.plugins.ARealmRecorded]
-built_commit = "79d3e4a44dc0b3e717f9ae7b4e7ef4ca12465250"
-time_built = 2024-04-01T13:36:07.112
-effective_version = "1.0.0.3"
-[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.1"]
-time_released = 2024-03-05T19:49:52.638
-changelog = "- Api9"
-[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.2"]
-time_released = 2024-03-28T07:02:38.741
-changelog = "- .NET 8"
-[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.3"]
-time_released = 2024-04-01T13:36:07.112
-changelog = "防炸"
-[channels.stable.plugins."Dalamud.RichPresence"]
-built_commit = "0347f6d05f45df902ca9d574615de3490233edde"
-time_built = 2024-03-05T19:45:57.996
-effective_version = "2.0.3.0"
-[channels.stable.plugins."Dalamud.RichPresence".changelogs."2.0.3.0"]
-time_released = 2024-03-05T19:45:57.996
-changelog = "API 9 support. (Thank you NPittinger)\n\nNew features:\n- Turn off rich presence when AFK (thank you sersorrel)\n"
-[channels.stable.plugins.WaymarkPresetPlugin]
-built_commit = "52f9b8d7834d8c4307bcfa3e5dbb346eb1d98637"
-time_built = 2024-03-05T19:56:47.761
-effective_version = "1.4.8.0"
-[channels.stable.plugins.WaymarkPresetPlugin.changelogs."1.4.8.0"]
-time_released = 2024-03-05T19:56:47.761
-changelog = "汉化。\n"
-[channels.stable.plugins.PlayerTrack]
-built_commit = "109a3ce3eb4579dda768a6a28e98a1296409121e"
-time_built = 2024-03-05T20:01:06.157
-effective_version = "3.2.9.0"
-[channels.stable.plugins.PlayerTrack.changelogs]
-[channels.stable.plugins.EldenRing]
-built_commit = "bee85dce4ef4975102ec55407dfabdaccf082505"
-time_built = 2024-03-05T19:59:44.687
-effective_version = "0.0.1.0"
-[channels.stable.plugins.EldenRing.changelogs."0.0.1.0"]
-time_released = 2024-03-05T19:59:44.687
-changelog = "Updated for API 9 Compatibility\n- Switch from opcode to dutystate by MidoriKami\n- Other API 9 update grabbed from Kurochi51's PR\n- Moved to stable because it was formerly testing exclusive, but didn't need to be.\n"
-[channels.stable.plugins.BetterPartyFinder]
-built_commit = "8d84b24b278ed526e1642dbcece18ec7b545a9a2"
-time_built = 2024-03-29T23:24:23.576
-effective_version = "1.2.8.2"
-[channels.stable.plugins.BetterPartyFinder.changelogs."1.2.7"]
-time_released = 2024-03-05T20:01:10.345
-changelog = "API 9"
-[channels.stable.plugins.BetterPartyFinder.changelogs."1.2.8.2"]
-time_released = 2024-03-29T23:24:23.576
-changelog = "API 9 + .NET 8"
-[channels.stable.plugins.SimpleMarketBoard]
-built_commit = "d2026fe2500ec415e31da0518318ac00b579e358"
-time_built = 2024-03-05T20:01:15.043
-effective_version = "1.3.0.3"
-[channels.stable.plugins.SimpleMarketBoard.changelogs."1.3.0.3"]
-time_released = 2024-03-05T20:01:15.043
-changelog = "v1.3.0.0\nChangelog is available via the `changelog button` on the plugin `configuration window`.\n"
-[channels.stable.plugins.ChatTyper]
-built_commit = "8eb043f6743a2e504c9d7fccb38a9e13ab857026"
-time_built = 2024-03-05T20:01:18.948
-effective_version = "0.1.3.0"
-[channels.stable.plugins.ChatTyper.changelogs."0.1.3.0"]
-time_released = 2024-03-05T20:01:18.948
-changelog = "API 9 update"
-[channels.stable.plugins.QoLBar]
-built_commit = "09a16b04420b9c7b110bea23edbd24d5b7535ad0"
-time_built = 2024-03-05T20:01:24.146
-effective_version = "2.3.2.2"
-[channels.stable.plugins.QoLBar.changelogs."2.3.2.2"]
-time_released = 2024-03-05T20:01:24.146
-changelog = "- Api9"
-[channels.stable.plugins."Dalamud.FindAnything"]
-built_commit = "75e3cf719ccf5745ad5205be15d3f552352a91ff"
-time_built = 2024-03-06T08:01:27.964
-effective_version = "1.0.5.0"
-[channels.stable.plugins."Dalamud.FindAnything".changelogs]
-[channels.stable.plugins.SortaKinda]
-built_commit = "e474eb33a5899a6003e44c8097122b68e584aca9"
-time_built = 2024-03-05T20:01:35.698
-effective_version = "1.0.4.8"
-[channels.stable.plugins.SortaKinda.changelogs]
-[channels.stable.plugins.Wholist]
-built_commit = "414cdf72396c14ef47847ffcfdbfe99fc392cd45"
-time_built = 2024-03-06T07:59:53.419
-effective_version = "1.4.2.0"
-[channels.stable.plugins.Wholist.changelogs]
-[channels.stable.plugins.NextUIPlugin]
-built_commit = "02e3bcaa9d4facb34bcfb364f0ee71470194b100"
-time_built = 2024-03-05T20:01:48.017
-effective_version = "9.0.0.0"
-[channels.stable.plugins.NextUIPlugin.changelogs."9.0.0.0"]
-time_released = 2024-03-05T20:01:48.017
-changelog = "Updated for patch 6.5\nUpdated for patch 6.2"
-[channels.stable.plugins.Housemate]
-built_commit = "64389d28ce34297ffdd6a16de1ce325cd572f9e0"
-time_built = 2024-03-05T20:01:52.065
-effective_version = "1.0.2.11"
-[channels.stable.plugins.Housemate.changelogs]
-[channels.stable.plugins.PingPlugin]
-built_commit = "1242c2132ca87156c62b4f30247d35d704e713dd"
-time_built = 2024-03-06T07:32:26.521
-effective_version = "2.6.0.1"
-[channels.stable.plugins.PingPlugin.changelogs."2.6.0.0"]
-time_released = 2024-03-05T20:00:48.942
-changelog = "- Updates for API 9\n"
-[channels.stable.plugins.PingPlugin.changelogs."2.6.0.1"]
-time_released = 2024-03-06T07:32:26.521
-changelog = "- Updates for API 9\n"
-[channels.stable.plugins.CharacterPanelRefined]
-built_commit = "550822107fc77a6437c144a850f5d10177d2dda8"
-time_built = 2024-03-06T03:48:30.702
-effective_version = "1.7.3.1"
-[channels.stable.plugins.CharacterPanelRefined.changelogs."1.7.3.0"]
-time_released = 2024-03-05T20:00:53.349
-changelog = "Fix ilvl sync being incorrectly displayed in bozja and eureka.\n"
-[channels.stable.plugins.CharacterPanelRefined.changelogs."1.7.3.1"]
-time_released = 2024-03-06T03:48:30.702
-changelog = "Fix ilvl sync being incorrectly displayed in bozja and eureka.\n"
-[channels.stable.plugins.ReSanctuary]
-built_commit = "fe5d3d8a5407518189b36edf9c3cffea07433be3"
-time_built = 2024-03-05T19:59:48.634
-effective_version = "1.3.0.1"
-[channels.stable.plugins.ReSanctuary.changelogs]
-[channels.stable.plugins.GatherBuddy]
-built_commit = "835b2c681ae6cbd86388bda2a645fc098a7d5037"
-time_built = 2024-03-05T19:51:40.746
-effective_version = "3.3.1.2"
-[channels.stable.plugins.GatherBuddy.changelogs]
-[channels.stable.plugins.PetRenamer]
-built_commit = "07edc82ba82f2690a064179fd0b074dbf236005d"
-time_built = 2024-03-06T08:00:14.977
-effective_version = "1.4.8.3"
-[channels.stable.plugins.PetRenamer.changelogs."1.4.8.2"]
-time_released = 2024-03-05T19:51:25.116
-changelog = "    [1.4.8.2]\r\n    Fixed an issue where active chocobos would interfere with battle pet resolving.\r\n"
-[channels.stable.plugins.PetRenamer.changelogs."1.4.8.3"]
-time_released = 2024-03-06T08:00:14.977
-changelog = "    [1.4.8.3]\r\n    'Give Nickname' has been renamed to '[P] Rename' (Get used to it)\r\n    The plugin icon is changed because in reality... I cannot see green properly.\r\n"
-[channels.stable.plugins.MonsterLootHunter]
-built_commit = "ed3c73fb757a02bf1584774a6edf4cd74d43c1be"
-time_built = 2024-03-05T19:48:41.225
-effective_version = "1.0.20.5"
-[channels.stable.plugins.MonsterLootHunter.changelogs."1.0.20.5"]
-time_released = 2024-03-05T19:48:41.225
-changelog = "- Refactored font size calculation\n "
-[channels.stable.plugins.AbilityAnts]
-built_commit = "13bfa83b91db39a136fa278da7e73201628a083b"
-time_built = 2024-03-05T19:51:55.611
-effective_version = "1.0.0.1"
-[channels.stable.plugins.AbilityAnts.changelogs."1.0.0.1"]
-time_released = 2024-03-05T19:51:55.611
-changelog = "ants in your pants!"
-[channels.stable.plugins.Kapture]
-built_commit = "d4f74703ff33dcade9473e23ef89967c2c2bf64d"
-time_built = 2024-03-05T19:52:07.567
-effective_version = "1.7.0.0"
-[channels.stable.plugins.Kapture.changelogs]
-[channels.stable.plugins.Doorbell]
-built_commit = "57b03a580da8f407c068f678b8be30c7becf8a64"
-time_built = 2024-03-05T19:52:16.024
-effective_version = "1.0.3.4"
-[channels.stable.plugins.Doorbell.changelogs]
-[channels.stable.plugins.CurrencyTracker]
-built_commit = "669dc9716ca0535fc46b3edc320e80c730cca818"
-time_built = 2024-03-30T07:47:50.105
-effective_version = "1.3.5.0"
-[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.3"]
-time_released = 2024-03-05T19:52:25.971
-changelog = "- Fixed a file save failure error that occurred when a specific item name contained characters that could not be used as a file name.\n"
-[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.5"]
-time_released = 2024-03-13T11:37:40.367
-changelog = "- Code cleanup.\n- Refactored the Add Custom Currency and Multi-Chara Stats interface.\n- Refactored the LanguageManager.\n- Optimized the interface appearance of the currency list: You can now adjust the order of currencies in the list by dragging and dropping them; Deleted the original arrow buttons, and the remaining three buttons are now aequilate ones; Adjusted the indentation of the options to make them look more natural\n- Fixed an issue where a single handler uninstallation error would prevent the entire plugin from being normally disabled.\n- Fixed an issue that the automatic backup time was displayed incorrectly when the AutoBackup module was disabled and then enabled again.\n- Optimized the Main window open speed.\n- Added a new feature: Display Currency Changes in Server Bar, which allows you to show specific currency changes in the DTR bar.\n"
-[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.7"]
-time_released = 2024-03-17T23:51:33.313
-changelog = "- Fixed failure to load any module by default.\n- Fixed AutoBackup module lagging the game for a long time during backups\n"
-[channels.stable.plugins.CurrencyTracker.changelogs."1.3.5.0"]
-time_released = 2024-03-30T07:47:50.105
-changelog = "- Refactored the implementation logic of the Currency Alert feature.\n   - Fixed the issue of unable to complete currency change transaction writing when an alert is issued incorrectly\n   - Fixed the issue of the alert only taking effect on the currently selected currency.\n   - Fixed the issue that the alert messages could not be parsed into the selected language.\n- Added support of Custom Deliveries for Record Special Exchange Result module.\n- Refactored the implementation logic of the transactions table.\n   - Reduced overall table drawing performance consumption.\n   - Fixed null reference error when deleting selected transactions.\n   - Refactored the interaction logic for holding down the left Ctrl key and the right mouse button at the same time to quickly select multiple transactions.\n   - You can now open the Quick Actions menu by right-clicking on a selected transaction.\n- Streamlined the logic of the CurrencyAddonExpand module.\n- Added a new module MoneyAddonExpand.\n- Fixed the issue that when reloading the plugin, the loading failed due to incomplete autosave during unloading.\n- Refactored the Graphs window.\n"
-[channels.stable.plugins.ClarityInChaos]
-built_commit = "589622c29cc2e0c7af9590265a224e6849a81881"
-time_built = 2024-03-05T19:51:29.053
-effective_version = "1.4.0.1"
-[channels.stable.plugins.ClarityInChaos.changelogs]
-[channels.stable.plugins.WhatDidYouSay]
-built_commit = "43d57d6b79636455650e5c3739c754b42ec3a48f"
-time_built = 2024-03-05T19:51:44.750
-effective_version = "1.0.2.2"
-[channels.stable.plugins.WhatDidYouSay.changelogs."1.0.2.2"]
-time_released = 2024-03-05T19:51:44.750
-changelog = "- Updated for Dalamud API 9.\n- Minor improvement to settings window.\n- Minor code cleanup.\n"
-[channels.stable.plugins.autoSweep]
-built_commit = "72e1a41bf8adfbe1e966a7b3be97c0b7e6b37622"
-time_built = 2024-03-05T19:52:56.894
-effective_version = "1.4.3.0"
-[channels.stable.plugins.autoSweep.changelogs."1.4.3.0"]
-time_released = 2024-03-05T19:52:56.894
-changelog = "Updated for 6.5"
-[channels.stable.plugins.QuestMap]
-built_commit = "61702e638d262c14b03231cb7110df2ee0867c56"
-time_built = 2024-03-05T19:53:06.512
-effective_version = "1.4.7.0"
-[channels.stable.plugins.QuestMap.changelogs."1.4.7.0"]
-time_released = 2024-03-05T19:53:06.512
-changelog = "API 9"
-[channels.stable.plugins.StackSellPrice]
-built_commit = "972c1652dbc816f4b2e87cc1bfd690cbcbed36a4"
-time_built = 2024-03-05T19:53:14.826
-effective_version = "4.2.0"
-[channels.stable.plugins.StackSellPrice.changelogs]
-[channels.stable.plugins.Accountant]
-built_commit = "fc0ce604830dea4a28a8ce85c47262c056f519c6"
-time_built = 2024-03-05T19:53:26.436
-effective_version = "1.4.0.0"
-[channels.stable.plugins.Accountant.changelogs]
-[channels.stable.plugins.Weatherman]
-built_commit = "74a6a2a55d2be7bdd25761c4dae925f7705c9b45"
-time_built = 2024-03-05T19:52:37.514
-effective_version = "2.4.0.9"
-[channels.stable.plugins.Weatherman.changelogs]
-[channels.stable.plugins.BigPlayerDebuffs]
-built_commit = "9493748c6ba13b1d494672700fac043c3bb593bc"
-time_built = 2024-03-05T19:56:34.661
-effective_version = "1.1.0.9"
-[channels.stable.plugins.BigPlayerDebuffs.changelogs."1.1.0.9"]
-time_released = 2024-03-05T19:56:34.661
-changelog = "v1.1.0.9 - 6.5 Dalamud Update"
-[channels.stable.plugins.SoundSetter]
-built_commit = "e1abfcd828c76bbd184114a4e30b4475a7c01ded"
-time_built = 2024-03-05T19:56:39.524
-effective_version = "1.8.0.0"
-[channels.stable.plugins.SoundSetter.changelogs."1.8.0.0"]
-time_released = 2024-03-05T19:56:39.524
-changelog = "- Updates for API 9\n"
-[channels.stable.plugins.TalkCopy]
-built_commit = "02ed9d63274e2a6fcdd3d231ef17a8a9d3758c3f"
-time_built = 2024-03-05T19:57:59.297
-effective_version = "0.0.0.1"
-[channels.stable.plugins.TalkCopy.changelogs."0.0.0.1"]
-time_released = 2024-03-05T19:57:59.297
-changelog = "    + [0.0.0.1]\n    + Automatically copies text from the Talk Box to your clipboard.\n"
-[channels.stable.plugins.NOTED]
-built_commit = "656b0b38688193eec9091268a3b1786bf2faa89f"
-time_built = 2024-03-05T19:58:03.614
+[channels.stable.plugins.MapPartyAssist.changelogs."2.1.1.0"]
+time_released = 2024-03-05T19:41:26.859
+changelog = "- Fix for handled chat messages stopping plugin from functioning.\r\n- Fix for special map names not being recognized.\r\n- Minor UI changes.\r\n"
+[channels.stable.plugins.ChatTwo]
+built_commit = "1ab389256b65de58f995a86229af194ea5527d2e"
+time_built = 2024-03-05T19:41:35.532
+effective_version = "1.18.10.0"
+[channels.stable.plugins.ChatTwo.changelogs."1.18.10.0"]
+time_released = 2024-03-05T19:41:35.532
+changelog = "- Fix issue with Dalamud custom link payloads\n"
+[channels.stable.plugins.HybridCamera]
+built_commit = "2649eb473c86f2105366c43d60dbd8d379933b33"
+time_built = 2024-03-05T19:42:59.993
 effective_version = "1.2.0.0"
-[channels.stable.plugins.NOTED.changelogs."1.2.0.0"]
-time_released = 2024-03-05T19:58:03.614
-changelog = "- Added support for patch 6.5 and Dalamud API 9."
-[channels.stable.plugins.PennyPincher]
-built_commit = "cc4801c5fd793aa36c646900ea2ab72f10fe9a09"
-time_built = 2024-03-05T19:58:07.553
-effective_version = "1.7.0.2"
-[channels.stable.plugins.PennyPincher.changelogs."1.7.0.2"]
-time_released = 2024-03-05T19:58:07.553
-changelog = "bump API version; reduced external dependencies"
-[channels.stable.plugins.FlyTextFilter]
-built_commit = "e6c96d536ff3dcd27452b5bcf81706b02070148e"
-time_built = 2024-03-05T19:58:12.512
-effective_version = "4.1.4.1"
-[channels.stable.plugins.FlyTextFilter.changelogs]
-[channels.stable.plugins.MacroChain]
-built_commit = "f9d3e0989f6715d909de69ac559fc67120ef561c"
-time_built = 2024-03-05T19:58:16.635
-effective_version = "2.1.1.0"
-[channels.stable.plugins.MacroChain.changelogs]
-[channels.stable.plugins.TwitchXIV]
-built_commit = "32d3f8426096b9d27bc555f3475129a0d0a506ed"
-time_built = 2024-03-05T19:58:22.323
-effective_version = "1.0.0.0"
-[channels.stable.plugins.TwitchXIV.changelogs."1.0.0.0"]
-time_released = 2024-03-05T19:58:22.323
+[channels.stable.plugins.HybridCamera.changelogs."1.2.0.0"]
+time_released = 2024-03-05T19:42:59.993
+changelog = "- Updated for 6.5\n- Updated for API9\n- Code Cleanup\n"
+[channels.stable.plugins.SubmarineTracker]
+built_commit = "6f2777eb91d3fd94a8e30d0991f080854c6303f0"
+time_built = 2024-03-05T19:41:50.652
+effective_version = "1.8.2.6"
+[channels.stable.plugins.SubmarineTracker.changelogs]
+[channels.stable.plugins.TargetFurniture]
+built_commit = "d8c526c07f983d58e9285108b1b6aebcc7dfebc1"
+time_built = 2024-03-05T19:42:55.376
+effective_version = "1.0.1.8"
+[channels.stable.plugins.TargetFurniture.changelogs]
+[channels.stable.plugins.ItemVendorLocation]
+built_commit = "fc138fc71e98fef65e1a9e8bd530d56e1b536258"
+time_built = 2024-03-05T19:41:56.383
+effective_version = "2.5.0.0"
+[channels.stable.plugins.ItemVendorLocation.changelogs."2.5.0.0"]
+time_released = 2024-03-05T19:41:56.383
+changelog = "- Island Sanctuary fixes (Nuko)\n- Zadnor vendor fixes (Nuko)\n- Mysterious Map vendor fix (Nuko)\n- Special shop name fix (electr0sheep)\n"
+[channels.stable.plugins.Stormtalons]
+built_commit = "f8c83352d35dda8f70d14595223b1e6532bb2513"
+time_built = 2024-03-05T19:42:00.309
+effective_version = "1.1.0.3"
+[channels.stable.plugins.Stormtalons.changelogs."1.1.0.3"]
+time_released = 2024-03-05T19:42:00.309
 changelog = "Updated for patch 6.5"
-[channels.stable.plugins.MimicryHelper]
-built_commit = "66491a00b1e549f534e667dc7f0df83df80dff5e"
-time_built = 2024-03-05T19:58:26.414
-effective_version = "1.0.1.3"
-[channels.stable.plugins.MimicryHelper.changelogs."1.0.1.3"]
-time_released = 2024-03-05T19:58:26.414
-changelog = "Rebuilt for 6.5 & API9 -Fritz"
-[channels.stable.plugins.SimpleTweaksPlugin]
-built_commit = "0c016185a5073aa4fe579b8e6388dfc33c95c65e"
-time_built = 2024-03-28T15:40:02.946
-effective_version = "1.9.7.3"
-[channels.stable.plugins.SimpleTweaksPlugin.changelogs]
-[channels.stable.plugins.Craftimizer]
-built_commit = "44ae3791f1e98f820bcd25dc090c36bebafc163f"
-time_built = 2024-03-06T08:00:42.667
-effective_version = "2.2.0.0"
-[channels.stable.plugins.Craftimizer.changelogs]
-[channels.stable.plugins.Globetrotter]
-built_commit = "b216a78bf5ef2e6deaaa914ba648f85e1a9f0aeb"
-time_built = 2024-03-05T19:57:46.484
-effective_version = "1.2.10"
-[channels.stable.plugins.Globetrotter.changelogs."1.2.10"]
-time_released = 2024-03-05T19:57:46.484
+[channels.stable.plugins.TheHeartOfTheParty]
+built_commit = "90c55bbdee11151826faa0c74eb5bf7101c5e135"
+time_built = 2024-03-05T19:41:03.828
+effective_version = "1.0.5.0"
+[channels.stable.plugins.TheHeartOfTheParty.changelogs."1.0.5.0"]
+time_released = 2024-03-05T19:41:03.828
 changelog = "API 9"
-[channels.stable.plugins.JobBars]
-built_commit = "cbe3bb2273865310016004149fa74917ba0cc98b"
-time_built = 2024-03-13T01:51:56.435
-effective_version = "1.2.4.3"
-[channels.stable.plugins.JobBars.changelogs]
-[channels.stable.plugins.PartyIcons]
-built_commit = "ec4c7d303e8a5e0cada4625e823060b4839f2d84"
-time_built = 2024-03-05T19:59:14.513
-effective_version = "1.1.5.0"
-[channels.stable.plugins.PartyIcons.changelogs."1.1.5.0"]
-time_released = 2024-03-05T19:59:14.513
-changelog = "- Update for 6.5\n"
-[channels.stable.plugins.Honorific]
-built_commit = "95bfd92ef3ffc9c330d24cfe493c8370b7bd1b50"
-time_built = 2024-03-05T20:00:44.290
-effective_version = "1.4.2.0"
-[channels.stable.plugins.Honorific.changelogs]
-[channels.stable.plugins.CombatCursorContainment]
-built_commit = "7496c74436ebcc5f0bf2e91eb11fe0822524aafc"
-time_built = 2024-03-05T19:51:19.017
-effective_version = "1.0.3.0"
-[channels.stable.plugins.CombatCursorContainment.changelogs."1.0.3.0"]
-time_released = 2024-03-05T19:51:19.017
-changelog = "- Fixes for log spam and cursor being locked when alt+tabbed due to recent Dalamud changes.\n"
-[channels.stable.plugins.HuntBuddy]
-built_commit = "064c4adf59188c5b533f4d3eaa5f0bd0464c1477"
-time_built = 2024-03-05T19:43:22.633
-effective_version = "1.0.5.2"
-[channels.stable.plugins.HuntBuddy.changelogs."1.0.5.2"]
-time_released = 2024-03-05T19:43:22.633
-changelog = "- Fixed debug window showing up\n- Disabled closing local hunts window"
-[channels.stable.plugins.WhoDidThat]
-built_commit = "b8be4d9e146242e432637fbffc0d9c2565494a53"
-time_built = 2024-03-05T19:59:52.753
-effective_version = "1.5.0.0"
-[channels.stable.plugins.WhoDidThat.changelogs."1.5.0.0"]
-time_released = 2024-03-05T19:59:52.753
-changelog = "Big Update! This plugin now tracks mitigation that is targeted on an enemy. I also now track Provokes, shirks, and much more! Please report any issues through feedback!"
-[channels.stable.plugins.ExpandedSearchInfo]
-built_commit = "b8c2c2afaafbb42eb7eab2a61e4500b250d6f883"
-time_built = 2024-03-05T19:59:57.462
-effective_version = "1.3.14"
-[channels.stable.plugins.ExpandedSearchInfo.changelogs."1.3.14"]
-time_released = 2024-03-05T19:59:57.462
+[channels.stable.plugins.Tf2Hud]
+built_commit = "a6caac078a8e9bb7a8687071a20b6dd404e51c30"
+time_built = 2024-03-05T19:42:18.779
+effective_version = "1.1.7.0"
+[channels.stable.plugins.Tf2Hud.changelogs."1.1.7.0"]
+time_released = 2024-03-05T19:42:18.779
+changelog = "Updated for API 9 / patch 6.5.\n"
+[channels.stable.plugins.PatMe]
+built_commit = "a9a45a449200c6439b6c419bcb60e7c352046917"
+time_built = 2024-03-05T19:42:27.138
+effective_version = "1.9.0.0"
+[channels.stable.plugins.PatMe.changelogs]
+[channels.stable.plugins.Mini]
+built_commit = "4773d9f9d41442273ae41b068752ca774dd64256"
+time_built = 2024-03-05T19:42:34.321
+effective_version = "2.1.0.0"
+[channels.stable.plugins.Mini.changelogs]
+[channels.stable.plugins.Visibility]
+built_commit = "0444938f474b3c6f67103ff81c946a4a29cf7e02"
+time_built = 2024-03-30T02:20:08.093
+effective_version = "1.1.6.1"
+[channels.stable.plugins.Visibility.changelogs."1.1.6.0"]
+time_released = 2024-03-05T19:42:38.529
+changelog = "请尽量使用UI添加角色，如实在需要使用命令行添加黑白名单，请在角色名前额外敲个空格"
+[channels.stable.plugins.Visibility.changelogs."1.1.6.1"]
+time_released = 2024-03-30T02:20:08.093
+changelog = "请尽量使用UI添加角色，如实在需要使用命令行添加黑白名单，请在角色名前额外敲个空格"
+[channels.stable.plugins.WondrousTailsSolver]
+built_commit = "6f41f2f0025fb5f0498c375171576b5e89c9b69c"
+time_built = 2024-03-05T19:42:42.937
+effective_version = "2.3.1.1"
+[channels.stable.plugins.WondrousTailsSolver.changelogs]
+[channels.stable.plugins.ChatAlerts]
+built_commit = "21d0b2817fc30bc14718c84d9c7740b0f0cc5611"
+time_built = 2024-03-05T19:42:47.193
+effective_version = "2.0.3.0"
+[channels.stable.plugins.ChatAlerts.changelogs]
+[channels.stable.plugins.RezPls]
+built_commit = "c0049d9cc6e9fa64cb549d757735c55c2d681d5a"
+time_built = 2024-03-05T19:42:51.530
+effective_version = "1.2.6.1"
+[channels.stable.plugins.RezPls.changelogs]
+[channels.stable.plugins.BurntToast]
+built_commit = "d4faa3757b5c9cb9acdcd83d4330a485cfb50a5e"
+time_built = 2024-03-05T19:40:45.806
+effective_version = "1.2.8"
+[channels.stable.plugins.BurntToast.changelogs."1.2.8"]
+time_released = 2024-03-05T19:40:45.806
 changelog = "API 9"
-[channels.stable.plugins.PriceInsight]
-built_commit = "502715016673e3358e3e1dcccb0635dc7de5b5d8"
-time_built = 2024-03-05T20:00:01.699
-effective_version = "2.8.0.0"
-[channels.stable.plugins.PriceInsight.changelogs."2.8.0.0"]
-time_released = 2024-03-05T20:00:01.699
-changelog = "- Rewrote caching logic to better avoid unnecessary requests to universalis\n- Improved tooltip display when \"Always display NQ and HQ\" is turned off\n"
-[channels.stable.plugins.CopyTranslated]
-built_commit = "776423666265f8a950e0feef3c40060cf3156159"
-time_built = 2024-03-05T20:00:08.030
-effective_version = "1.1.3.0"
-[channels.stable.plugins.CopyTranslated.changelogs."1.1.3.0"]
-time_released = 2024-03-05T20:00:08.030
-changelog = "fix crafting related context menus"
-[channels.stable.plugins.MacroMate]
-built_commit = "58905fb69cb69ae0621dfd3d375ed2b7a1eec19d"
-time_built = 2024-03-05T20:00:13.122
-effective_version = "1.0.7.1"
-[channels.stable.plugins.MacroMate.changelogs."1.0.7.1"]
-time_released = 2024-03-05T20:00:13.122
-changelog = "- Added Import/Export (compressed)\n"
-[channels.stable.plugins.Mappy]
-built_commit = "e7fb3b37543df9e90bd103fe5558e6db192b9dc3"
-time_built = 2024-03-05T20:00:19.349
-effective_version = "1.0.7.3"
-[channels.stable.plugins.Mappy.changelogs]
-[channels.stable.plugins.DeathRecap]
-built_commit = "1d596906358d7f170c3d40ed015696d7772dd9e1"
-time_built = 2024-03-05T20:00:23.843
-effective_version = "1.11.0.0"
-[channels.stable.plugins.DeathRecap.changelogs."1.11.0.0"]
-time_released = 2024-03-05T20:00:23.843
-changelog = "Update for patch 6.5\n"
-[channels.stable.plugins.BozjaBuddy]
-built_commit = "ef8e96c476206593cbfe37412633fe54d401b720"
-time_built = 2024-03-05T20:00:34.057
-effective_version = "1.1.5.5"
-[channels.stable.plugins.BozjaBuddy.changelogs."1.1.5.5"]
-time_released = 2024-03-05T20:00:34.057
-changelog = "Bozja Buddy 1.1.5.5\n- Minor bug fix.\n- Data for stats calc added.\n"
-[channels.stable.plugins.WhichPatchWasThat]
-built_commit = "f943de35e107ff88a289f7d914b30137a9753647"
-time_built = 2024-03-05T20:00:39.046
-effective_version = "1.6.0.0"
-[channels.stable.plugins.WhichPatchWasThat.changelogs."1.6.0.0"]
-time_released = 2024-03-05T20:00:39.046
-changelog = "Update for patch 6.5\n"
-[channels.stable.plugins.MPTickBar]
-built_commit = "edd38448ee3973671d6a64d557daa5ef9f03a2ec"
-time_built = 2024-03-05T19:59:39.874
-effective_version = "1.4.1.7"
-[channels.stable.plugins.MPTickBar.changelogs."1.4.1.7"]
-time_released = 2024-03-05T19:59:39.874
-changelog = "- Hide in pvp.\n"
-[channels.stable.plugins.Echoglossian]
-built_commit = "4e66d1a87fca577bfe6d6b04b6b0ccf86ce91253"
-time_built = 2024-03-05T19:59:35.507
-effective_version = "3.0.2403.1199"
-[channels.stable.plugins.Echoglossian.changelogs."3.0.2403.1199"]
-time_released = 2024-03-05T19:59:35.507
-changelog = "API9 related fixes"
-[channels.stable.plugins.Distance]
-built_commit = "c63f6abd4904fb82122ceab285a0d1325fc60f06"
-time_built = 2024-03-06T18:41:29.011
-effective_version = "1.1.1.3"
-[channels.stable.plugins.Distance.changelogs."1.1.1.0"]
-time_released = 2024-03-05T19:57:42.622
-changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
-[channels.stable.plugins.Distance.changelogs."1.1.0.1"]
-time_released = 2024-03-06T16:50:58.837
-changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
-[channels.stable.plugins.Distance.changelogs."1.1.1.2"]
-time_released = 2024-03-06T16:56:57.848
-changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
-[channels.stable.plugins.Distance.changelogs."1.1.1.3"]
-time_released = 2024-03-06T18:41:29.011
-changelog = "- 汉化\n- 修复国服开怪距离功能\n\n- 添加了基于距离的文本小部件和名牌距离的淡入淡出效果\n- 添加了按对象类型偏移的名牌距离\n- 对配置界面进行了轻微的改进\n\n还包含以下之前仅在测试分支中的差异：\n- 添加了与自定义小部件匹配的自定义弧线功能\n- 重写了配置界面\n- 对所有距离显示添加了职业过滤器\n- 添加了一个用于实例内外的过滤器\n- 将其他过滤器类型应用于之前没有的显示\n- 改进了名牌节点设置，使其更接近基础游戏\n- 修复了在插件卸载时名牌文本节点未能正确清理的错误\n- 改进了日志记录\n- 进行了重大的代码清理和重组\n"
-[channels.stable.plugins.EurekaTrackerAutoPopper]
-built_commit = "301670431ee6a07755a8ea0b2711482a9152de11"
-time_built = 2024-03-05T19:43:27.423
-effective_version = "1.5.0.5"
-[channels.stable.plugins.EurekaTrackerAutoPopper.changelogs]
-[channels.stable.plugins.FPSPlugin]
-built_commit = "592ff1adb06b021182e7cf701a3db776f4e4c7b3"
-time_built = 2024-03-05T19:46:14.250
-effective_version = "1.6.1.0"
-[channels.stable.plugins.FPSPlugin.changelogs]
-[channels.stable.plugins.WhoAmIAgain]
-built_commit = "85a7887c6ca5cf26bdec54c8be8f39242044da4a"
-time_built = 2024-03-05T19:45:44.762
-effective_version = "1.0.0.1"
-[channels.stable.plugins.WhoAmIAgain.changelogs]
+[channels.stable.plugins.Compass]
+built_commit = "54d728e3fcc9b5934651b1e36ee92ca983adbea8"
+time_built = 2024-03-05T19:43:04.477
+effective_version = "1.27.1"
+[channels.stable.plugins.Compass.changelogs]
+[channels.stable.plugins.TrackyTrack]
+built_commit = "0f7547b4ffd4039e47d058893d24f97a309baa59"
+time_built = 2024-03-06T08:00:59.180
+effective_version = "1.4.0.8"
+[channels.stable.plugins.TrackyTrack.changelogs]
+[channels.stable.plugins.ZodiacBuddy]
+built_commit = "770dfcf2f5298771323e7e0f5347ba8282beacdc"
+time_built = 2024-03-05T19:51:10.428
+effective_version = "0.2.0.0"
+[channels.stable.plugins.ZodiacBuddy.changelogs]
+[channels.stable.plugins.FaderPlugin]
+built_commit = "b2a43cede5bbaddf8b087dd87edf161c7e616d71"
+time_built = 2024-03-05T19:46:02.034
+effective_version = "2.6.1.0"
+[channels.stable.plugins.FaderPlugin.changelogs]
+[channels.stable.plugins.PushyFinder]
+built_commit = "2490dc68c010098ef2097bc1f1404faf4bee4527"
+time_built = 2024-03-05T19:42:22.889
+effective_version = "1.1.1.0"
+[channels.stable.plugins.PushyFinder.changelogs."1.1.1.0"]
+time_released = 2024-03-05T19:42:22.889
+changelog = "**PushyFinder has been updated for APIv9!**\nThe plugin is now functional again on current versions of FINAL FANTASY XIV, and all of your settings are still there.\nSorry for the long wait!\n"
+[channels.stable.plugins.BatteryGauge]
+built_commit = "277361189206e49f1d20a1c196111bbec69550d0"
+time_built = 2024-03-05T19:49:05.082
+effective_version = "1.1.1.0"
+[channels.stable.plugins.BatteryGauge.changelogs]
+[channels.stable.plugins.EorzeaVotes]
+built_commit = "7d539cb99c61183b7fd82e7e7f5ca5aabbccb8b7"
+time_built = 2024-03-05T19:41:08.132
+effective_version = "1.2.1.0"
+[channels.stable.plugins.EorzeaVotes.changelogs."1.2.1.0"]
+time_released = 2024-03-05T19:41:08.132
+changelog = "- Fix logic to open window on new question\n"
+[channels.stable.plugins.MOAction]
+built_commit = "b77987dcb7e53b614015e559da382d0e113a0b5e"
+time_built = 2024-03-05T19:57:38.182
+effective_version = "4.2.15.0"
+[channels.stable.plugins.MOAction.changelogs."4.2.15.0"]
+time_released = 2024-03-05T19:57:38.182
+changelog = "6.5 update"
+[channels.stable.plugins.Ffxiv2Mqtt]
+built_commit = "b641953a730c49edf3a6f78e18b8545d5e6d10dd"
+time_built = 2024-03-05T19:59:18.814
+effective_version = "1.0.5.0"
+[channels.stable.plugins.Ffxiv2Mqtt.changelogs."1.0.5.0"]
+time_released = 2024-03-05T19:59:18.814
+changelog = "Updated for 6.5.\nAdded the option to display subscriptions with Dalamud Toasts.\nBREAKING CHANGE: I messed up your output channel for custom subscriptions, but made sure I won't have to again in the future. Just go back into the menu, change them back to what you wanted and click Save to fix."
 [channels.stable.plugins.KingdomHeartsPlugin]
 built_commit = "b38c6dffbfd061b8c71a1ec5952c3e70b594ccc9"
 time_built = 2024-03-05T19:41:40.118
@@ -917,181 +334,6 @@ built_commit = "5b01d213b5165ba38401c8be44e79fddcd39affd"
 time_built = 2024-03-05T19:44:20.750
 effective_version = "0.0.2.5"
 [channels.stable.plugins."ResLogger2.Plugin".changelogs]
-[channels.stable.plugins.Ffxiv2Mqtt]
-built_commit = "b641953a730c49edf3a6f78e18b8545d5e6d10dd"
-time_built = 2024-03-05T19:59:18.814
-effective_version = "1.0.5.0"
-[channels.stable.plugins.Ffxiv2Mqtt.changelogs."1.0.5.0"]
-time_released = 2024-03-05T19:59:18.814
-changelog = "Updated for 6.5.\nAdded the option to display subscriptions with Dalamud Toasts.\nBREAKING CHANGE: I messed up your output channel for custom subscriptions, but made sure I won't have to again in the future. Just go back into the menu, change them back to what you wanted and click Save to fix."
-[channels.stable.plugins.MOAction]
-built_commit = "b77987dcb7e53b614015e559da382d0e113a0b5e"
-time_built = 2024-03-05T19:57:38.182
-effective_version = "4.2.15.0"
-[channels.stable.plugins.MOAction.changelogs."4.2.15.0"]
-time_released = 2024-03-05T19:57:38.182
-changelog = "6.5 update"
-[channels.stable.plugins.EorzeaVotes]
-built_commit = "7d539cb99c61183b7fd82e7e7f5ca5aabbccb8b7"
-time_built = 2024-03-05T19:41:08.132
-effective_version = "1.2.1.0"
-[channels.stable.plugins.EorzeaVotes.changelogs."1.2.1.0"]
-time_released = 2024-03-05T19:41:08.132
-changelog = "- Fix logic to open window on new question\n"
-[channels.stable.plugins.Tf2Hud]
-built_commit = "a6caac078a8e9bb7a8687071a20b6dd404e51c30"
-time_built = 2024-03-05T19:42:18.779
-effective_version = "1.1.7.0"
-[channels.stable.plugins.Tf2Hud.changelogs."1.1.7.0"]
-time_released = 2024-03-05T19:42:18.779
-changelog = "Updated for API 9 / patch 6.5.\n"
-[channels.stable.plugins.XIVCombo]
-built_commit = "64d14678443cd72e2baf62842114069730f63d8c"
-time_built = 2024-03-05T19:41:12.418
-effective_version = "1.7.25.0"
-[channels.stable.plugins.XIVCombo.changelogs."1.7.25.0"]
-time_released = 2024-03-05T19:41:12.418
-changelog = "6.5\n\t\t"
-[channels.stable.plugins.FlashOnTell]
-built_commit = "1261502e2c9b867c27078a7dcc6b932374dfba68"
-time_built = 2024-03-05T19:41:16.221
-effective_version = "0.0.5.0"
-[channels.stable.plugins.FlashOnTell.changelogs."0.0.5.0"]
-time_released = 2024-03-05T19:41:16.221
-changelog = "API 9 updates.\nThe /pflash command will also now try to flash the window if you tab out fast enough. You no longer need to test if it's working by actually talking to people."
-[channels.stable.plugins.GearsetHelperPlugin]
-built_commit = "c97cf824f6dbf2401bfcbe0ade425bed99671316"
-time_built = 2024-03-05T19:41:21.902
-effective_version = "2.2.1.0"
-[channels.stable.plugins.GearsetHelperPlugin.changelogs."2.2.1.0"]
-time_released = 2024-03-05T19:41:21.902
-changelog = "- Fixed stats for relic weapons not being handled correctly.\n"
-[channels.stable.plugins.MapPartyAssist]
-built_commit = "25ccbc0e75e01b134ba5e83d8e46e9c38b622a48"
-time_built = 2024-03-05T19:41:26.859
-effective_version = "2.1.1.0"
-[channels.stable.plugins.MapPartyAssist.changelogs."2.1.1.0"]
-time_released = 2024-03-05T19:41:26.859
-changelog = "- Fix for handled chat messages stopping plugin from functioning.\r\n- Fix for special map names not being recognized.\r\n- Minor UI changes.\r\n"
-[channels.stable.plugins.ChatTwo]
-built_commit = "1ab389256b65de58f995a86229af194ea5527d2e"
-time_built = 2024-03-05T19:41:35.532
-effective_version = "1.18.10.0"
-[channels.stable.plugins.ChatTwo.changelogs."1.18.10.0"]
-time_released = 2024-03-05T19:41:35.532
-changelog = "- Fix issue with Dalamud custom link payloads\n"
-[channels.stable.plugins.HybridCamera]
-built_commit = "2649eb473c86f2105366c43d60dbd8d379933b33"
-time_built = 2024-03-05T19:42:59.993
-effective_version = "1.2.0.0"
-[channels.stable.plugins.HybridCamera.changelogs."1.2.0.0"]
-time_released = 2024-03-05T19:42:59.993
-changelog = "- Updated for 6.5\n- Updated for API9\n- Code Cleanup\n"
-[channels.stable.plugins.SubmarineTracker]
-built_commit = "6f2777eb91d3fd94a8e30d0991f080854c6303f0"
-time_built = 2024-03-05T19:41:50.652
-effective_version = "1.8.2.6"
-[channels.stable.plugins.SubmarineTracker.changelogs]
-[channels.stable.plugins.TargetFurniture]
-built_commit = "d8c526c07f983d58e9285108b1b6aebcc7dfebc1"
-time_built = 2024-03-05T19:42:55.376
-effective_version = "1.0.1.8"
-[channels.stable.plugins.TargetFurniture.changelogs]
-[channels.stable.plugins.ItemVendorLocation]
-built_commit = "fc138fc71e98fef65e1a9e8bd530d56e1b536258"
-time_built = 2024-03-05T19:41:56.383
-effective_version = "2.5.0.0"
-[channels.stable.plugins.ItemVendorLocation.changelogs."2.5.0.0"]
-time_released = 2024-03-05T19:41:56.383
-changelog = "- Island Sanctuary fixes (Nuko)\n- Zadnor vendor fixes (Nuko)\n- Mysterious Map vendor fix (Nuko)\n- Special shop name fix (electr0sheep)\n"
-[channels.stable.plugins.Stormtalons]
-built_commit = "f8c83352d35dda8f70d14595223b1e6532bb2513"
-time_built = 2024-03-05T19:42:00.309
-effective_version = "1.1.0.3"
-[channels.stable.plugins.Stormtalons.changelogs."1.1.0.3"]
-time_released = 2024-03-05T19:42:00.309
-changelog = "Updated for patch 6.5"
-[channels.stable.plugins.TheHeartOfTheParty]
-built_commit = "90c55bbdee11151826faa0c74eb5bf7101c5e135"
-time_built = 2024-03-05T19:41:03.828
-effective_version = "1.0.5.0"
-[channels.stable.plugins.TheHeartOfTheParty.changelogs."1.0.5.0"]
-time_released = 2024-03-05T19:41:03.828
-changelog = "API 9"
-[channels.stable.plugins.PatMe]
-built_commit = "a9a45a449200c6439b6c419bcb60e7c352046917"
-time_built = 2024-03-05T19:42:27.138
-effective_version = "1.9.0.0"
-[channels.stable.plugins.PatMe.changelogs]
-[channels.stable.plugins.BatteryGauge]
-built_commit = "277361189206e49f1d20a1c196111bbec69550d0"
-time_built = 2024-03-05T19:49:05.082
-effective_version = "1.1.1.0"
-[channels.stable.plugins.BatteryGauge.changelogs]
-[channels.stable.plugins.Mini]
-built_commit = "4773d9f9d41442273ae41b068752ca774dd64256"
-time_built = 2024-03-05T19:42:34.321
-effective_version = "2.1.0.0"
-[channels.stable.plugins.Mini.changelogs]
-[channels.stable.plugins.Visibility]
-built_commit = "0444938f474b3c6f67103ff81c946a4a29cf7e02"
-time_built = 2024-03-30T02:20:08.093
-effective_version = "1.1.6.1"
-[channels.stable.plugins.Visibility.changelogs."1.1.6.0"]
-time_released = 2024-03-05T19:42:38.529
-changelog = "请尽量使用UI添加角色，如实在需要使用命令行添加黑白名单，请在角色名前额外敲个空格"
-[channels.stable.plugins.Visibility.changelogs."1.1.6.1"]
-time_released = 2024-03-30T02:20:08.093
-changelog = "请尽量使用UI添加角色，如实在需要使用命令行添加黑白名单，请在角色名前额外敲个空格"
-[channels.stable.plugins.WondrousTailsSolver]
-built_commit = "6f41f2f0025fb5f0498c375171576b5e89c9b69c"
-time_built = 2024-03-05T19:42:42.937
-effective_version = "2.3.1.1"
-[channels.stable.plugins.WondrousTailsSolver.changelogs]
-[channels.stable.plugins.ChatAlerts]
-built_commit = "21d0b2817fc30bc14718c84d9c7740b0f0cc5611"
-time_built = 2024-03-05T19:42:47.193
-effective_version = "2.0.3.0"
-[channels.stable.plugins.ChatAlerts.changelogs]
-[channels.stable.plugins.RezPls]
-built_commit = "c0049d9cc6e9fa64cb549d757735c55c2d681d5a"
-time_built = 2024-03-05T19:42:51.530
-effective_version = "1.2.6.1"
-[channels.stable.plugins.RezPls.changelogs]
-[channels.stable.plugins.BurntToast]
-built_commit = "d4faa3757b5c9cb9acdcd83d4330a485cfb50a5e"
-time_built = 2024-03-05T19:40:45.806
-effective_version = "1.2.8"
-[channels.stable.plugins.BurntToast.changelogs."1.2.8"]
-time_released = 2024-03-05T19:40:45.806
-changelog = "API 9"
-[channels.stable.plugins.Compass]
-built_commit = "54d728e3fcc9b5934651b1e36ee92ca983adbea8"
-time_built = 2024-03-05T19:43:04.477
-effective_version = "1.27.1"
-[channels.stable.plugins.Compass.changelogs]
-[channels.stable.plugins.TrackyTrack]
-built_commit = "0f7547b4ffd4039e47d058893d24f97a309baa59"
-time_built = 2024-03-06T08:00:59.180
-effective_version = "1.4.0.8"
-[channels.stable.plugins.TrackyTrack.changelogs]
-[channels.stable.plugins.ZodiacBuddy]
-built_commit = "770dfcf2f5298771323e7e0f5347ba8282beacdc"
-time_built = 2024-03-05T19:51:10.428
-effective_version = "0.2.0.0"
-[channels.stable.plugins.ZodiacBuddy.changelogs]
-[channels.stable.plugins.FaderPlugin]
-built_commit = "b2a43cede5bbaddf8b087dd87edf161c7e616d71"
-time_built = 2024-03-05T19:46:02.034
-effective_version = "2.6.1.0"
-[channels.stable.plugins.FaderPlugin.changelogs]
-[channels.stable.plugins.PushyFinder]
-built_commit = "2490dc68c010098ef2097bc1f1404faf4bee4527"
-time_built = 2024-03-05T19:42:22.889
-effective_version = "1.1.1.0"
-[channels.stable.plugins.PushyFinder.changelogs."1.1.1.0"]
-time_released = 2024-03-05T19:42:22.889
-changelog = "**PushyFinder has been updated for APIv9!**\nThe plugin is now functional again on current versions of FINAL FANTASY XIV, and all of your settings are still there.\nSorry for the long wait!\n"
 [channels.stable.plugins.DiademCalculator]
 built_commit = "078fb986f4418f31fc389617ebfa1ba92b388c15"
 time_built = 2024-03-05T19:57:34.258
@@ -1114,6 +356,194 @@ effective_version = "2.1.2.3"
 [channels.stable.plugins.ChatCoordinates.changelogs."2.1.2.3"]
 time_released = 2024-03-05T19:47:26.603
 changelog = "- Patch 6.5"
+[channels.stable.plugins.ActionTimeline]
+built_commit = "5280394852b052dd4a3d896aa12cf11c0d4ad02d"
+time_built = 2024-03-05T19:47:31.106
+effective_version = "1.3.0.0"
+[channels.stable.plugins.ActionTimeline.changelogs."1.3.0.0"]
+time_released = 2024-03-05T19:47:31.106
+changelog = "- Added support for patch 6.5 and Dalamud API 9."
+[channels.stable.plugins.HuntHelper]
+built_commit = "c0541e9af251cded4717e17f0e7295f09395ce4a"
+time_built = 2024-03-05T19:47:36.343
+effective_version = "1.0.0.15"
+[channels.stable.plugins.HuntHelper.changelogs]
+[channels.stable.plugins.DailyDuty]
+built_commit = "25c7a42a3f415726e2605f434731af69c65c89cd"
+time_built = 2024-03-21T12:16:33.999
+effective_version = "4.0.6.2"
+[channels.stable.plugins.DailyDuty.changelogs]
+[channels.stable.plugins.CurrencyAlert]
+built_commit = "9c49f1125c98e37eab2e6fc99eb2066158520e3f"
+time_built = 2024-03-05T19:47:48.673
+effective_version = "1.0.1.2"
+[channels.stable.plugins.CurrencyAlert.changelogs]
+[channels.stable.plugins.Tourist]
+built_commit = "40de971de6af2da812463512e31666055df68c6f"
+time_built = 2024-03-05T19:47:52.902
+effective_version = "1.2.14"
+[channels.stable.plugins.Tourist.changelogs."1.2.14"]
+time_released = 2024-03-05T19:47:52.902
+changelog = "API 9"
+[channels.stable.plugins.cl_showpos]
+built_commit = "9f188960ea76109840ede19e1ffe571f4de15c1e"
+time_built = 2024-03-05T19:47:56.848
+effective_version = "1.1.0.1"
+[channels.stable.plugins.cl_showpos.changelogs]
+[channels.stable.plugins.G4EUkrChatSupport]
+built_commit = "68b0c9b0ccedf10df1888a59341333673890f875"
+time_built = 2024-03-05T19:46:51.837
+effective_version = "1.0.0.34"
+[channels.stable.plugins.G4EUkrChatSupport.changelogs."1.0.0.34"]
+time_released = 2024-03-05T19:46:51.837
+changelog = "Fix for config button styles."
+[channels.stable.plugins.InventoryTools]
+built_commit = "6de67158f3e8a439ff9f074ef9da8cead1eb9429"
+time_built = 2024-03-05T19:48:36.787
+effective_version = "1.6.2.5"
+[channels.stable.plugins.InventoryTools.changelogs."1.6.2.5"]
+time_released = 2024-03-05T19:48:36.787
+changelog = "**Fixes**\n- Skybuilder resource inspection needed quantity was not calculating correctly\n"
+[channels.stable.plugins.PriceInsightCN]
+built_commit = "07b97ed9be81506be295eb9de70ea67c6aad7fe0"
+time_built = 2024-03-06T05:09:32.457
+effective_version = "2.8.0.0"
+[channels.stable.plugins.PriceInsightCN.changelogs."2.8.0.0"]
+time_released = 2024-03-06T05:09:32.457
+changelog = "- 升级到 API 9\n- 迁移 CDN 到企业线路\n- 将国外查询直接重定向到源站\n"
+[channels.stable.plugins.OofPlugin]
+built_commit = "5525dcaf63bd698e54e88fd4c9b1e3c5df9d0ed9"
+time_built = 2024-03-06T07:59:40.550
+effective_version = "1.3.0.0"
+[channels.stable.plugins.OofPlugin.changelogs."1.3.0.0"]
+time_released = 2024-03-06T07:59:40.550
+changelog = "- improve distance based oof (DBO)\n- clean up UI\n- update to API9\n"
+[channels.stable.plugins.ExtraChat]
+built_commit = "dc0e23c3daf79ad0edc43118f7ee4130210c5d42"
+time_built = 2024-03-06T07:59:47.118
+effective_version = "1.3.5.0"
+[channels.stable.plugins.ExtraChat.changelogs."1.3.5.0"]
+time_released = 2024-03-06T07:59:47.118
+changelog = "\\\n- Fix large message bug\n"
+[channels.stable.plugins.BetterMountRoulette]
+built_commit = "e274e87818a748b60a570180be845b6ab754ca4a"
+time_built = 2024-03-06T08:00:19.339
+effective_version = "1.3.0.15"
+[channels.stable.plugins.BetterMountRoulette.changelogs."1.3.0.15"]
+time_released = 2024-03-06T08:00:19.339
+changelog = "Now includes an option to only mount single-seated mounts while solo.\n\nAlso added an option to only use mounts that can fit the entire party, or failing that, as many party members as possible."
+[channels.stable.plugins.XIVChat]
+built_commit = "a65c73a9ffc8b44626fbe11b06294fb362cb2507"
+time_built = 2024-03-06T08:00:25.560
+effective_version = "1.7.8"
+[channels.stable.plugins.XIVChat.changelogs."1.7.8"]
+time_released = 2024-03-06T08:00:25.560
+changelog = "- API 9\n"
+[channels.stable.plugins.XIVLogger]
+built_commit = "95a94a8d2edd7fe1df09b03285f0998b9827e5bc"
+time_built = 2024-03-05T19:43:33.317
+effective_version = "1.0.6.1"
+[channels.stable.plugins.XIVLogger.changelogs]
+[channels.stable.plugins.DelvCD]
+built_commit = "5b5d9416ad249246d2cac5e907505f7750ba90da"
+time_built = 2024-03-05T19:46:29.146
+effective_version = "1.0.0.0"
+[channels.stable.plugins.DelvCD.changelogs]
+[channels.stable.plugins.BetterPlaytime]
+built_commit = "db5ef2e5150b66af7c4e481e2ab32fe32d4b44e0"
+time_built = 2024-03-05T19:43:41.776
+effective_version = "1.4.0.4"
+[channels.stable.plugins.BetterPlaytime.changelogs]
+[channels.stable.plugins.HarpHero]
+built_commit = "ebe4673a183a89cfd0b8b98f8792c4c8ef985d46"
+time_built = 2024-03-05T19:43:51.927
+effective_version = "1.9.0.0"
+[channels.stable.plugins.HarpHero.changelogs]
+[channels.stable.plugins.VFXEditor]
+built_commit = "1dc6641bf86d276b419ed3eb62c2bbb60d00f6cf"
+time_built = 2024-03-06T08:00:09.723
+effective_version = "1.8.2.4"
+[channels.stable.plugins.VFXEditor.changelogs]
+[channels.stable.plugins.PartyListExtras]
+built_commit = "4be13532fb44ebb4a6e154cab875e1f5f8c4479d"
+time_built = 2024-03-05T19:41:44.405
+effective_version = "1.0.0.0"
+[channels.stable.plugins.PartyListExtras.changelogs."1.0.0.0"]
+time_released = 2024-03-05T19:41:44.405
+changelog = "- Fixed speed up effects being applied twice when stacked\r\n- Added ability to filter out effects that should always be activated"
+[channels.stable.plugins.OBSPlugin]
+built_commit = "03da86900240040a258e856dbc42bf7822fd7dab"
+time_built = 2024-03-05T20:01:56.672
+effective_version = "1.0.2.6"
+[channels.stable.plugins.OBSPlugin.changelogs."1.0.2.6"]
+time_released = 2024-03-05T20:01:56.672
+changelog = "- StreamFX -> Composite Blur- api9 (patch6.5)"
+[channels.stable.plugins.EmoteLog]
+built_commit = "38669fb8550c777f94e7284f379671ab14dee376"
+time_built = 2024-03-05T19:44:51.601
+effective_version = "1.1.1.1"
+[channels.stable.plugins.EmoteLog.changelogs."1.1.1.1"]
+time_released = 2024-03-05T19:44:51.601
+changelog = "- Updated to API v9 and 6.5\n"
+[channels.stable.plugins.DutyTracker]
+built_commit = "33e1398e3ba0bb375ef10bef5fd03916b9c95be2"
+time_built = 2024-03-05T19:44:56.614
+effective_version = "1.0.1.8"
+[channels.stable.plugins.DutyTracker.changelogs."1.0.1.8"]
+time_released = 2024-03-05T19:44:56.614
+changelog = "Fix for possible crash to desktop on wipe."
+[channels.stable.plugins.MiniMappingway]
+built_commit = "b90041bbfc38c7817d3fe27db01a99081b977f4c"
+time_built = 2024-03-05T19:45:11.284
+effective_version = "1.0.0.5"
+[channels.stable.plugins.MiniMappingway.changelogs."1.0.0.5"]
+time_released = 2024-03-05T19:45:11.284
+changelog = "Update for 6.5"
+[channels.stable.plugins.DeathRoll]
+built_commit = "a59e8de05b05c9284be9bfc6bdd90ed539957116"
+time_built = 2024-03-05T19:45:20.801
+effective_version = "1.4.3.0"
+[channels.stable.plugins.DeathRoll.changelogs]
+[channels.stable.plugins.BetterShadows]
+built_commit = "903a5d725a50c1f13e0f6ad519e7a2f9b9ab1fd1"
+time_built = 2024-03-05T19:44:25.582
+effective_version = "1.3.3.0"
+[channels.stable.plugins.BetterShadows.changelogs."1.3.3.0"]
+time_released = 2024-03-05T19:44:25.582
+changelog = "- Fix oversight which could result in ShadowManager being null following plugin initialization\n"
+[channels.stable.plugins.DistantSeas]
+built_commit = "5f221dea9f8dbed840ea95bbf531b7fc4dab25a2"
+time_built = 2024-03-05T19:43:18.438
+effective_version = "1.0.0.4"
+[channels.stable.plugins.DistantSeas.changelogs]
+[channels.stable.plugins.WhoAmIAgain]
+built_commit = "85a7887c6ca5cf26bdec54c8be8f39242044da4a"
+time_built = 2024-03-05T19:45:44.762
+effective_version = "1.0.0.1"
+[channels.stable.plugins.WhoAmIAgain.changelogs]
+[channels.stable.plugins.MarketBoardPlugin]
+built_commit = "43a9bafe9ebdb598499bf32db258ef1469e974cd"
+time_built = 2024-03-30T09:05:56.944
+effective_version = "1.3.4.2"
+[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.0"]
+time_released = 2024-03-05T19:50:24.496
+changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)"
+[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.1"]
+time_released = 2024-03-30T06:27:02.888
+changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)\n - Try fix CN crash"
+[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.2"]
+time_released = 2024-03-30T09:05:56.944
+changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)\n - Try fix CN crash"
+[channels.stable.plugins.XIVWindowResizer]
+built_commit = "bfb2a6745b53780e58e9da5289a369b035f8b05d"
+time_built = 2024-03-06T06:46:14.291
+effective_version = "1.0.0.2"
+[channels.stable.plugins.XIVWindowResizer.changelogs."1.0.0.1"]
+time_released = 2024-03-05T19:50:28.353
+changelog = "Update for 6.5"
+[channels.stable.plugins.XIVWindowResizer.changelogs."1.0.0.2"]
+time_released = 2024-03-06T06:46:14.291
+changelog = "Update for CN 6.5"
 [channels.stable.plugins.WhosTalking]
 built_commit = "155bfb47cee996b1f43f189fa3c7bc5fb38e2014"
 time_built = 2024-03-05T19:50:32.828
@@ -1284,199 +714,769 @@ changelog = "Fixed an issue where the command help section could be cut off at t
 [channels.stable.plugins.PositionalGuide.changelogs."4.5.0"]
 time_released = 2024-03-06T08:01:21.677
 changelog = "The server info bar now has a tooltip explaining that you can click it to toggle renders. There's also a note in the settings window about how to turn the entry off."
-[channels.stable.plugins.XIVWindowResizer]
-built_commit = "bfb2a6745b53780e58e9da5289a369b035f8b05d"
-time_built = 2024-03-06T06:46:14.291
-effective_version = "1.0.0.2"
-[channels.stable.plugins.XIVWindowResizer.changelogs."1.0.0.1"]
-time_released = 2024-03-05T19:50:28.353
-changelog = "Update for 6.5"
-[channels.stable.plugins.XIVWindowResizer.changelogs."1.0.0.2"]
-time_released = 2024-03-06T06:46:14.291
-changelog = "Update for CN 6.5"
 [channels.stable.plugins.TitleEdit]
 built_commit = "5cc4a8432a524ddf2fe6dc7d03eae489b8b1f194"
 time_built = 2024-03-05T19:47:22.678
 effective_version = "2.2.7.1"
 [channels.stable.plugins.TitleEdit.changelogs]
-[channels.stable.plugins.MarketBoardPlugin]
-built_commit = "43a9bafe9ebdb598499bf32db258ef1469e974cd"
-time_built = 2024-03-30T09:05:56.944
-effective_version = "1.3.4.2"
-[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.0"]
-time_released = 2024-03-05T19:50:24.496
-changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)"
-[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.1"]
-time_released = 2024-03-30T06:27:02.888
-changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)\n - Try fix CN crash"
-[channels.stable.plugins.MarketBoardPlugin.changelogs."1.3.4.2"]
-time_released = 2024-03-30T09:05:56.944
-changelog = "- Fixed the plugin \"No GST\" feature (Universalis API changes)\n - Try fix CN crash"
-[channels.stable.plugins.DistantSeas]
-built_commit = "5f221dea9f8dbed840ea95bbf531b7fc4dab25a2"
-time_built = 2024-03-05T19:43:18.438
-effective_version = "1.0.0.4"
-[channels.stable.plugins.DistantSeas.changelogs]
-[channels.stable.plugins.ActionTimeline]
-built_commit = "5280394852b052dd4a3d896aa12cf11c0d4ad02d"
-time_built = 2024-03-05T19:47:31.106
-effective_version = "1.3.0.0"
-[channels.stable.plugins.ActionTimeline.changelogs."1.3.0.0"]
-time_released = 2024-03-05T19:47:31.106
-changelog = "- Added support for patch 6.5 and Dalamud API 9."
-[channels.stable.plugins.HuntHelper]
-built_commit = "c0541e9af251cded4717e17f0e7295f09395ce4a"
-time_built = 2024-03-05T19:47:36.343
-effective_version = "1.0.0.15"
-[channels.stable.plugins.HuntHelper.changelogs]
-[channels.stable.plugins.DailyDuty]
-built_commit = "25c7a42a3f415726e2605f434731af69c65c89cd"
-time_built = 2024-03-21T12:16:33.999
-effective_version = "4.0.6.2"
-[channels.stable.plugins.DailyDuty.changelogs]
-[channels.stable.plugins.CurrencyAlert]
-built_commit = "9c49f1125c98e37eab2e6fc99eb2066158520e3f"
-time_built = 2024-03-05T19:47:48.673
-effective_version = "1.0.1.2"
-[channels.stable.plugins.CurrencyAlert.changelogs]
-[channels.stable.plugins.Tourist]
-built_commit = "40de971de6af2da812463512e31666055df68c6f"
-time_built = 2024-03-05T19:47:52.902
-effective_version = "1.2.14"
-[channels.stable.plugins.Tourist.changelogs."1.2.14"]
-time_released = 2024-03-05T19:47:52.902
+[channels.stable.plugins.FPSPlugin]
+built_commit = "592ff1adb06b021182e7cf701a3db776f4e4c7b3"
+time_built = 2024-03-05T19:46:14.250
+effective_version = "1.6.1.0"
+[channels.stable.plugins.FPSPlugin.changelogs]
+[channels.stable.plugins.EurekaTrackerAutoPopper]
+built_commit = "301670431ee6a07755a8ea0b2711482a9152de11"
+time_built = 2024-03-05T19:43:27.423
+effective_version = "1.5.0.5"
+[channels.stable.plugins.EurekaTrackerAutoPopper.changelogs]
+[channels.stable.plugins.Distance]
+built_commit = "c63f6abd4904fb82122ceab285a0d1325fc60f06"
+time_built = 2024-03-06T18:41:29.011
+effective_version = "1.1.1.3"
+[channels.stable.plugins.Distance.changelogs."1.1.1.0"]
+time_released = 2024-03-05T19:57:42.622
+changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
+[channels.stable.plugins.Distance.changelogs."1.1.0.1"]
+time_released = 2024-03-06T16:50:58.837
+changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
+[channels.stable.plugins.Distance.changelogs."1.1.1.2"]
+time_released = 2024-03-06T16:56:57.848
+changelog = "- Added distance-based fading to text widgets and nameplate distances\n- Added offsets by object type to nameplate distances.\n- Minor config UI improvements.\n\nAlso contains the following differences that were previously only in the testing branch:\n- Added a custom arcs feature to match custom widgets.\n- Rewrote config UI.\n- Added job filters to all distance displays.\n- Added a filter for in and out of instance.\n- Applied other filter types to displays that did not have them.\n- Improved nameplate node setup to more closely match the base game.\n- Fixed a bug that caused nameplate text nodes to not be properly cleaned up during plugin unload.\n- Improved logging.\n- Significant code cleanup and reorganization.\n"
+[channels.stable.plugins.Distance.changelogs."1.1.1.3"]
+time_released = 2024-03-06T18:41:29.011
+changelog = "- 汉化\n- 修复国服开怪距离功能\n\n- 添加了基于距离的文本小部件和名牌距离的淡入淡出效果\n- 添加了按对象类型偏移的名牌距离\n- 对配置界面进行了轻微的改进\n\n还包含以下之前仅在测试分支中的差异：\n- 添加了与自定义小部件匹配的自定义弧线功能\n- 重写了配置界面\n- 对所有距离显示添加了职业过滤器\n- 添加了一个用于实例内外的过滤器\n- 将其他过滤器类型应用于之前没有的显示\n- 改进了名牌节点设置，使其更接近基础游戏\n- 修复了在插件卸载时名牌文本节点未能正确清理的错误\n- 改进了日志记录\n- 进行了重大的代码清理和重组\n"
+[channels.stable.plugins.LogogramHelper]
+built_commit = "2bc0ea1cfcb04a25bf2b055531d250def8c7da1a"
+time_built = 2024-03-05T19:53:34.266
+effective_version = "0.0.3.0"
+[channels.stable.plugins.LogogramHelper.changelogs."0.0.3.0"]
+time_released = 2024-03-05T19:53:34.266
+changelog = "- Update for 6.5\n"
+[channels.stable.plugins.HotbarUnlimited]
+built_commit = "360f0f19182ac2dee9ed19292fa44c2c934ded1b"
+time_built = 2024-03-05T19:52:52.881
+effective_version = "1.0.2.2"
+[channels.stable.plugins.HotbarUnlimited.changelogs]
+[channels.stable.plugins.AutoTimer]
+built_commit = "82cf760dd6c9cc32bfa6dbb3aeeffd290fda9ec0"
+time_built = 2024-03-05T19:57:55.525
+effective_version = "1.0.0.3"
+[channels.stable.plugins.AutoTimer.changelogs."1.0.0.3"]
+time_released = 2024-03-05T19:57:55.525
+changelog = "- Fix crash related to usage of non-auto-attack actions (eating food, etc.)"
+[channels.stable.plugins.QuestAWAY]
+built_commit = "6d0d62b976d73795b4a558da6b46ff5faa69fbb5"
+time_built = 2024-03-05T19:51:51.671
+effective_version = "2.0.0.4"
+[channels.stable.plugins.QuestAWAY.changelogs]
+[channels.stable.plugins.ChillFrames]
+built_commit = "f7f33964ad58817df3c323a27e87e8960cc6d7e7"
+time_built = 2024-03-05T19:53:43.057
+effective_version = "2.1.1.3"
+[channels.stable.plugins.ChillFrames.changelogs]
+[channels.stable.plugins.ChatBubbles]
+built_commit = "64883cac88828d7543ba381c0496547f344c1a4c"
+time_built = 2024-03-05T19:52:00.206
+effective_version = "2.1.5.0"
+[channels.stable.plugins.ChatBubbles.changelogs."2.1.5.0"]
+time_released = 2024-03-05T19:52:00.206
+changelog = "### Updated for 6.5 & API9 compatibility\nHaplo064 did all the work there, thanks Haplo "
+[channels.stable.plugins.RepairMe]
+built_commit = "9f0978ce57b30c4c4990d181e3e72d3754394e4f"
+time_built = 2024-03-05T19:52:30.729
+effective_version = "1.0.1.15"
+[channels.stable.plugins.RepairMe.changelogs."1.0.1.15"]
+time_released = 2024-03-05T19:52:30.729
+changelog = "update for api 9"
+[channels.stable.plugins."Dalamud.LoadingImage"]
+built_commit = "fd25d8c5cbd7c48b88dfba80916bcfe761629f36"
+time_built = 2024-03-05T19:52:11.918
+effective_version = "1.0.0.12"
+[channels.stable.plugins."Dalamud.LoadingImage".changelogs]
+[channels.stable.plugins.Tf2CriticalHitsPlugin]
+built_commit = "67ce7e09f4014b3634462718565d77aa7ca6f729"
+time_built = 2024-03-05T20:02:02.431
+effective_version = "3.4.1.0"
+[channels.stable.plugins.Tf2CriticalHitsPlugin.changelogs."3.4.1.0"]
+time_released = 2024-03-05T20:02:02.431
+changelog = "Update for API 9.\n"
+[channels.stable.plugins.TeleporterPlugin]
+built_commit = "f9f3b40e75fe00e6a424ab756990ca93b86acd41"
+time_built = 2024-03-05T19:52:19.888
+effective_version = "2.0.2.3"
+[channels.stable.plugins.TeleporterPlugin.changelogs]
+[channels.stable.plugins.TitleRoulette]
+built_commit = "81e6744f8e8fe081d13da94fa1432492a64f3caf"
+time_built = 2024-03-06T08:00:46.558
+effective_version = "2.0"
+[channels.stable.plugins.TitleRoulette.changelogs]
+[channels.stable.plugins.TextBoxStyler]
+built_commit = "2b02013ebf87f1e1479823ec16c01ef5966c1eda"
+time_built = 2024-03-05T19:56:25.766
+effective_version = "1.1.8.0"
+[channels.stable.plugins.TextBoxStyler.changelogs."1.1.8.0"]
+time_released = 2024-03-05T19:56:25.766
 changelog = "API 9"
-[channels.stable.plugins.cl_showpos]
-built_commit = "9f188960ea76109840ede19e1ffe571f4de15c1e"
-time_built = 2024-03-05T19:47:56.848
-effective_version = "1.1.0.1"
-[channels.stable.plugins.cl_showpos.changelogs]
-[channels.stable.plugins.G4EUkrChatSupport]
-built_commit = "68b0c9b0ccedf10df1888a59341333673890f875"
-time_built = 2024-03-05T19:46:51.837
-effective_version = "1.0.0.34"
-[channels.stable.plugins.G4EUkrChatSupport.changelogs."1.0.0.34"]
-time_released = 2024-03-05T19:46:51.837
-changelog = "Fix for config button styles."
-[channels.stable.plugins.InventoryTools]
-built_commit = "6de67158f3e8a439ff9f074ef9da8cead1eb9429"
-time_built = 2024-03-05T19:48:36.787
-effective_version = "1.6.2.5"
-[channels.stable.plugins.InventoryTools.changelogs."1.6.2.5"]
-time_released = 2024-03-05T19:48:36.787
-changelog = "**Fixes**\n- Skybuilder resource inspection needed quantity was not calculating correctly\n"
-[channels.stable.plugins.PriceInsightCN]
-built_commit = "07b97ed9be81506be295eb9de70ea67c6aad7fe0"
-time_built = 2024-03-06T05:09:32.457
-effective_version = "2.8.0.0"
-[channels.stable.plugins.PriceInsightCN.changelogs."2.8.0.0"]
-time_released = 2024-03-06T05:09:32.457
-changelog = "- 升级到 API 9\n- 迁移 CDN 到企业线路\n- 将国外查询直接重定向到源站\n"
-[channels.stable.plugins.OofPlugin]
-built_commit = "5525dcaf63bd698e54e88fd4c9b1e3c5df9d0ed9"
-time_built = 2024-03-06T07:59:40.550
-effective_version = "1.3.0.0"
-[channels.stable.plugins.OofPlugin.changelogs."1.3.0.0"]
-time_released = 2024-03-06T07:59:40.550
-changelog = "- improve distance based oof (DBO)\n- clean up UI\n- update to API9\n"
-[channels.stable.plugins.ExtraChat]
-built_commit = "dc0e23c3daf79ad0edc43118f7ee4130210c5d42"
-time_built = 2024-03-06T07:59:47.118
-effective_version = "1.3.5.0"
-[channels.stable.plugins.ExtraChat.changelogs."1.3.5.0"]
-time_released = 2024-03-06T07:59:47.118
-changelog = "\\\n- Fix large message bug\n"
-[channels.stable.plugins.BetterMountRoulette]
-built_commit = "e274e87818a748b60a570180be845b6ab754ca4a"
-time_built = 2024-03-06T08:00:19.339
-effective_version = "1.3.0.15"
-[channels.stable.plugins.BetterMountRoulette.changelogs."1.3.0.15"]
-time_released = 2024-03-06T08:00:19.339
-changelog = "Now includes an option to only mount single-seated mounts while solo.\n\nAlso added an option to only use mounts that can fit the entire party, or failing that, as many party members as possible."
-[channels.stable.plugins.XIVChat]
-built_commit = "a65c73a9ffc8b44626fbe11b06294fb362cb2507"
-time_built = 2024-03-06T08:00:25.560
-effective_version = "1.7.8"
-[channels.stable.plugins.XIVChat.changelogs."1.7.8"]
-time_released = 2024-03-06T08:00:25.560
+[channels.stable.plugins.MacroRecorded]
+built_commit = "4006a155c7c4755eac94b8a08bb6d8dd81d04841"
+time_built = 2024-03-05T19:46:24.066
+effective_version = "1.0.1.2"
+[channels.stable.plugins.MacroRecorded.changelogs."1.0.1.2"]
+time_released = 2024-03-05T19:46:24.066
+changelog = "- Patch 6.5 update\n- Dalamud API update\n "
+[channels.stable.plugins.NamePlateDebuffs]
+built_commit = "52c22f9937a77bd053b667943c04e49a90d5a97e"
+time_built = 2024-03-05T19:52:47.835
+effective_version = "1.0.3.0"
+[channels.stable.plugins.NamePlateDebuffs.changelogs."1.0.3.0"]
+time_released = 2024-03-05T19:52:47.835
+changelog = "- Update for 6.51\n"
+[channels.stable.plugins.NoSoliciting]
+built_commit = "f08baba71b8c06c86202ca8354d90adbfb91993e"
+time_built = 2024-03-06T08:00:31.910
+effective_version = "3.0.8"
+[channels.stable.plugins.NoSoliciting.changelogs."3.0.8"]
+time_released = 2024-03-06T08:00:31.910
 changelog = "- API 9\n"
-[channels.stable.plugins.XIVLogger]
-built_commit = "95a94a8d2edd7fe1df09b03285f0998b9827e5bc"
-time_built = 2024-03-05T19:43:33.317
-effective_version = "1.0.6.1"
-[channels.stable.plugins.XIVLogger.changelogs]
-[channels.stable.plugins.DelvCD]
-built_commit = "5b5d9416ad249246d2cac5e907505f7750ba90da"
-time_built = 2024-03-05T19:46:29.146
-effective_version = "1.0.0.0"
-[channels.stable.plugins.DelvCD.changelogs]
-[channels.stable.plugins.BetterPlaytime]
-built_commit = "db5ef2e5150b66af7c4e481e2ab32fe32d4b44e0"
-time_built = 2024-03-05T19:43:41.776
-effective_version = "1.4.0.4"
-[channels.stable.plugins.BetterPlaytime.changelogs]
-[channels.stable.plugins.HarpHero]
-built_commit = "ebe4673a183a89cfd0b8b98f8792c4c8ef985d46"
-time_built = 2024-03-05T19:43:51.927
-effective_version = "1.9.0.0"
-[channels.stable.plugins.HarpHero.changelogs]
-[channels.stable.plugins.VFXEditor]
-built_commit = "1dc6641bf86d276b419ed3eb62c2bbb60d00f6cf"
-time_built = 2024-03-06T08:00:09.723
-effective_version = "1.8.2.4"
-[channels.stable.plugins.VFXEditor.changelogs]
-[channels.stable.plugins.PartyListExtras]
-built_commit = "4be13532fb44ebb4a6e154cab875e1f5f8c4479d"
-time_built = 2024-03-05T19:41:44.405
-effective_version = "1.0.0.0"
-[channels.stable.plugins.PartyListExtras.changelogs."1.0.0.0"]
-time_released = 2024-03-05T19:41:44.405
-changelog = "- Fixed speed up effects being applied twice when stacked\r\n- Added ability to filter out effects that should always be activated"
-[channels.stable.plugins.OBSPlugin]
-built_commit = "03da86900240040a258e856dbc42bf7822fd7dab"
-time_built = 2024-03-05T20:01:56.672
-effective_version = "1.0.2.6"
-[channels.stable.plugins.OBSPlugin.changelogs."1.0.2.6"]
-time_released = 2024-03-05T20:01:56.672
-changelog = "- StreamFX -> Composite Blur- api9 (patch6.5)"
-[channels.stable.plugins.EmoteLog]
-built_commit = "38669fb8550c777f94e7284f379671ab14dee376"
-time_built = 2024-03-05T19:44:51.601
-effective_version = "1.1.1.1"
-[channels.stable.plugins.EmoteLog.changelogs."1.1.1.1"]
-time_released = 2024-03-05T19:44:51.601
-changelog = "- Updated to API v9 and 6.5\n"
-[channels.stable.plugins.DutyTracker]
-built_commit = "33e1398e3ba0bb375ef10bef5fd03916b9c95be2"
-time_built = 2024-03-05T19:44:56.614
-effective_version = "1.0.1.8"
-[channels.stable.plugins.DutyTracker.changelogs."1.0.1.8"]
-time_released = 2024-03-05T19:44:56.614
-changelog = "Fix for possible crash to desktop on wipe."
-[channels.stable.plugins.MiniMappingway]
-built_commit = "b90041bbfc38c7817d3fe27db01a99081b977f4c"
-time_built = 2024-03-05T19:45:11.284
-effective_version = "1.0.0.5"
-[channels.stable.plugins.MiniMappingway.changelogs."1.0.0.5"]
-time_released = 2024-03-05T19:45:11.284
-changelog = "Update for 6.5"
-[channels.stable.plugins.DeathRoll]
-built_commit = "a59e8de05b05c9284be9bfc6bdd90ed539957116"
-time_built = 2024-03-05T19:45:20.801
-effective_version = "1.4.3.0"
-[channels.stable.plugins.DeathRoll.changelogs]
-[channels.stable.plugins.BetterShadows]
-built_commit = "903a5d725a50c1f13e0f6ad519e7a2f9b9ab1fd1"
-time_built = 2024-03-05T19:44:25.582
-effective_version = "1.3.3.0"
-[channels.stable.plugins.BetterShadows.changelogs."1.3.3.0"]
-time_released = 2024-03-05T19:44:25.582
-changelog = "- Fix oversight which could result in ShadowManager being null following plugin initialization\n"
+[channels.stable.plugins.WhereAmIAgain]
+built_commit = "c73dfccf5b06da93d9c0bd8bc2c40086f0844f43"
+time_built = 2024-03-05T19:56:30.653
+effective_version = "1.0.0.3"
+[channels.stable.plugins.WhereAmIAgain.changelogs]
+[channels.stable.plugins.NoTankYou]
+built_commit = "973987b7e2a7580f873eb48ee8b77574b164d71c"
+time_built = 2024-03-21T12:16:27.241
+effective_version = "6.0.3.1"
+[channels.stable.plugins.NoTankYou.changelogs]
+[channels.stable.plugins.SoundFilter]
+built_commit = "894ee400f63e08762cbdd08533d49d4c5f09c74e"
+time_built = 2024-03-05T19:53:01.472
+effective_version = "1.4.13.0"
+[channels.stable.plugins.SoundFilter.changelogs."1.4.13.0"]
+time_released = 2024-03-05T19:53:01.472
+changelog = "API 9"
+[channels.stable.plugins.NotificationMaster]
+built_commit = "8edbc8426faef0651caabbcf2e62469709b01750"
+time_built = 2024-03-05T19:49:39.452
+effective_version = "2.1.1.1"
+[channels.stable.plugins.NotificationMaster.changelogs]
+[channels.stable.plugins.Congratulations]
+built_commit = "51631abb71636e2a49e3a27701a78ced94145c1d"
+time_built = 2024-03-05T19:53:10.617
+effective_version = "1.2.3.0"
+[channels.stable.plugins.Congratulations.changelogs."1.2.3.0"]
+time_released = 2024-03-05T19:53:10.617
+changelog = "Update to API 9 / patch 6.5.\n"
+[channels.stable.plugins.Namingway]
+built_commit = "e1f759bd58ff584f7dc01c89993ea4708149ab1b"
+time_built = 2024-03-05T19:49:43.538
+effective_version = "1.1.12.0"
+[channels.stable.plugins.Namingway.changelogs."1.1.12.0"]
+time_released = 2024-03-05T19:49:43.538
+changelog = "API 9"
+[channels.stable.plugins.PrefPro]
+built_commit = "1af1da2e05f0e64792f4aa4c55cab9bf6a463eef"
+time_built = 2024-03-14T02:00:25.233
+effective_version = "1.2.1.2"
+[channels.stable.plugins.PrefPro.changelogs]
+[channels.stable.plugins.AdaptiveHud]
+built_commit = "1f9e069fd76117e9995a32f9abbbb11096bbbc37"
+time_built = 2024-03-05T19:49:47.397
+effective_version = "1.0.8.1"
+[channels.stable.plugins.AdaptiveHud.changelogs."1.0.8.1"]
+time_released = 2024-03-05T19:49:47.397
+changelog = "fix problem where config window can get stuck"
+[channels.stable.plugins."Dalamud.FullscreenCutscenes"]
+built_commit = "3c74b8f3137db360aa5988230046ddc103b8e779"
+time_built = 2024-03-05T19:53:30.161
+effective_version = "1.0.0.2"
+[channels.stable.plugins."Dalamud.FullscreenCutscenes".changelogs]
+[channels.stable.plugins.ARealmRecorded]
+built_commit = "79d3e4a44dc0b3e717f9ae7b4e7ef4ca12465250"
+time_built = 2024-04-01T13:36:07.112
+effective_version = "1.0.0.3"
+[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.1"]
+time_released = 2024-03-05T19:49:52.638
+changelog = "- Api9"
+[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.2"]
+time_released = 2024-03-28T07:02:38.741
+changelog = "- .NET 8"
+[channels.stable.plugins.ARealmRecorded.changelogs."1.0.0.3"]
+time_released = 2024-04-01T13:36:07.112
+changelog = "防炸"
+[channels.stable.plugins."Dalamud.DiscordBridge"]
+built_commit = "6af77bbf3f8030f10101b6eb87cd3a3d7a1b4012"
+time_built = 2024-03-05T19:52:43.921
+effective_version = "1.4.4.0"
+[channels.stable.plugins."Dalamud.DiscordBridge".changelogs."1.4.4.0"]
+time_released = 2024-03-05T19:52:43.921
+changelog = "Updated for API 9.\n"
+[channels.stable.plugins."Dalamud.RichPresence"]
+built_commit = "0347f6d05f45df902ca9d574615de3490233edde"
+time_built = 2024-03-05T19:45:57.996
+effective_version = "2.0.3.0"
+[channels.stable.plugins."Dalamud.RichPresence".changelogs."2.0.3.0"]
+time_released = 2024-03-05T19:45:57.996
+changelog = "API 9 support. (Thank you NPittinger)\n\nNew features:\n- Turn off rich presence when AFK (thank you sersorrel)\n"
+[channels.stable.plugins.TargetLines]
+built_commit = "afa643a240e655d376577960a47a1d8a12373555"
+time_built = 2024-03-05T19:50:08.535
+effective_version = "1.5.1.0"
+[channels.stable.plugins.TargetLines.changelogs."1.5.1.0"]
+time_released = 2024-03-05T19:50:08.535
+changelog = "- UI occlusion now checks for line intersections, so there should no longer be segments appearing if it's rect overlaped a UI element, but did not intersect it under certain circumstances\n- Fixed a bug which would cause the end cap to have the wrong opacity when 'Fade to End' is enabled\n- Adjusted the rendering of the end caps so they appear uniform\n- Fixed issue where the first/third person transition for lines which target or source the player would appear disjointed\n- Minor optimizations in the broad phase of UI occlusion\n"
+[channels.stable.plugins."XIVDeck.FFXIVPlugin"]
+built_commit = "cca5a774ab3a739cc5e2f89b4e42171be1a805b0"
+time_built = 2024-03-05T19:54:57.010
+effective_version = "0.3.16"
+[channels.stable.plugins."XIVDeck.FFXIVPlugin".changelogs]
+[channels.stable.plugins.FauxHollowsSolver]
+built_commit = "8dfa2a49e05f5cff282acd1ae235a9e140262cd7"
+time_built = 2024-03-05T19:53:55.874
+effective_version = "1.3.0.0"
+[channels.stable.plugins.FauxHollowsSolver.changelogs]
+[channels.stable.plugins.Wordsmith]
+built_commit = "96b16f3c03495c1882cf44236a3e50652461a99d"
+time_built = 2024-03-05T19:54:01.261
+effective_version = "1.11.1.0"
+[channels.stable.plugins.Wordsmith.changelogs."1.11.1.0"]
+time_released = 2024-03-05T19:54:01.261
+changelog = "# Wordsmith v1.11.1 Patch Notes:\n[FIXED] Fixed a crash related to zero-length words in the Tally system."
+[channels.stable.plugins.FantasyPlayer]
+built_commit = "42a009dff5db8f3fd4c2eca59eb2fc9205e352aa"
+time_built = 2024-03-05T19:54:10.547
+effective_version = "2.2.0.1"
+[channels.stable.plugins.FantasyPlayer.changelogs."2.2.0.1"]
+time_released = 2024-03-05T19:54:10.547
+changelog = "**Bug Fixes**\n- Fix slash commands\n"
+[channels.stable.plugins.AdventurerInNeed]
+built_commit = "33ebdaca59f12604394304943d4191c9acf41aa8"
+time_built = 2024-03-05T19:54:14.420
+effective_version = "1.4.0.0"
+[channels.stable.plugins.AdventurerInNeed.changelogs]
+[channels.stable.plugins.RemotePartyFinder]
+built_commit = "ae1d2a3a82dfe61d3d255e441f392a8f6d2e4f74"
+time_built = 2024-03-05T19:54:18.497
+effective_version = "1.0.12.0"
+[channels.stable.plugins.RemotePartyFinder.changelogs."1.0.12.0"]
+time_released = 2024-03-05T19:54:18.497
+changelog = "API 9"
+[channels.stable.plugins.PriceCheck]
+built_commit = "381892ec5471afda712cece87c8cc91c78b3b048"
+time_built = 2024-03-05T19:54:24.059
+effective_version = "2.6.1.0"
+[channels.stable.plugins.PriceCheck.changelogs]
+[channels.stable.plugins.Collections]
+built_commit = "c5f4959baa1fd0e1b3343e81e8119850140950ce"
+time_built = 2024-03-05T19:54:34.422
+effective_version = "1.0.1.5"
+[channels.stable.plugins.Collections.changelogs."1.0.1.5"]
+time_released = 2024-03-05T19:54:34.422
+changelog = "Collections v1.0.1.5\r\n- Added Progress Bar\r\n- Tool Tip UI improvements\r\n- Job selector buttons changed: left click to switch, right click to toggle\r\n"
+[channels.stable.plugins.StanleyParableXiv]
+built_commit = "0ddcabcf41774dc0de8737d58734fbbaaa8aef71"
+time_built = 2024-03-05T19:54:42.844
+effective_version = "2.1.1.0"
+[channels.stable.plugins.StanleyParableXiv.changelogs."2.1.1.0"]
+time_released = 2024-03-05T19:54:42.844
+changelog = "- Added the option to choose between MP3 and OGG assets (defaults to MP3)\n"
+[channels.stable.plugins.ReadyCheckHelper]
+built_commit = "77d5647e7ac5fd4ae430bf6be5617f6f36b1e6d2"
+time_built = 2024-03-05T19:54:46.942
+effective_version = "1.0.4.4"
+[channels.stable.plugins.ReadyCheckHelper.changelogs]
+[channels.stable.plugins.EurekaHelper]
+built_commit = "97b0af33aa82308bf432010e43dee683f19b21bc"
+time_built = 2024-03-29T08:59:08.796
+effective_version = "1.5.2.0"
+[channels.stable.plugins.EurekaHelper.changelogs."1.5.2.0"]
+time_released = 2024-03-29T08:59:08.796
+changelog = "Elemental Manager\n- Added crowdsourced positions\n\nMisc\n- Updated to API 9\n"
+[channels.stable.plugins.EnmityHp]
+built_commit = "4bd0b42eb63b15882cd2277a0fcec1ec2fdd7de4"
+time_built = 2024-03-05T19:53:38.053
+effective_version = "2.0.1.1"
+[channels.stable.plugins.EnmityHp.changelogs]
+[channels.stable.plugins.AutoMountBgm]
+built_commit = "b604afb8f2efbdc64a16b6e4192978cf5e2c4f7a"
+time_built = 2024-03-05T19:55:05.076
+effective_version = "2.0.1.0"
+[channels.stable.plugins.AutoMountBgm.changelogs."2.0.1.0"]
+time_released = 2024-03-05T19:55:05.076
+changelog = "Mount BGM will now be automatically disabled when unmounting, so that volume doesn't stutter when using a BGM-disabled mount."
+[channels.stable.plugins.PartyPlanner]
+built_commit = "77c882e3260133376a2cf18334278365331ad011"
+time_built = 2024-03-05T19:46:56.392
+effective_version = "1.6.0.0"
+[channels.stable.plugins.PartyPlanner.changelogs."1.6.0.0"]
+time_released = 2024-03-05T19:46:56.392
+changelog = "- Minor Internal Refactorings.\r\n- Auto update events when the window is opened if not updated before for 5 minutes.\r\n"
+[channels.stable.plugins.IslandWorkshopSearch]
+built_commit = "2d2ebc68867bf8c4a56123b4b4c65daac8a11c5e"
+time_built = 2024-03-05T19:55:09.521
+effective_version = "0.0.0.3"
+[channels.stable.plugins.IslandWorkshopSearch.changelogs]
+[channels.stable.plugins.Snooper]
+built_commit = "a0fa7be17b3e9645818b5f06ad42adc98d3c4d5d"
+time_built = 2024-03-05T19:55:13.985
+effective_version = "1.2.1.1"
+[channels.stable.plugins.Snooper.changelogs."1.2.1.1"]
+time_released = 2024-03-05T19:55:13.985
+changelog = "* Snooper will no longer play a sound when you send a tell. This was never intended. (#18)\n* If saving logs to disk is disabled, Snooper will no longer load already existing logs from disk.\n* Reduced plugin log spam, fixing an issue where exception stack traces were logged for normal operation.\n"
+[channels.stable.plugins.MBHistory]
+built_commit = "e42b6a969f2994f60a69ab1cfcd673634d661c92"
+time_built = 2024-03-05T19:55:17.930
+effective_version = "1.0.0.2"
+[channels.stable.plugins.MBHistory.changelogs]
+[channels.stable.plugins.CrossUp]
+built_commit = "9fc8ec21b6e29a0232296558251c74ff82972344"
+time_built = 2024-03-05T19:55:23.205
+effective_version = "1.0.1.5"
+[channels.stable.plugins.CrossUp.changelogs."1.0.1.5"]
+time_released = 2024-03-05T19:55:23.205
+changelog = "- The \"Fade Outside Combat\" feature will now also consider crafting, gathering, and fishing to be forms of combat, and keep the bars visible while engaging in such pastimes.\r\n- Implemented a fix to prevent icons from briefly flashing white when switching bars with cooldowns ticking.\r\n"
+[channels.stable.plugins.InventorySearchBar]
+built_commit = "b1d599b3e053a0fcc346466b6a5fef4b640a5be1"
+time_built = 2024-03-05T19:55:40.360
+effective_version = "1.4.0.0"
+[channels.stable.plugins.InventorySearchBar.changelogs."1.4.0.0"]
+time_released = 2024-03-05T19:55:40.360
+changelog = "- Added support for Patch 6.4 and Dalamud API 9."
+[channels.stable.plugins.PlayerTags]
+built_commit = "52f8723f84c710feda245b9e533807db35625e44"
+time_built = 2024-03-05T19:55:45.886
+effective_version = "1.10.2.0"
+[channels.stable.plugins.PlayerTags.changelogs."1.10.2.0"]
+time_released = 2024-03-05T19:55:45.886
+changelog = "- Minor code optimizations\n"
+[channels.stable.plugins.UsedName]
+built_commit = "f63745f7e6cbd74c39d8bcadb0b2ab048a6d85d9"
+time_built = 2024-03-05T19:55:50.034
+effective_version = "0.8.4.0"
+[channels.stable.plugins.UsedName.changelogs."0.8.4.0"]
+time_released = 2024-03-05T19:55:50.034
+changelog = "- Support API9\n"
+[channels.stable.plugins.TextToTalk]
+built_commit = "7a54207f0f093c2d73d3067c7dc0e506288e9925"
+time_built = 2024-03-05T19:56:17.132
+effective_version = "1.28.9.0"
+[channels.stable.plugins.TextToTalk.changelogs."1.28.9.0"]
+time_released = 2024-03-05T19:56:17.132
+changelog = "- Fixes being unable to add lexicons to the Azure voice backend\n- Fixes being unable to save changes to existing chat type presets\n- Small internal refactor which might fix some other minor bugs in voice playback\n"
+[channels.stable.plugins.SkillSwap]
+built_commit = "5130f0440b96cd16fcc9854e6de071177e74ec0a"
+time_built = 2024-03-05T19:56:21.619
+effective_version = "1.2.2.2"
+[channels.stable.plugins.SkillSwap.changelogs]
+[channels.stable.plugins.DeviceChangeFix]
+built_commit = "557f9fe39a9f4f9e7577722f8ab7e43f959c1b6a"
+time_built = 2024-03-05T19:53:47.734
+effective_version = "2.0.3.0"
+[channels.stable.plugins.DeviceChangeFix.changelogs."2.0.3.0"]
+time_released = 2024-03-05T19:53:47.734
+changelog = "Update to API 9"
+[channels.stable.plugins.owofy]
+built_commit = "23de78eb8d419533d69412b779294dc052e53706"
+time_built = 2024-03-05T19:55:01.015
+effective_version = "1.5.0.0"
+[channels.stable.plugins.owofy.changelogs."1.5.0.0"]
+time_released = 2024-03-05T19:55:01.015
+changelog = "The most important plugin, now updated for API 9!"
+[channels.stable.plugins.MiniCactpotSolver]
+built_commit = "149808ea1d2243938f11be2525559820b1f67e42"
+time_built = 2024-03-05T19:53:52.033
+effective_version = "1.3.0.3"
+[channels.stable.plugins.MiniCactpotSolver.changelogs]
+[channels.stable.plugins.GentleTouch]
+built_commit = "3e114c5c272a588cdc17126d2faa6a7b385b555f"
+time_built = 2024-03-05T19:45:53.991
+effective_version = "1.11.0"
+[channels.stable.plugins.GentleTouch.changelogs]
 [channels.stable.plugins.DelvUI]
 built_commit = "38a12ca38ffda1462715d037691d1a6fd92aa123"
 time_built = 2024-04-02T00:02:37.250
 effective_version = "2.1.2.0"
 [channels.stable.plugins.DelvUI.changelogs]
+[channels.stable.plugins.WaymarkPresetPlugin]
+built_commit = "52f9b8d7834d8c4307bcfa3e5dbb346eb1d98637"
+time_built = 2024-03-05T19:56:47.761
+effective_version = "1.4.8.0"
+[channels.stable.plugins.WaymarkPresetPlugin.changelogs."1.4.8.0"]
+time_released = 2024-03-05T19:56:47.761
+changelog = "汉化。\n"
+[channels.stable.plugins.EldenRing]
+built_commit = "bee85dce4ef4975102ec55407dfabdaccf082505"
+time_built = 2024-03-05T19:59:44.687
+effective_version = "0.0.1.0"
+[channels.stable.plugins.EldenRing.changelogs."0.0.1.0"]
+time_released = 2024-03-05T19:59:44.687
+changelog = "Updated for API 9 Compatibility\n- Switch from opcode to dutystate by MidoriKami\n- Other API 9 update grabbed from Kurochi51's PR\n- Moved to stable because it was formerly testing exclusive, but didn't need to be.\n"
+[channels.stable.plugins.NOTED]
+built_commit = "656b0b38688193eec9091268a3b1786bf2faa89f"
+time_built = 2024-03-05T19:58:03.614
+effective_version = "1.2.0.0"
+[channels.stable.plugins.NOTED.changelogs."1.2.0.0"]
+time_released = 2024-03-05T19:58:03.614
+changelog = "- Added support for patch 6.5 and Dalamud API 9."
+[channels.stable.plugins.PennyPincher]
+built_commit = "cc4801c5fd793aa36c646900ea2ab72f10fe9a09"
+time_built = 2024-03-05T19:58:07.553
+effective_version = "1.7.0.2"
+[channels.stable.plugins.PennyPincher.changelogs."1.7.0.2"]
+time_released = 2024-03-05T19:58:07.553
+changelog = "bump API version; reduced external dependencies"
+[channels.stable.plugins.FlyTextFilter]
+built_commit = "e6c96d536ff3dcd27452b5bcf81706b02070148e"
+time_built = 2024-03-05T19:58:12.512
+effective_version = "4.1.4.1"
+[channels.stable.plugins.FlyTextFilter.changelogs]
+[channels.stable.plugins.MacroChain]
+built_commit = "f9d3e0989f6715d909de69ac559fc67120ef561c"
+time_built = 2024-03-05T19:58:16.635
+effective_version = "2.1.1.0"
+[channels.stable.plugins.MacroChain.changelogs]
+[channels.stable.plugins.TwitchXIV]
+built_commit = "32d3f8426096b9d27bc555f3475129a0d0a506ed"
+time_built = 2024-03-05T19:58:22.323
+effective_version = "1.0.0.0"
+[channels.stable.plugins.TwitchXIV.changelogs."1.0.0.0"]
+time_released = 2024-03-05T19:58:22.323
+changelog = "Updated for patch 6.5"
+[channels.stable.plugins.MimicryHelper]
+built_commit = "66491a00b1e549f534e667dc7f0df83df80dff5e"
+time_built = 2024-03-05T19:58:26.414
+effective_version = "1.0.1.3"
+[channels.stable.plugins.MimicryHelper.changelogs."1.0.1.3"]
+time_released = 2024-03-05T19:58:26.414
+changelog = "Rebuilt for 6.5 & API9 -Fritz"
+[channels.stable.plugins.SimpleTweaksPlugin]
+built_commit = "0c016185a5073aa4fe579b8e6388dfc33c95c65e"
+time_built = 2024-03-28T15:40:02.946
+effective_version = "1.9.7.3"
+[channels.stable.plugins.SimpleTweaksPlugin.changelogs]
+[channels.stable.plugins.Craftimizer]
+built_commit = "44ae3791f1e98f820bcd25dc090c36bebafc163f"
+time_built = 2024-03-06T08:00:42.667
+effective_version = "2.2.0.0"
+[channels.stable.plugins.Craftimizer.changelogs]
+[channels.stable.plugins.Globetrotter]
+built_commit = "b216a78bf5ef2e6deaaa914ba648f85e1a9f0aeb"
+time_built = 2024-03-05T19:57:46.484
+effective_version = "1.2.10"
+[channels.stable.plugins.Globetrotter.changelogs."1.2.10"]
+time_released = 2024-03-05T19:57:46.484
+changelog = "API 9"
+[channels.stable.plugins.JobBars]
+built_commit = "cbe3bb2273865310016004149fa74917ba0cc98b"
+time_built = 2024-03-13T01:51:56.435
+effective_version = "1.2.4.3"
+[channels.stable.plugins.JobBars.changelogs]
+[channels.stable.plugins.PartyIcons]
+built_commit = "ec4c7d303e8a5e0cada4625e823060b4839f2d84"
+time_built = 2024-03-05T19:59:14.513
+effective_version = "1.1.5.0"
+[channels.stable.plugins.PartyIcons.changelogs."1.1.5.0"]
+time_released = 2024-03-05T19:59:14.513
+changelog = "- Update for 6.5\n"
+[channels.stable.plugins.Honorific]
+built_commit = "95bfd92ef3ffc9c330d24cfe493c8370b7bd1b50"
+time_built = 2024-03-05T20:00:44.290
+effective_version = "1.4.2.0"
+[channels.stable.plugins.Honorific.changelogs]
+[channels.stable.plugins.CombatCursorContainment]
+built_commit = "7496c74436ebcc5f0bf2e91eb11fe0822524aafc"
+time_built = 2024-03-05T19:51:19.017
+effective_version = "1.0.3.0"
+[channels.stable.plugins.CombatCursorContainment.changelogs."1.0.3.0"]
+time_released = 2024-03-05T19:51:19.017
+changelog = "- Fixes for log spam and cursor being locked when alt+tabbed due to recent Dalamud changes.\n"
+[channels.stable.plugins.HuntBuddy]
+built_commit = "064c4adf59188c5b533f4d3eaa5f0bd0464c1477"
+time_built = 2024-03-05T19:43:22.633
+effective_version = "1.0.5.2"
+[channels.stable.plugins.HuntBuddy.changelogs."1.0.5.2"]
+time_released = 2024-03-05T19:43:22.633
+changelog = "- Fixed debug window showing up\n- Disabled closing local hunts window"
+[channels.stable.plugins.WhoDidThat]
+built_commit = "b8be4d9e146242e432637fbffc0d9c2565494a53"
+time_built = 2024-03-05T19:59:52.753
+effective_version = "1.5.0.0"
+[channels.stable.plugins.WhoDidThat.changelogs."1.5.0.0"]
+time_released = 2024-03-05T19:59:52.753
+changelog = "Big Update! This plugin now tracks mitigation that is targeted on an enemy. I also now track Provokes, shirks, and much more! Please report any issues through feedback!"
+[channels.stable.plugins.ExpandedSearchInfo]
+built_commit = "b8c2c2afaafbb42eb7eab2a61e4500b250d6f883"
+time_built = 2024-03-05T19:59:57.462
+effective_version = "1.3.14"
+[channels.stable.plugins.ExpandedSearchInfo.changelogs."1.3.14"]
+time_released = 2024-03-05T19:59:57.462
+changelog = "API 9"
+[channels.stable.plugins.PriceInsight]
+built_commit = "502715016673e3358e3e1dcccb0635dc7de5b5d8"
+time_built = 2024-03-05T20:00:01.699
+effective_version = "2.8.0.0"
+[channels.stable.plugins.PriceInsight.changelogs."2.8.0.0"]
+time_released = 2024-03-05T20:00:01.699
+changelog = "- Rewrote caching logic to better avoid unnecessary requests to universalis\n- Improved tooltip display when \"Always display NQ and HQ\" is turned off\n"
+[channels.stable.plugins.CopyTranslated]
+built_commit = "776423666265f8a950e0feef3c40060cf3156159"
+time_built = 2024-03-05T20:00:08.030
+effective_version = "1.1.3.0"
+[channels.stable.plugins.CopyTranslated.changelogs."1.1.3.0"]
+time_released = 2024-03-05T20:00:08.030
+changelog = "fix crafting related context menus"
+[channels.stable.plugins.MacroMate]
+built_commit = "58905fb69cb69ae0621dfd3d375ed2b7a1eec19d"
+time_built = 2024-03-05T20:00:13.122
+effective_version = "1.0.7.1"
+[channels.stable.plugins.MacroMate.changelogs."1.0.7.1"]
+time_released = 2024-03-05T20:00:13.122
+changelog = "- Added Import/Export (compressed)\n"
+[channels.stable.plugins.Mappy]
+built_commit = "e7fb3b37543df9e90bd103fe5558e6db192b9dc3"
+time_built = 2024-03-05T20:00:19.349
+effective_version = "1.0.7.3"
+[channels.stable.plugins.Mappy.changelogs]
+[channels.stable.plugins.DeathRecap]
+built_commit = "1d596906358d7f170c3d40ed015696d7772dd9e1"
+time_built = 2024-03-05T20:00:23.843
+effective_version = "1.11.0.0"
+[channels.stable.plugins.DeathRecap.changelogs."1.11.0.0"]
+time_released = 2024-03-05T20:00:23.843
+changelog = "Update for patch 6.5\n"
+[channels.stable.plugins.BozjaBuddy]
+built_commit = "ef8e96c476206593cbfe37412633fe54d401b720"
+time_built = 2024-03-05T20:00:34.057
+effective_version = "1.1.5.5"
+[channels.stable.plugins.BozjaBuddy.changelogs."1.1.5.5"]
+time_released = 2024-03-05T20:00:34.057
+changelog = "Bozja Buddy 1.1.5.5\n- Minor bug fix.\n- Data for stats calc added.\n"
+[channels.stable.plugins.WhichPatchWasThat]
+built_commit = "f943de35e107ff88a289f7d914b30137a9753647"
+time_built = 2024-03-05T20:00:39.046
+effective_version = "1.6.0.0"
+[channels.stable.plugins.WhichPatchWasThat.changelogs."1.6.0.0"]
+time_released = 2024-03-05T20:00:39.046
+changelog = "Update for patch 6.5\n"
+[channels.stable.plugins.MPTickBar]
+built_commit = "edd38448ee3973671d6a64d557daa5ef9f03a2ec"
+time_built = 2024-03-05T19:59:39.874
+effective_version = "1.4.1.7"
+[channels.stable.plugins.MPTickBar.changelogs."1.4.1.7"]
+time_released = 2024-03-05T19:59:39.874
+changelog = "- Hide in pvp.\n"
+[channels.stable.plugins.Echoglossian]
+built_commit = "4e66d1a87fca577bfe6d6b04b6b0ccf86ce91253"
+time_built = 2024-03-05T19:59:35.507
+effective_version = "3.0.2403.1199"
+[channels.stable.plugins.Echoglossian.changelogs."3.0.2403.1199"]
+time_released = 2024-03-05T19:59:35.507
+changelog = "API9 related fixes"
+[channels.stable.plugins.TalkCopy]
+built_commit = "02ed9d63274e2a6fcdd3d231ef17a8a9d3758c3f"
+time_built = 2024-03-05T19:57:59.297
+effective_version = "0.0.0.1"
+[channels.stable.plugins.TalkCopy.changelogs."0.0.0.1"]
+time_released = 2024-03-05T19:57:59.297
+changelog = "    + [0.0.0.1]\n    + Automatically copies text from the Talk Box to your clipboard.\n"
+[channels.stable.plugins.PlayerTrack]
+built_commit = "109a3ce3eb4579dda768a6a28e98a1296409121e"
+time_built = 2024-03-05T20:01:06.157
+effective_version = "3.2.9.0"
+[channels.stable.plugins.PlayerTrack.changelogs]
+[channels.stable.plugins.SoundSetter]
+built_commit = "e1abfcd828c76bbd184114a4e30b4475a7c01ded"
+time_built = 2024-03-05T19:56:39.524
+effective_version = "1.8.0.0"
+[channels.stable.plugins.SoundSetter.changelogs."1.8.0.0"]
+time_released = 2024-03-05T19:56:39.524
+changelog = "- Updates for API 9\n"
+[channels.stable.plugins.Weatherman]
+built_commit = "74a6a2a55d2be7bdd25761c4dae925f7705c9b45"
+time_built = 2024-03-05T19:52:37.514
+effective_version = "2.4.0.9"
+[channels.stable.plugins.Weatherman.changelogs]
+[channels.stable.plugins.BetterPartyFinder]
+built_commit = "8d84b24b278ed526e1642dbcece18ec7b545a9a2"
+time_built = 2024-03-29T23:24:23.576
+effective_version = "1.2.8.2"
+[channels.stable.plugins.BetterPartyFinder.changelogs."1.2.7"]
+time_released = 2024-03-05T20:01:10.345
+changelog = "API 9"
+[channels.stable.plugins.BetterPartyFinder.changelogs."1.2.8.2"]
+time_released = 2024-03-29T23:24:23.576
+changelog = "API 9 + .NET 8"
+[channels.stable.plugins.SimpleMarketBoard]
+built_commit = "d2026fe2500ec415e31da0518318ac00b579e358"
+time_built = 2024-03-05T20:01:15.043
+effective_version = "1.3.0.3"
+[channels.stable.plugins.SimpleMarketBoard.changelogs."1.3.0.3"]
+time_released = 2024-03-05T20:01:15.043
+changelog = "v1.3.0.0\nChangelog is available via the `changelog button` on the plugin `configuration window`.\n"
+[channels.stable.plugins.ChatTyper]
+built_commit = "8eb043f6743a2e504c9d7fccb38a9e13ab857026"
+time_built = 2024-03-05T20:01:18.948
+effective_version = "0.1.3.0"
+[channels.stable.plugins.ChatTyper.changelogs."0.1.3.0"]
+time_released = 2024-03-05T20:01:18.948
+changelog = "API 9 update"
+[channels.stable.plugins.QoLBar]
+built_commit = "09a16b04420b9c7b110bea23edbd24d5b7535ad0"
+time_built = 2024-03-05T20:01:24.146
+effective_version = "2.3.2.2"
+[channels.stable.plugins.QoLBar.changelogs."2.3.2.2"]
+time_released = 2024-03-05T20:01:24.146
+changelog = "- Api9"
+[channels.stable.plugins."Dalamud.FindAnything"]
+built_commit = "75e3cf719ccf5745ad5205be15d3f552352a91ff"
+time_built = 2024-03-06T08:01:27.964
+effective_version = "1.0.5.0"
+[channels.stable.plugins."Dalamud.FindAnything".changelogs]
+[channels.stable.plugins.SortaKinda]
+built_commit = "4416c4ed1bce8c8919cdfc349c6d229431f6a664"
+time_built = 2024-04-09T18:44:22.258
+effective_version = "1.0.4.8"
+[channels.stable.plugins.SortaKinda.changelogs]
+[channels.stable.plugins.Wholist]
+built_commit = "414cdf72396c14ef47847ffcfdbfe99fc392cd45"
+time_built = 2024-03-06T07:59:53.419
+effective_version = "1.4.2.0"
+[channels.stable.plugins.Wholist.changelogs]
+[channels.stable.plugins.NextUIPlugin]
+built_commit = "02e3bcaa9d4facb34bcfb364f0ee71470194b100"
+time_built = 2024-03-05T20:01:48.017
+effective_version = "9.0.0.0"
+[channels.stable.plugins.NextUIPlugin.changelogs."9.0.0.0"]
+time_released = 2024-03-05T20:01:48.017
+changelog = "Updated for patch 6.5\nUpdated for patch 6.2"
+[channels.stable.plugins.Housemate]
+built_commit = "64389d28ce34297ffdd6a16de1ce325cd572f9e0"
+time_built = 2024-03-05T20:01:52.065
+effective_version = "1.0.2.11"
+[channels.stable.plugins.Housemate.changelogs]
+[channels.stable.plugins.PingPlugin]
+built_commit = "1242c2132ca87156c62b4f30247d35d704e713dd"
+time_built = 2024-03-06T07:32:26.521
+effective_version = "2.6.0.1"
+[channels.stable.plugins.PingPlugin.changelogs."2.6.0.0"]
+time_released = 2024-03-05T20:00:48.942
+changelog = "- Updates for API 9\n"
+[channels.stable.plugins.PingPlugin.changelogs."2.6.0.1"]
+time_released = 2024-03-06T07:32:26.521
+changelog = "- Updates for API 9\n"
+[channels.stable.plugins.CharacterPanelRefined]
+built_commit = "550822107fc77a6437c144a850f5d10177d2dda8"
+time_built = 2024-03-06T03:48:30.702
+effective_version = "1.7.3.1"
+[channels.stable.plugins.CharacterPanelRefined.changelogs."1.7.3.0"]
+time_released = 2024-03-05T20:00:53.349
+changelog = "Fix ilvl sync being incorrectly displayed in bozja and eureka.\n"
+[channels.stable.plugins.CharacterPanelRefined.changelogs."1.7.3.1"]
+time_released = 2024-03-06T03:48:30.702
+changelog = "Fix ilvl sync being incorrectly displayed in bozja and eureka.\n"
+[channels.stable.plugins.ReSanctuary]
+built_commit = "fe5d3d8a5407518189b36edf9c3cffea07433be3"
+time_built = 2024-03-05T19:59:48.634
+effective_version = "1.3.0.1"
+[channels.stable.plugins.ReSanctuary.changelogs]
+[channels.stable.plugins.GatherBuddy]
+built_commit = "835b2c681ae6cbd86388bda2a645fc098a7d5037"
+time_built = 2024-03-05T19:51:40.746
+effective_version = "3.3.1.2"
+[channels.stable.plugins.GatherBuddy.changelogs]
+[channels.stable.plugins.PetRenamer]
+built_commit = "07edc82ba82f2690a064179fd0b074dbf236005d"
+time_built = 2024-03-06T08:00:14.977
+effective_version = "1.4.8.3"
+[channels.stable.plugins.PetRenamer.changelogs."1.4.8.2"]
+time_released = 2024-03-05T19:51:25.116
+changelog = "    [1.4.8.2]\r\n    Fixed an issue where active chocobos would interfere with battle pet resolving.\r\n"
+[channels.stable.plugins.PetRenamer.changelogs."1.4.8.3"]
+time_released = 2024-03-06T08:00:14.977
+changelog = "    [1.4.8.3]\r\n    'Give Nickname' has been renamed to '[P] Rename' (Get used to it)\r\n    The plugin icon is changed because in reality... I cannot see green properly.\r\n"
+[channels.stable.plugins.MonsterLootHunter]
+built_commit = "ed3c73fb757a02bf1584774a6edf4cd74d43c1be"
+time_built = 2024-03-05T19:48:41.225
+effective_version = "1.0.20.5"
+[channels.stable.plugins.MonsterLootHunter.changelogs."1.0.20.5"]
+time_released = 2024-03-05T19:48:41.225
+changelog = "- Refactored font size calculation\n "
+[channels.stable.plugins.AbilityAnts]
+built_commit = "13bfa83b91db39a136fa278da7e73201628a083b"
+time_built = 2024-03-05T19:51:55.611
+effective_version = "1.0.0.1"
+[channels.stable.plugins.AbilityAnts.changelogs."1.0.0.1"]
+time_released = 2024-03-05T19:51:55.611
+changelog = "ants in your pants!"
+[channels.stable.plugins.Kapture]
+built_commit = "d4f74703ff33dcade9473e23ef89967c2c2bf64d"
+time_built = 2024-03-05T19:52:07.567
+effective_version = "1.7.0.0"
+[channels.stable.plugins.Kapture.changelogs]
+[channels.stable.plugins.Doorbell]
+built_commit = "57b03a580da8f407c068f678b8be30c7becf8a64"
+time_built = 2024-03-05T19:52:16.024
+effective_version = "1.0.3.4"
+[channels.stable.plugins.Doorbell.changelogs]
+[channels.stable.plugins.CurrencyTracker]
+built_commit = "669dc9716ca0535fc46b3edc320e80c730cca818"
+time_built = 2024-03-30T07:47:50.105
+effective_version = "1.3.5.0"
+[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.3"]
+time_released = 2024-03-05T19:52:25.971
+changelog = "- Fixed a file save failure error that occurred when a specific item name contained characters that could not be used as a file name.\n"
+[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.5"]
+time_released = 2024-03-13T11:37:40.367
+changelog = "- Code cleanup.\n- Refactored the Add Custom Currency and Multi-Chara Stats interface.\n- Refactored the LanguageManager.\n- Optimized the interface appearance of the currency list: You can now adjust the order of currencies in the list by dragging and dropping them; Deleted the original arrow buttons, and the remaining three buttons are now aequilate ones; Adjusted the indentation of the options to make them look more natural\n- Fixed an issue where a single handler uninstallation error would prevent the entire plugin from being normally disabled.\n- Fixed an issue that the automatic backup time was displayed incorrectly when the AutoBackup module was disabled and then enabled again.\n- Optimized the Main window open speed.\n- Added a new feature: Display Currency Changes in Server Bar, which allows you to show specific currency changes in the DTR bar.\n"
+[channels.stable.plugins.CurrencyTracker.changelogs."1.3.4.7"]
+time_released = 2024-03-17T23:51:33.313
+changelog = "- Fixed failure to load any module by default.\n- Fixed AutoBackup module lagging the game for a long time during backups\n"
+[channels.stable.plugins.CurrencyTracker.changelogs."1.3.5.0"]
+time_released = 2024-03-30T07:47:50.105
+changelog = "- Refactored the implementation logic of the Currency Alert feature.\n   - Fixed the issue of unable to complete currency change transaction writing when an alert is issued incorrectly\n   - Fixed the issue of the alert only taking effect on the currently selected currency.\n   - Fixed the issue that the alert messages could not be parsed into the selected language.\n- Added support of Custom Deliveries for Record Special Exchange Result module.\n- Refactored the implementation logic of the transactions table.\n   - Reduced overall table drawing performance consumption.\n   - Fixed null reference error when deleting selected transactions.\n   - Refactored the interaction logic for holding down the left Ctrl key and the right mouse button at the same time to quickly select multiple transactions.\n   - You can now open the Quick Actions menu by right-clicking on a selected transaction.\n- Streamlined the logic of the CurrencyAddonExpand module.\n- Added a new module MoneyAddonExpand.\n- Fixed the issue that when reloading the plugin, the loading failed due to incomplete autosave during unloading.\n- Refactored the Graphs window.\n"
+[channels.stable.plugins.ClarityInChaos]
+built_commit = "589622c29cc2e0c7af9590265a224e6849a81881"
+time_built = 2024-03-05T19:51:29.053
+effective_version = "1.4.0.1"
+[channels.stable.plugins.ClarityInChaos.changelogs]
+[channels.stable.plugins.WhatDidYouSay]
+built_commit = "43d57d6b79636455650e5c3739c754b42ec3a48f"
+time_built = 2024-03-05T19:51:44.750
+effective_version = "1.0.2.2"
+[channels.stable.plugins.WhatDidYouSay.changelogs."1.0.2.2"]
+time_released = 2024-03-05T19:51:44.750
+changelog = "- Updated for Dalamud API 9.\n- Minor improvement to settings window.\n- Minor code cleanup.\n"
+[channels.stable.plugins.autoSweep]
+built_commit = "72e1a41bf8adfbe1e966a7b3be97c0b7e6b37622"
+time_built = 2024-03-05T19:52:56.894
+effective_version = "1.4.3.0"
+[channels.stable.plugins.autoSweep.changelogs."1.4.3.0"]
+time_released = 2024-03-05T19:52:56.894
+changelog = "Updated for 6.5"
+[channels.stable.plugins.QuestMap]
+built_commit = "61702e638d262c14b03231cb7110df2ee0867c56"
+time_built = 2024-03-05T19:53:06.512
+effective_version = "1.4.7.0"
+[channels.stable.plugins.QuestMap.changelogs."1.4.7.0"]
+time_released = 2024-03-05T19:53:06.512
+changelog = "API 9"
+[channels.stable.plugins.StackSellPrice]
+built_commit = "972c1652dbc816f4b2e87cc1bfd690cbcbed36a4"
+time_built = 2024-03-05T19:53:14.826
+effective_version = "4.2.0"
+[channels.stable.plugins.StackSellPrice.changelogs]
+[channels.stable.plugins.Accountant]
+built_commit = "fc0ce604830dea4a28a8ce85c47262c056f519c6"
+time_built = 2024-03-05T19:53:26.436
+effective_version = "1.4.0.0"
+[channels.stable.plugins.Accountant.changelogs]
+[channels.stable.plugins.BigPlayerDebuffs]
+built_commit = "9493748c6ba13b1d494672700fac043c3bb593bc"
+time_built = 2024-03-05T19:56:34.661
+effective_version = "1.1.0.9"
+[channels.stable.plugins.BigPlayerDebuffs.changelogs."1.1.0.9"]
+time_released = 2024-03-05T19:56:34.661
+changelog = "v1.1.0.9 - 6.5 Dalamud Update"
 [channels.stable.plugins.StarlightBreaker]
 built_commit = "3b5f0871a8d886efd39917e1f1ca808dab693b23"
 time_built = 2024-03-06T16:10:03.731
@@ -1491,224 +1491,6 @@ effective_version = "2.1.0.0"
 [channels.testing-live.plugins.MapPartyAssist.changelogs."2.1.0.0"]
 time_released = 2024-03-05T20:02:11.128
 changelog = "- Added price checking using Universalis.\r\n- UI improvements.\r\n"
-[channels.testing-live.plugins.MinimapMarkerMagnitude]
-built_commit = "1808a044bc03cde4cc64d23bd966b67ef971674f"
-time_built = 2024-03-05T20:05:22.241
-effective_version = "0.1.0.0"
-[channels.testing-live.plugins.MinimapMarkerMagnitude.changelogs."0.1.0.0"]
-time_released = 2024-03-05T20:05:22.241
-changelog = "- Initial release.\n"
-[channels.testing-live.plugins.HUDManager]
-built_commit = "04befb6909f99a2b1a6baa5b16e29068b4fd9906"
-time_built = 2024-03-05T20:05:28.640
-effective_version = "2.5.18.4"
-[channels.testing-live.plugins.HUDManager.changelogs]
-[channels.testing-live.plugins.FantasyPlayer]
-built_commit = "d66dfab36e210e9ec36352a98773355c2207e6ad"
-time_built = 2024-03-05T20:05:38
-effective_version = "2.1.1.4"
-[channels.testing-live.plugins.FantasyPlayer.changelogs."2.1.1.4"]
-time_released = 2024-03-05T20:05:38
-changelog = "**API9 Release**\n- More work on making the threading happy(hopefully no more logouts)\n- UI will indicate when it's loading it's providers\n- Assuming the logout issues resolve I'll make this a non-testing plugin\n"
-[channels.testing-live.plugins.Collections]
-built_commit = "c5f4959baa1fd0e1b3343e81e8119850140950ce"
-time_built = 2024-03-05T20:05:48.403
-effective_version = "1.0.1.5"
-[channels.testing-live.plugins.Collections.changelogs."1.0.1.5"]
-time_released = 2024-03-05T20:05:48.403
-changelog = "Collections v1.0.1.5\r\n- Added Progress Bar\r\n- Tool Tip UI improvements\r\n- Job selector buttons changed: left click to switch, right click to toggle\r\n"
-[channels.testing-live.plugins.StanleyParableXiv]
-built_commit = "cc6ecf205abc4de12df8eff51cc55b3253081503"
-time_built = 2024-03-05T20:05:54.851
-effective_version = "2.0.0.0"
-[channels.testing-live.plugins.StanleyParableXiv.changelogs."2.0.0.0"]
-time_released = 2024-03-05T20:05:54.851
-changelog = "- Update to API 9\n- Audio files were changed from mp3 to ogg\n"
-[channels.testing-live.plugins.ProperHousing]
-built_commit = "044b168efcc2bbdd676c10b01d98e339b6bf016e"
-time_built = 2024-03-05T20:05:58.907
-effective_version = "1.1.4.0"
-[channels.testing-live.plugins.ProperHousing.changelogs."1.1.4.0"]
-time_released = 2024-03-05T20:05:58.907
-changelog = "- Fixed keybind crash"
-[channels.testing-live.plugins.AutoMountBgm]
-built_commit = "fbd01a7a546f6bfd4d7f272e922f4ac5a0b74de5"
-time_built = 2024-03-05T20:06:02.998
-effective_version = "2.0.0.0"
-[channels.testing-live.plugins.AutoMountBgm.changelogs."2.0.0.0"]
-time_released = 2024-03-05T20:06:02.998
-changelog = "Automatically turns mount BGM on or off when you use a mount, depending on which mount it is. By default, all mounts enable BGM when used. The command (`/automountbgm`) allows you to configure your current mount to disable it, or re-enable it if you change your mind."
-[channels.testing-live.plugins.Snooper]
-built_commit = "803e9f95a8b4db5003570cd4c71a1d6e0f58f3fc"
-time_built = 2024-03-05T20:06:07.613
-effective_version = "1.1.0.0"
-[channels.testing-live.plugins.Snooper.changelogs."1.1.0.0"]
-time_released = 2024-03-05T20:06:07.613
-changelog = "* New feature: Chat logs are now saved to My Documents/Snooper Logs by default (can be disabled or changed). (#8, #17)\n* New feature: Chat logs can now be copied to clipboard from Snooper windows. (#17)\n* The \"+\" button for the main window has been moved to the bottom toolbar to save space.\n* The bottom toolbar for the main window now includes a button to open plugin settings.\n* Fixed a bug where your own party messages were not displayed in Snooper windows including you. (#5)\n* Fixed a bug with settings not saving (#7).\n"
-[channels.testing-live.plugins.CrossUp]
-built_commit = "9fc8ec21b6e29a0232296558251c74ff82972344"
-time_built = 2024-03-05T20:06:12.934
-effective_version = "1.0.1.5"
-[channels.testing-live.plugins.CrossUp.changelogs."1.0.1.5"]
-time_released = 2024-03-05T20:06:12.934
-changelog = "- The \"Fade Outside Combat\" feature will now also consider crafting, gathering, and fishing to be forms of combat, and keep the bars visible while engaging in such pastimes.\n- Implemented a fix to prevent icons from briefly flashing white when switching bars with cooldowns ticking.\n"
-[channels.testing-live.plugins.CollectorsAnxiety]
-built_commit = "bf48a4b0681e5f70fb67e3b1cb22b4565ecfcc02"
-time_built = 2024-03-05T20:06:17.306
-effective_version = "0.0.7.0"
-[channels.testing-live.plugins.CollectorsAnxiety.changelogs]
-[channels.testing-live.plugins.TextToTalk]
-built_commit = "072d88eea3bce83a3517cbc5eb918bbed8e075fc"
-time_built = 2024-03-05T20:06:42.969
-effective_version = "1.28.2.0"
-[channels.testing-live.plugins.TextToTalk.changelogs."1.28.2.0"]
-time_released = 2024-03-05T20:06:42.969
-changelog = "- Fixes Uberduck TTS backend following API changes\n"
-[channels.testing-live.plugins.CameraLoader]
-built_commit = "206cb2406f464a85d029bc1f3c4f89fabb6748c0"
-time_built = 2024-03-05T20:06:47.678
-effective_version = "0.2.1.2"
-[channels.testing-live.plugins.CameraLoader.changelogs."0.2.1.2"]
-time_released = 2024-03-05T20:06:47.678
-changelog = "- Updated for API 9 / 6.5"
-[channels.testing-live.plugins.JustBackup]
-built_commit = "ff7c21cb92293f5f254270f45f6cf4e8ebe86748"
-time_built = 2024-03-05T20:06:54.655
-effective_version = "1.1.0.4"
-[channels.testing-live.plugins.JustBackup.changelogs]
-[channels.testing-live.plugins.Mappy]
-built_commit = "d796b1f5fbfad1862176251f92391040baefa1fb"
-time_built = 2024-03-05T20:07:45.585
-effective_version = "1.0.6.0"
-[channels.testing-live.plugins.Mappy.changelogs]
-[channels.testing-live.plugins.DiademCalculator]
-built_commit = "e39b3ca613c6ba012d4b9f900c665b308b03c97c"
-time_built = 2024-03-05T20:06:58.641
-effective_version = "0.0.0.2"
-[channels.testing-live.plugins.DiademCalculator.changelogs]
-[channels.testing-live.plugins.ScoutHelper]
-built_commit = "9b3aefdf212f02d99c86e7a300f989b5929102a5"
-time_built = 2024-03-05T20:05:18.193
-effective_version = "1.1.2.0"
-[channels.testing-live.plugins.ScoutHelper.changelogs."1.1.2.0"]
-time_released = 2024-03-05T20:05:18.193
-changelog = "(bugfix) fix error on plogon init for certain non-US region OSes"
-[channels.testing-live.plugins.HighFpsPhysicsPlugin]
-built_commit = "6f226bd557d439cf410abd237e21b3456a4bed77"
-time_built = 2024-03-05T20:07:08.186
-effective_version = "7.3.0.0"
-[channels.testing-live.plugins.HighFpsPhysicsPlugin.changelogs."7.3.0.0"]
-time_released = 2024-03-05T20:07:08.186
-changelog = "Update for API 9"
-[channels.testing-live.plugins.SortaKinda]
-built_commit = "366c8cba306f8a9d6118fde4b64b7070b217a6bb"
-time_built = 2024-03-05T20:08:22.781
-effective_version = "1.0.4.5"
-[channels.testing-live.plugins.SortaKinda.changelogs]
-[channels.testing-live.plugins.HotbarUnlimited]
-built_commit = "978322715a010c13861f5f777a4d36bcec4a92af"
-time_built = 2024-03-05T20:05:10.374
-effective_version = "1.0.0.3"
-[channels.testing-live.plugins.HotbarUnlimited.changelogs]
-[channels.testing-live.plugins.NamePlateDebuffs]
-built_commit = "c864fdf4eb1225eec3e1b3daa68e7790ca1379d0"
-time_built = 2024-03-05T20:05:05.076
-effective_version = "1.1.0.0"
-[channels.testing-live.plugins.NamePlateDebuffs.changelogs."1.1.0.0"]
-time_released = 2024-03-05T20:05:05.076
-changelog = "Nameplate Debuffs 1.1.0.0\n- Support for debuffs on player nameplates\n- New chat commands for toggling visibility\n"
-[channels.testing-live.plugins.SimpleMarketBoard]
-built_commit = "d2026fe2500ec415e31da0518318ac00b579e358"
-time_built = 2024-03-05T20:08:17.027
-effective_version = "1.3.0.3"
-[channels.testing-live.plugins.SimpleMarketBoard.changelogs."1.3.0.3"]
-time_released = 2024-03-05T20:08:17.027
-changelog = "v1.3.0.0\nChangelog is available via the `changelog button` on the plugin `configuration window`.\n"
-[channels.testing-live.plugins.PlayerTrack]
-built_commit = "109a3ce3eb4579dda768a6a28e98a1296409121e"
-time_built = 2024-03-05T20:08:12.309
-effective_version = "3.2.9.0"
-[channels.testing-live.plugins.PlayerTrack.changelogs]
-[channels.testing-live.plugins.XIVControllerToggle]
-built_commit = "37b483c2893f4eacef9d8c33787647b1051b7348"
-time_built = 2024-03-05T20:07:59.630
-effective_version = "1.0.1.0"
-[channels.testing-live.plugins.XIVControllerToggle.changelogs."1.0.1.0"]
-time_released = 2024-03-05T20:07:59.630
-changelog = "  # The Great Controller Hud Switcher 1.0.1.0\n  - Attempted to fix display scaling on larger DPI monitors\n  - Fixed issue where main plugin command was registered twice\n  \n  # The Great Controller Hud Switcher 1.0.0.0\n  - Made it work(tm)"
-[channels.testing-live.plugins.XIVWindowResizer]
-built_commit = "d30174835fb343f5c32249abb3a12c51eb5d6c49"
-time_built = 2024-03-05T20:04:33.385
-effective_version = "1.0.0.1"
-[channels.testing-live.plugins.XIVWindowResizer.changelogs."1.0.0.1"]
-time_released = 2024-03-05T20:04:33.385
-changelog = "Update for 6.5"
-[channels.testing-live.plugins.Honorific]
-built_commit = "2a4de3dcf34451b6af657e5f1f785e36351d8c67"
-time_built = 2024-03-05T20:07:49.836
-effective_version = "1.2.4.0"
-[channels.testing-live.plugins.Honorific.changelogs]
-[channels.testing-live.plugins.Craftimizer]
-built_commit = "a575ad088f8d24cbad2680fa51404d1c874f4c2f"
-time_built = 2024-03-05T20:07:34.371
-effective_version = "2.1.0.0"
-[channels.testing-live.plugins.Craftimizer.changelogs]
-[channels.testing-live.plugins.MarketBoardPlugin]
-built_commit = "eef61d41c76e4fb8ebb28b5c86c441b4dd488357"
-time_built = 2024-03-05T20:04:29.525
-effective_version = "1.3.3.0"
-[channels.testing-live.plugins.MarketBoardPlugin.changelogs."1.3.3.0"]
-time_released = 2024-03-05T20:04:29.525
-changelog = "- Fixed charts not showing up\n- Improved item name sorting by handling roman numbers\n- Clicking on an item's icon will copy the item name to the clipboard\n\n- Migrate UI to Dalamud's WindowSystem\n- Internal code cleanup and improvements"
-[channels.testing-live.plugins.NICEDamage]
-built_commit = "975328b7a8826d51b4510001752e22a5ac0cd901"
-time_built = 2024-03-05T20:07:24.610
-effective_version = "0.0.0.2"
-[channels.testing-live.plugins.NICEDamage.changelogs."0.0.0.2"]
-time_released = 2024-03-05T20:07:24.610
-changelog = "Initial version"
-[channels.testing-live.plugins.Chatter]
-built_commit = "1493169c37467f3b9549ac4aa2c0778622dae037"
-time_built = 2024-03-05T20:07:20.832
-effective_version = "0.3.0.0"
-[channels.testing-live.plugins.Chatter.changelogs."0.3.0.0"]
-time_released = 2024-03-05T20:07:20.832
-changelog = "Updated to support v6.51"
-[channels.testing-live.plugins.Pathfinder]
-built_commit = "a7c4d3b35cc079e5aac62804c28895b633f3fcb5"
-time_built = 2024-03-05T20:07:16.303
-effective_version = "0.1.1.0"
-[channels.testing-live.plugins.Pathfinder.changelogs."0.1.1.0"]
-time_released = 2024-03-05T20:07:16.303
-changelog = "Initial release"
-[channels.testing-live.plugins.ClarityInChaos]
-built_commit = "cb6f83e7edd8819ab8ccfbad6877adb0a544f443"
-time_built = 2024-03-05T20:05:01.058
-effective_version = "1.3.1.0"
-[channels.testing-live.plugins.ClarityInChaos.changelogs."1.3.1.0"]
-time_released = 2024-03-05T20:05:01.058
-changelog = "Version 1.3.1.0:\n - API 9 Compat.\n - Renamed \"Alliance\" to \"Alliance Raids\".\n - \"Only In Duty\" options for Group Sizes.\n  - When enabled, the next smaller group is used when outside of duties.\n  - If no groups are eligible, \"Saved In-Game Settings\" are used.\n  - Alliance Raids are always \"Only In Duty\" (Detection logic relies on this)\n - ⚠️ Major refactor of Configuration, may break existing configurations. If experiencing issues, try \"Reset plugin configuration and reload\" from the Plugin Installer.\n"
-[channels.testing-live.plugins.AutoTimer]
-built_commit = "82cf760dd6c9cc32bfa6dbb3aeeffd290fda9ec0"
-time_built = 2024-03-05T20:07:12.137
-effective_version = "1.0.0.3"
-[channels.testing-live.plugins.AutoTimer.changelogs."1.0.0.3"]
-time_released = 2024-03-05T20:07:12.137
-changelog = "- Fix crash related to usage of non-auto-attack actions (eating food, etc.)"
-[channels.testing-live.plugins.HimbeertoniRaidTool]
-built_commit = "847828395ac22723bd464f6cb48b3c2231b30df7"
-time_built = 2024-03-05T20:04:51.889
-effective_version = "1.4.1.2"
-[channels.testing-live.plugins.HimbeertoniRaidTool.changelogs."1.4.1.2"]
-time_released = 2024-03-05T20:04:51.889
-changelog = "Bugfix: Lootmaster crashing and spamming log again"
-[channels.testing-live.plugins.BetterTargetingSystem]
-built_commit = "31b3f2a5e4f8aea532d29664b9a67d88a7a1461c"
-time_built = 2024-03-05T20:03:29.426
-effective_version = "0.0.8.0"
-[channels.testing-live.plugins.BetterTargetingSystem.changelogs."0.0.8.0"]
-time_released = 2024-03-05T20:03:29.426
-changelog = "- Update for Api 9\n- Added settings configuration\n- Bugfixes"
 [channels.testing-live.plugins.Linkpearl]
 built_commit = "6bbe1cc0bfe3090d9d0ca170671d0b341f6782b2"
 time_built = 2024-03-05T20:02:32.041
@@ -1800,6 +1582,13 @@ built_commit = "cad9102d401e0e6af6ffad7fb93683a87b2cb433"
 time_built = 2024-03-05T20:03:50.034
 effective_version = "1.0.0.0"
 [channels.testing-live.plugins.OfDungeonsDeep.changelogs]
+[channels.testing-live.plugins.BetterTargetingSystem]
+built_commit = "31b3f2a5e4f8aea532d29664b9a67d88a7a1461c"
+time_built = 2024-03-05T20:03:29.426
+effective_version = "0.0.8.0"
+[channels.testing-live.plugins.BetterTargetingSystem.changelogs."0.0.8.0"]
+time_released = 2024-03-05T20:03:29.426
+changelog = "- Update for Api 9\n- Added settings configuration\n- Bugfixes"
 [channels.testing-live.plugins.WhereIsMyMouse]
 built_commit = "f840e03ce4cd6500a00652cc03e9f73e00ab1632"
 time_built = 2024-03-05T20:03:25.342
@@ -1807,13 +1596,6 @@ effective_version = "0.0.1.1"
 [channels.testing-live.plugins.WhereIsMyMouse.changelogs."0.0.1.1"]
 time_released = 2024-03-05T20:03:25.342
 changelog = "Changes :\n  - New rainbow cycling color option by @larsmonman\n"
-[channels.testing-live.plugins.Casexile]
-built_commit = "b1173cd721d0fa9eb5635814ce9a472d0ed1a799"
-time_built = 2024-03-05T20:02:28.111
-effective_version = "1.0.0.1"
-[channels.testing-live.plugins.Casexile.changelogs."1.0.0.1"]
-time_released = 2024-03-05T20:02:28.111
-changelog = "Compatibility for API 9 / 6.5"
 [channels.testing-live.plugins.MouseTargetTooltip]
 built_commit = "33e024e1ab0ccff07f756d1116f020ddd27e74e9"
 time_built = 2024-03-05T20:02:24.049
@@ -1906,6 +1688,13 @@ effective_version = "1.0.1.0"
 [channels.testing-live.plugins.PetScale.changelogs."1.0.1.0"]
 time_released = 2024-03-06T08:01:36.090
 changelog = "- New plugin that allows you to control the scale of summoner pets\n"
+[channels.testing-live.plugins.Casexile]
+built_commit = "b1173cd721d0fa9eb5635814ce9a472d0ed1a799"
+time_built = 2024-03-05T20:02:28.111
+effective_version = "1.0.0.1"
+[channels.testing-live.plugins.Casexile.changelogs."1.0.0.1"]
+time_released = 2024-03-05T20:02:28.111
+changelog = "Compatibility for API 9 / 6.5"
 [channels.testing-live.plugins.GlamourWishlist]
 built_commit = "a4532579a30558e214d11202ef8cc0b830459e3c"
 time_built = 2024-03-05T20:02:15.130
@@ -1913,6 +1702,217 @@ effective_version = "1.0.0.2"
 [channels.testing-live.plugins.GlamourWishlist.changelogs."1.0.0.2"]
 time_released = 2024-03-05T20:02:15.130
 changelog = "Updated to API 9"
+[channels.testing-live.plugins.HimbeertoniRaidTool]
+built_commit = "847828395ac22723bd464f6cb48b3c2231b30df7"
+time_built = 2024-03-05T20:04:51.889
+effective_version = "1.4.1.2"
+[channels.testing-live.plugins.HimbeertoniRaidTool.changelogs."1.4.1.2"]
+time_released = 2024-03-05T20:04:51.889
+changelog = "Bugfix: Lootmaster crashing and spamming log again"
+[channels.testing-live.plugins.ClarityInChaos]
+built_commit = "cb6f83e7edd8819ab8ccfbad6877adb0a544f443"
+time_built = 2024-03-05T20:05:01.058
+effective_version = "1.3.1.0"
+[channels.testing-live.plugins.ClarityInChaos.changelogs."1.3.1.0"]
+time_released = 2024-03-05T20:05:01.058
+changelog = "Version 1.3.1.0:\n - API 9 Compat.\n - Renamed \"Alliance\" to \"Alliance Raids\".\n - \"Only In Duty\" options for Group Sizes.\n  - When enabled, the next smaller group is used when outside of duties.\n  - If no groups are eligible, \"Saved In-Game Settings\" are used.\n  - Alliance Raids are always \"Only In Duty\" (Detection logic relies on this)\n - ⚠️ Major refactor of Configuration, may break existing configurations. If experiencing issues, try \"Reset plugin configuration and reload\" from the Plugin Installer.\n"
+[channels.testing-live.plugins.MinimapMarkerMagnitude]
+built_commit = "1808a044bc03cde4cc64d23bd966b67ef971674f"
+time_built = 2024-03-05T20:05:22.241
+effective_version = "0.1.0.0"
+[channels.testing-live.plugins.MinimapMarkerMagnitude.changelogs."0.1.0.0"]
+time_released = 2024-03-05T20:05:22.241
+changelog = "- Initial release.\n"
+[channels.testing-live.plugins.HUDManager]
+built_commit = "04befb6909f99a2b1a6baa5b16e29068b4fd9906"
+time_built = 2024-03-05T20:05:28.640
+effective_version = "2.5.18.4"
+[channels.testing-live.plugins.HUDManager.changelogs]
+[channels.testing-live.plugins.FantasyPlayer]
+built_commit = "d66dfab36e210e9ec36352a98773355c2207e6ad"
+time_built = 2024-03-05T20:05:38
+effective_version = "2.1.1.4"
+[channels.testing-live.plugins.FantasyPlayer.changelogs."2.1.1.4"]
+time_released = 2024-03-05T20:05:38
+changelog = "**API9 Release**\n- More work on making the threading happy(hopefully no more logouts)\n- UI will indicate when it's loading it's providers\n- Assuming the logout issues resolve I'll make this a non-testing plugin\n"
+[channels.testing-live.plugins.Collections]
+built_commit = "c5f4959baa1fd0e1b3343e81e8119850140950ce"
+time_built = 2024-03-05T20:05:48.403
+effective_version = "1.0.1.5"
+[channels.testing-live.plugins.Collections.changelogs."1.0.1.5"]
+time_released = 2024-03-05T20:05:48.403
+changelog = "Collections v1.0.1.5\r\n- Added Progress Bar\r\n- Tool Tip UI improvements\r\n- Job selector buttons changed: left click to switch, right click to toggle\r\n"
+[channels.testing-live.plugins.StanleyParableXiv]
+built_commit = "cc6ecf205abc4de12df8eff51cc55b3253081503"
+time_built = 2024-03-05T20:05:54.851
+effective_version = "2.0.0.0"
+[channels.testing-live.plugins.StanleyParableXiv.changelogs."2.0.0.0"]
+time_released = 2024-03-05T20:05:54.851
+changelog = "- Update to API 9\n- Audio files were changed from mp3 to ogg\n"
+[channels.testing-live.plugins.ProperHousing]
+built_commit = "044b168efcc2bbdd676c10b01d98e339b6bf016e"
+time_built = 2024-03-05T20:05:58.907
+effective_version = "1.1.4.0"
+[channels.testing-live.plugins.ProperHousing.changelogs."1.1.4.0"]
+time_released = 2024-03-05T20:05:58.907
+changelog = "- Fixed keybind crash"
+[channels.testing-live.plugins.AutoMountBgm]
+built_commit = "fbd01a7a546f6bfd4d7f272e922f4ac5a0b74de5"
+time_built = 2024-03-05T20:06:02.998
+effective_version = "2.0.0.0"
+[channels.testing-live.plugins.AutoMountBgm.changelogs."2.0.0.0"]
+time_released = 2024-03-05T20:06:02.998
+changelog = "Automatically turns mount BGM on or off when you use a mount, depending on which mount it is. By default, all mounts enable BGM when used. The command (`/automountbgm`) allows you to configure your current mount to disable it, or re-enable it if you change your mind."
+[channels.testing-live.plugins.Snooper]
+built_commit = "803e9f95a8b4db5003570cd4c71a1d6e0f58f3fc"
+time_built = 2024-03-05T20:06:07.613
+effective_version = "1.1.0.0"
+[channels.testing-live.plugins.Snooper.changelogs."1.1.0.0"]
+time_released = 2024-03-05T20:06:07.613
+changelog = "* New feature: Chat logs are now saved to My Documents/Snooper Logs by default (can be disabled or changed). (#8, #17)\n* New feature: Chat logs can now be copied to clipboard from Snooper windows. (#17)\n* The \"+\" button for the main window has been moved to the bottom toolbar to save space.\n* The bottom toolbar for the main window now includes a button to open plugin settings.\n* Fixed a bug where your own party messages were not displayed in Snooper windows including you. (#5)\n* Fixed a bug with settings not saving (#7).\n"
+[channels.testing-live.plugins.CrossUp]
+built_commit = "9fc8ec21b6e29a0232296558251c74ff82972344"
+time_built = 2024-03-05T20:06:12.934
+effective_version = "1.0.1.5"
+[channels.testing-live.plugins.CrossUp.changelogs."1.0.1.5"]
+time_released = 2024-03-05T20:06:12.934
+changelog = "- The \"Fade Outside Combat\" feature will now also consider crafting, gathering, and fishing to be forms of combat, and keep the bars visible while engaging in such pastimes.\n- Implemented a fix to prevent icons from briefly flashing white when switching bars with cooldowns ticking.\n"
+[channels.testing-live.plugins.CollectorsAnxiety]
+built_commit = "bf48a4b0681e5f70fb67e3b1cb22b4565ecfcc02"
+time_built = 2024-03-05T20:06:17.306
+effective_version = "0.0.7.0"
+[channels.testing-live.plugins.CollectorsAnxiety.changelogs]
+[channels.testing-live.plugins.TextToTalk]
+built_commit = "072d88eea3bce83a3517cbc5eb918bbed8e075fc"
+time_built = 2024-03-05T20:06:42.969
+effective_version = "1.28.2.0"
+[channels.testing-live.plugins.TextToTalk.changelogs."1.28.2.0"]
+time_released = 2024-03-05T20:06:42.969
+changelog = "- Fixes Uberduck TTS backend following API changes\n"
+[channels.testing-live.plugins.CameraLoader]
+built_commit = "206cb2406f464a85d029bc1f3c4f89fabb6748c0"
+time_built = 2024-03-05T20:06:47.678
+effective_version = "0.2.1.2"
+[channels.testing-live.plugins.CameraLoader.changelogs."0.2.1.2"]
+time_released = 2024-03-05T20:06:47.678
+changelog = "- Updated for API 9 / 6.5"
+[channels.testing-live.plugins.JustBackup]
+built_commit = "ff7c21cb92293f5f254270f45f6cf4e8ebe86748"
+time_built = 2024-03-05T20:06:54.655
+effective_version = "1.1.0.4"
+[channels.testing-live.plugins.JustBackup.changelogs]
+[channels.testing-live.plugins.Mappy]
+built_commit = "d796b1f5fbfad1862176251f92391040baefa1fb"
+time_built = 2024-03-05T20:07:45.585
+effective_version = "1.0.6.0"
+[channels.testing-live.plugins.Mappy.changelogs]
+[channels.testing-live.plugins.AutoTimer]
+built_commit = "82cf760dd6c9cc32bfa6dbb3aeeffd290fda9ec0"
+time_built = 2024-03-05T20:07:12.137
+effective_version = "1.0.0.3"
+[channels.testing-live.plugins.AutoTimer.changelogs."1.0.0.3"]
+time_released = 2024-03-05T20:07:12.137
+changelog = "- Fix crash related to usage of non-auto-attack actions (eating food, etc.)"
+[channels.testing-live.plugins.DiademCalculator]
+built_commit = "e39b3ca613c6ba012d4b9f900c665b308b03c97c"
+time_built = 2024-03-05T20:06:58.641
+effective_version = "0.0.0.2"
+[channels.testing-live.plugins.DiademCalculator.changelogs]
+[channels.testing-live.plugins.HighFpsPhysicsPlugin]
+built_commit = "6f226bd557d439cf410abd237e21b3456a4bed77"
+time_built = 2024-03-05T20:07:08.186
+effective_version = "7.3.0.0"
+[channels.testing-live.plugins.HighFpsPhysicsPlugin.changelogs."7.3.0.0"]
+time_released = 2024-03-05T20:07:08.186
+changelog = "Update for API 9"
+[channels.testing-live.plugins.SortaKinda]
+built_commit = "366c8cba306f8a9d6118fde4b64b7070b217a6bb"
+time_built = 2024-03-05T20:08:22.781
+effective_version = "1.0.4.5"
+[channels.testing-live.plugins.SortaKinda.changelogs]
+[channels.testing-live.plugins.HotbarUnlimited]
+built_commit = "978322715a010c13861f5f777a4d36bcec4a92af"
+time_built = 2024-03-05T20:05:10.374
+effective_version = "1.0.0.3"
+[channels.testing-live.plugins.HotbarUnlimited.changelogs]
+[channels.testing-live.plugins.NamePlateDebuffs]
+built_commit = "c864fdf4eb1225eec3e1b3daa68e7790ca1379d0"
+time_built = 2024-03-05T20:05:05.076
+effective_version = "1.1.0.0"
+[channels.testing-live.plugins.NamePlateDebuffs.changelogs."1.1.0.0"]
+time_released = 2024-03-05T20:05:05.076
+changelog = "Nameplate Debuffs 1.1.0.0\n- Support for debuffs on player nameplates\n- New chat commands for toggling visibility\n"
+[channels.testing-live.plugins.SimpleMarketBoard]
+built_commit = "d2026fe2500ec415e31da0518318ac00b579e358"
+time_built = 2024-03-05T20:08:17.027
+effective_version = "1.3.0.3"
+[channels.testing-live.plugins.SimpleMarketBoard.changelogs."1.3.0.3"]
+time_released = 2024-03-05T20:08:17.027
+changelog = "v1.3.0.0\nChangelog is available via the `changelog button` on the plugin `configuration window`.\n"
+[channels.testing-live.plugins.PlayerTrack]
+built_commit = "109a3ce3eb4579dda768a6a28e98a1296409121e"
+time_built = 2024-03-05T20:08:12.309
+effective_version = "3.2.9.0"
+[channels.testing-live.plugins.PlayerTrack.changelogs]
+[channels.testing-live.plugins.XIVControllerToggle]
+built_commit = "37b483c2893f4eacef9d8c33787647b1051b7348"
+time_built = 2024-03-05T20:07:59.630
+effective_version = "1.0.1.0"
+[channels.testing-live.plugins.XIVControllerToggle.changelogs."1.0.1.0"]
+time_released = 2024-03-05T20:07:59.630
+changelog = "  # The Great Controller Hud Switcher 1.0.1.0\n  - Attempted to fix display scaling on larger DPI monitors\n  - Fixed issue where main plugin command was registered twice\n  \n  # The Great Controller Hud Switcher 1.0.0.0\n  - Made it work(tm)"
+[channels.testing-live.plugins.XIVWindowResizer]
+built_commit = "d30174835fb343f5c32249abb3a12c51eb5d6c49"
+time_built = 2024-03-05T20:04:33.385
+effective_version = "1.0.0.1"
+[channels.testing-live.plugins.XIVWindowResizer.changelogs."1.0.0.1"]
+time_released = 2024-03-05T20:04:33.385
+changelog = "Update for 6.5"
+[channels.testing-live.plugins.Honorific]
+built_commit = "2a4de3dcf34451b6af657e5f1f785e36351d8c67"
+time_built = 2024-03-05T20:07:49.836
+effective_version = "1.2.4.0"
+[channels.testing-live.plugins.Honorific.changelogs]
+[channels.testing-live.plugins.Craftimizer]
+built_commit = "a575ad088f8d24cbad2680fa51404d1c874f4c2f"
+time_built = 2024-03-05T20:07:34.371
+effective_version = "2.1.0.0"
+[channels.testing-live.plugins.Craftimizer.changelogs]
+[channels.testing-live.plugins.MarketBoardPlugin]
+built_commit = "eef61d41c76e4fb8ebb28b5c86c441b4dd488357"
+time_built = 2024-03-05T20:04:29.525
+effective_version = "1.3.3.0"
+[channels.testing-live.plugins.MarketBoardPlugin.changelogs."1.3.3.0"]
+time_released = 2024-03-05T20:04:29.525
+changelog = "- Fixed charts not showing up\n- Improved item name sorting by handling roman numbers\n- Clicking on an item's icon will copy the item name to the clipboard\n\n- Migrate UI to Dalamud's WindowSystem\n- Internal code cleanup and improvements"
+[channels.testing-live.plugins.NICEDamage]
+built_commit = "975328b7a8826d51b4510001752e22a5ac0cd901"
+time_built = 2024-03-05T20:07:24.610
+effective_version = "0.0.0.2"
+[channels.testing-live.plugins.NICEDamage.changelogs."0.0.0.2"]
+time_released = 2024-03-05T20:07:24.610
+changelog = "Initial version"
+[channels.testing-live.plugins.Chatter]
+built_commit = "1493169c37467f3b9549ac4aa2c0778622dae037"
+time_built = 2024-03-05T20:07:20.832
+effective_version = "0.3.0.0"
+[channels.testing-live.plugins.Chatter.changelogs."0.3.0.0"]
+time_released = 2024-03-05T20:07:20.832
+changelog = "Updated to support v6.51"
+[channels.testing-live.plugins.Pathfinder]
+built_commit = "a7c4d3b35cc079e5aac62804c28895b633f3fcb5"
+time_built = 2024-03-05T20:07:16.303
+effective_version = "0.1.1.0"
+[channels.testing-live.plugins.Pathfinder.changelogs."0.1.1.0"]
+time_released = 2024-03-05T20:07:16.303
+changelog = "Initial release"
+[channels.testing-live.plugins.ScoutHelper]
+built_commit = "9b3aefdf212f02d99c86e7a300f989b5929102a5"
+time_built = 2024-03-05T20:05:18.193
+effective_version = "1.1.2.0"
+[channels.testing-live.plugins.ScoutHelper.changelogs."1.1.2.0"]
+time_released = 2024-03-05T20:05:18.193
+changelog = "(bugfix) fix error on plogon init for certain non-US region OSes"
 [channels.testing-live.plugins.Visibility]
 built_commit = "0a1eb99ba06bf3782a5cb0cc9ef24cec0ee950e2"
 time_built = 2024-03-06T08:01:40.714
