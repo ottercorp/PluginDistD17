@@ -1,8 +1,8 @@
 {
-  "Author": "ocealot",
+  "Author": "ocealot, AtmoOmen(本地化)",
   "Name": "VFXEditorCN",
   "InternalName": "VFXEditorCN",
-  "AssemblyVersion": "1.7.9.0",
+  "AssemblyVersion": "1.8.3.8",
   "Description": "游戏内视觉效果、动画与音频编辑插件 | 图标来源: PAPACHIN | 本地化维护: AtmoOmen\n\n使用过程中出现任何问题请直接在獭频 @ 我 或 点击下方 浏览插件主页 按钮提交 Issue",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/AtmoOmen/VFXEditor-CNTR",
@@ -10,12 +10,12 @@
     "VFX",
     "AVFX"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 69,
-  "Punchline": "VFX编辑器、查看器 (中文汉化版)",
-  "Changelog": "- 修正了两处翻译\n- 新增了约 130 条翻译",
+  "Punchline": "VFX 编辑器、查看器 (中文汉化版)",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

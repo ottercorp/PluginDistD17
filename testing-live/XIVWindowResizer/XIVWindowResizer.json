@@ -10,9 +10,10 @@
     "posing",
     "utility"
   ],
-  "DalamudApiLevel": 8,
+  "DalamudApiLevel": 9,
   "LoadRequiredState": 0,
   "LoadSync": false,
+  "CanUnloadAsync": false,
   "LoadPriority": 0,
   "Punchline": "Game window resizing plugin. Ever wanted to take 8K screenshots on 144p screen? Now you can.",
   "AcceptsFeedback": true,
