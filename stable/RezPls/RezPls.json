@@ -2,8 +2,8 @@
   "Author": "Ottermandias",
   "Name": "RezPls",
   "InternalName": "RezPls",
-  "AssemblyVersion": "1.2.6.1",
-  "Description": "轻松查看谁在复活谁，谁已被复活，谁有可康复的负面状态。\n在世界中与小队、团队界面都能轻松查看。",
+  "AssemblyVersion": "1.3.0.1",
+  "Description": "Easy overview about who is currently resurrecting who,\nwho is already resurrected,\nand who has removable detrimental status effects in the world \nas well as in the group or alliance interface.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Ottermandias/RezPls",
   "Tags": [
@@ -17,12 +17,12 @@
     "Highlight",
     "Interface"
   ],
-  "DalamudApiLevel": 9,
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "高亮复活与负面状态。",
+  "Punchline": "Highlighting of Raises and detrimental status effects.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

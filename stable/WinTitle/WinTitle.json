@@ -1,12 +1,16 @@
 {
-  "Author": "Azure Gem",
+  "Author": "Azure Gem, herulume",
   "Name": "Window Title Changer",
   "InternalName": "WinTitle",
-  "AssemblyVersion": "1.0.6.0",
+  "AssemblyVersion": "1.1.2.0",
   "Description": "Allows you to change your game window title",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/rreminy/FFXIV.WinTitle",
-  "DalamudApiLevel": 9,
+  "Tags": [
+    "window",
+    "title"
+  ],
+  "DalamudApiLevel": 10,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
