@@ -1,9 +1,9 @@
 {
-  "Author": "apetih,shangxue12138",
-  "Name": "Logogram Helper CN",
+  "Author": "apetih",
+  "Name": "Logogram Helper",
   "InternalName": "LogogramHelper",
-  "AssemblyVersion": "0.0.3.2",
-  "Description": "打开文理融合器时，显示可能的合成方式",
+  "AssemblyVersion": "0.0.3.3",
+  "Description": "Shows amounts of possible combinations for Eureka's Logos Actions upon entering the Logos Manipulator.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/apetih/LogogramHelper",
   "Tags": [
@@ -13,13 +13,13 @@
   "CategoryTags": [
     "utility"
   ],
-  "DalamudApiLevel": 10,
+  "DalamudApiLevel": 11,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
   "IconUrl": "https://raw.githubusercontent.com/apetih/LogogramHelper/master/res/img/logoslogo.png",
-  "Punchline": "优雷卡文理技能的帮助插件。",
+  "Punchline": "Helper plugin for Eureka's Logos Actions.",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"
