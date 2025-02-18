@@ -5940,14 +5940,14 @@
           }
         },
         "XIVWindowResizer": {
-          "BuiltCommit": "d62d79f7f6c78c45cad60edd7f8a6cf58718151c",
-          "TimeBuilt": "2025-02-18T11:27:23.2148311+00:00",
+          "BuiltCommit": "06f7ba0534be907307286750aecde5fd947684f8",
+          "TimeBuilt": "2025-02-18T23:22:05.1224057+00:00",
           "EffectiveVersion": "1.0.0.4",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.4": {
-              "TimeReleased": "2025-02-18T11:27:23.214833+00:00",
-              "Changelog": "Updated for 7.1",
+              "TimeReleased": "2025-02-18T23:22:05.1224458+00:00",
+              "Changelog": "CN 7.1",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -13676,13 +13676,40 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "031cb81faf9a1988235784ad6f641814c7ade9e1",
-          "TimeBuilt": "2025-02-18T11:45:22.6547928+00:00",
-          "EffectiveVersion": "1.0.15.0",
+          "BuiltCommit": "fd6766fa0a9cc11e89973d9289db3a825a9b9084",
+          "TimeBuilt": "2025-02-18T23:22:10.7283786+00:00",
+          "EffectiveVersion": "1.0.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.15.0": {
               "TimeReleased": "2025-02-18T11:45:22.6547936+00:00",
+              "Changelog": "Added a new additional backend and user configuration window",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Lumina",
+                  "Version": "5.4.0"
+                },
+                {
+                  "Key": "Lumina.Excel",
+                  "Version": "7.1.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "8.0.7"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.2.1"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            },
+            "1.0.16.0": {
+              "TimeReleased": "2025-02-18T23:22:10.7283797+00:00",
               "Changelog": "Added a new additional backend and user configuration window",
               "UsedNeeds": [
                 {
