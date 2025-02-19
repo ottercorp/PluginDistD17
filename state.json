@@ -16226,6 +16226,53 @@
               "Reviewer": "OtterCorp"
             }
           }
+        },
+        "ChatBubbles": {
+          "BuiltCommit": "2fe66feba8ab175d6efdbbe041113e2b41b4927c",
+          "TimeBuilt": "2025-02-19T02:05:13.1000709+00:00",
+          "EffectiveVersion": "2.1.7.2",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.1.7.2": {
+              "TimeReleased": "2025-02-19T02:05:13.1001137+00:00",
+              "Changelog": "### 2.1.7.2\n-# API11 update for patch 7.1\n-# Sent the code to Square Enix for vanilla chat bubbles in patch 7.2",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.Build.Tasks.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.AzureRepos.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Bitbucket.Git",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.Common",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitHub",
+                  "Version": "1.1.1"
+                },
+                {
+                  "Key": "Microsoft.SourceLink.GitLab",
+                  "Version": "1.1.1"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            }
+          }
         }
       }
     },
