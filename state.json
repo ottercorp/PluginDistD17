@@ -149,13 +149,13 @@
           }
         },
         "Distance": {
-          "BuiltCommit": "5ca50d877da2532e81f82c15e6ef651f28478247",
-          "TimeBuilt": "2025-02-18T11:16:01.6776396+00:00",
+          "BuiltCommit": "a6b31e6babd6d36f413ad0660fcc8f75c7868684",
+          "TimeBuilt": "2025-02-20T04:42:16.9370577+00:00",
           "EffectiveVersion": "1.1.3.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.3.1": {
-              "TimeReleased": "2025-02-18T11:16:01.6776415+00:00",
+              "TimeReleased": "2025-02-20T04:42:16.9371024+00:00",
               "Changelog": "- Updated for Dalamud API 11.  Thank you damolitionn.\n- Minor code cleanup.\n",
               "UsedNeeds": [
                 {
