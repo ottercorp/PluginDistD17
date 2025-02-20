@@ -16273,6 +16273,25 @@
               "Reviewer": "OtterCorp"
             }
           }
+        },
+        "StarlightBreaker": {
+          "BuiltCommit": "ea9511bc2856194986240914e7826afe3f7d8c7f",
+          "TimeBuilt": "2025-02-20T17:27:48.6040572+00:00",
+          "EffectiveVersion": "1.2.10.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.2.10.0": {
+              "TimeReleased": "2025-02-20T17:27:48.6041117+00:00",
+              "Changelog": "Update API X",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            }
+          }
         }
       }
     },
