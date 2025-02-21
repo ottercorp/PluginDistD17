@@ -5107,14 +5107,29 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "5cf304f1247b7f8cbe900d35f4cd1d9852467a7b",
-          "TimeBuilt": "2025-02-18T11:25:41.1274999+00:00",
-          "EffectiveVersion": "1.8.2.1",
+          "BuiltCommit": "fea7a5400eb71686855391bf5050bac11d23deb8",
+          "TimeBuilt": "2025-02-21T00:28:26.2581207+00:00",
+          "EffectiveVersion": "1.8.2.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.2.1": {
               "TimeReleased": "2025-02-18T11:25:41.1275011+00:00",
               "Changelog": "- Fix calculation of expected damage and healing values\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            },
+            "1.8.2.2": {
+              "TimeReleased": "2025-02-21T00:28:26.258163+00:00",
+              "Changelog": "- add zh-cn\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
