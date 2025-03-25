@@ -11856,14 +11856,45 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "4c2ca8537bf085c0c79e421c1bf8771ba4202843",
-          "TimeBuilt": "2025-02-19T00:20:39.6338863+00:00",
-          "EffectiveVersion": "2.3.10.0",
+          "BuiltCommit": "8eebfc98c9da1ed5057def05b1ba25cc0d4452d1",
+          "TimeBuilt": "2025-03-25T15:25:08.494926+00:00",
+          "EffectiveVersion": "2.3.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.10.0": {
               "TimeReleased": "2025-02-19T00:20:39.6339219+00:00",
               "Changelog": "# Umbra 2.3.10\n\n## Fixes \u0026 Improvements\n\n- Add Island Sanctuary ferry to Zone Markers (By [Bloodsoul](https://github.com/Bloodsoul)).\n- Fix gearset switcher max level color for newly added sets (By [Bloodsoul](https://github.com/Bloodsoul)).\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/wozaiha/drawing.git",
+                  "Version": "75de1dc52a07476cd16f36c6f429ed04c572ea8a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            },
+            "2.3.11.0": {
+              "TimeReleased": "2025-03-25T15:25:08.4949703+00:00",
+              "Changelog": "# Umbra 2.3.10\n\n## Fixes \u0026 Improvements\n\n- \u4FEE\u590D\u8001\u4E3B\u987E\uFF08\u53EF\u60F3\u800C\u77E57.15\u8FD8\u5F97\u70B8\uFF09\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/wozaiha/drawing.git",
