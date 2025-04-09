@@ -14579,35 +14579,15 @@
           }
         },
         "Browsingway": {
-          "BuiltCommit": "fde17ad94892719fbf241acfe710d95aef844e6a",
-          "TimeBuilt": "2025-02-18T11:42:17.3537996+00:00",
+          "BuiltCommit": "c2c78a5eb7a5b1dce9120305b569b8fb5daa5ce1",
+          "TimeBuilt": "2025-04-09T01:23:07.5525719+00:00",
           "EffectiveVersion": "1.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.6.3": {
-              "TimeReleased": "2025-02-18T11:42:17.3538016+00:00",
-              "Changelog": "- Bump Chromium to 130.0.6723.70\n- Api 11 support\n",
+              "TimeReleased": "2025-04-09T01:23:07.5526173+00:00",
+              "Changelog": "- \u627Eruntime\n- \u6C49\u5316\n- \u9F20\u6807\u60AC\u505C\u663E\u793A\n",
               "UsedNeeds": [
-                {
-                  "Key": "FlatSharp.Compiler",
-                  "Version": "7.5.1"
-                },
-                {
-                  "Key": "FlatSharp.Runtime",
-                  "Version": "7.5.1"
-                },
-                {
-                  "Key": "SharedMemory",
-                  "Version": "2.3.2"
-                },
-                {
-                  "Key": "System.Memory",
-                  "Version": "4.5.5"
-                },
-                {
-                  "Key": "System.Reflection.Emit.Lightweight",
-                  "Version": "4.7.0"
-                },
                 {
                   "Key": "CefSharp.Common.NETCore",
                   "Version": "130.1.90"
@@ -14617,8 +14597,16 @@
                   "Version": "130.1.90"
                 },
                 {
+                  "Key": "SharedMemory",
+                  "Version": "2.3.2"
+                },
+                {
                   "Key": "chromiumembeddedframework.runtime",
                   "Version": "130.1.9"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.5.1"
                 },
                 {
                   "Key": "Microsoft.NETCore.Platforms",
@@ -14633,8 +14621,20 @@
                   "Version": "4.7.3"
                 },
                 {
+                  "Key": "System.Memory",
+                  "Version": "4.5.5"
+                },
+                {
+                  "Key": "System.Reflection.Emit.Lightweight",
+                  "Version": "4.7.0"
+                },
+                {
                   "Key": "chromiumembeddedframework.runtime.win-x64",
                   "Version": "130.1.9"
+                },
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.5.1"
                 },
                 {
                   "Key": "DalamudPackager",
