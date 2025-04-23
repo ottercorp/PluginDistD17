@@ -12902,9 +12902,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "8eebfc98c9da1ed5057def05b1ba25cc0d4452d1",
-          "TimeBuilt": "2025-03-25T15:25:08.494926+00:00",
-          "EffectiveVersion": "2.3.11.0",
+          "BuiltCommit": "1d1165207b0b21762d7af12c91db52854586d689",
+          "TimeBuilt": "2025-04-23T13:56:20.7904882+00:00",
+          "EffectiveVersion": "2.3.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.10.0": {
@@ -12941,6 +12941,37 @@
             "2.3.11.0": {
               "TimeReleased": "2025-03-25T15:25:08.4949703+00:00",
               "Changelog": "# Umbra 2.3.10\n\n## Fixes \u0026 Improvements\n\n- \u4FEE\u590D\u8001\u4E3B\u987E\uFF08\u53EF\u60F3\u800C\u77E57.15\u8FD8\u5F97\u70B8\uFF09\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/wozaiha/drawing.git",
+                  "Version": "75de1dc52a07476cd16f36c6f429ed04c572ea8a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.ObjectPool",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            },
+            "2.3.12.0": {
+              "TimeReleased": "2025-04-23T13:56:20.7905252+00:00",
+              "Changelog": "# Umbra 2.3.10\n\n## Fixes \u0026 Improvements\n\n- \u4FEE\u590D\u8001\u4E3B\u987E\uFF087.15\uFF09\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/wozaiha/drawing.git",
