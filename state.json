@@ -14437,9 +14437,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "ebfa6741180d3c33bce39fc0f2068fd596855ea5",
-          "TimeBuilt": "2025-02-27T17:44:48.0058748+00:00",
-          "EffectiveVersion": "1.7.0.2",
+          "BuiltCommit": "564f23be6f1fae2ead2908af85dbd5e2e0c28bc8",
+          "TimeBuilt": "2025-05-05T18:09:59.6871393+00:00",
+          "EffectiveVersion": "1.7.0.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.0.1": {
@@ -14456,6 +14456,17 @@
             "1.7.0.2": {
               "TimeReleased": "2025-02-27T17:44:48.0059145+00:00",
               "Changelog": "### Fixed\n- \u56FD\u670D\u652F\u6301 \u0026 \u90E8\u5206\u6C49\u5316 \u0026 bug\u4FEE\u590D\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "11.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp"
+            },
+            "1.7.0.3": {
+              "TimeReleased": "2025-05-05T18:09:59.6872741+00:00",
+              "Changelog": "### Fixed\n- \u8865\u5145\u9057\u6F0F\u7684\u82D7\u5703\u4FE1\u606F\u8BA1\u65F6\u5668\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
