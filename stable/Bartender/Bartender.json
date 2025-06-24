@@ -1,0 +1,25 @@
+{
+  "Author": "Rül Hölos",
+  "Name": "Bartender",
+  "InternalName": "Bartender",
+  "AssemblyVersion": "1.1.7.0",
+  "Description": "Save and load hotbars with macros and/or chat commands. We all need more than 10 hotbars, well now we do have those.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/RulHolos/Bartender",
+  "Tags": [
+    "qol",
+    "hotbar",
+    "ui",
+    "menu"
+  ],
+  "DalamudApiLevel": 12,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "IconUrl": "https://github.com/RulHolos/Bartender/blob/master/Bartender/images/icon.png",
+  "Punchline": "Save and load hotbars into profiles, re-use them later, profit.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
