@@ -33291,9 +33291,9 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "d3cf951734ae6e30dbb430a78e1b84aed3c9ecb4",
-          "TimeBuilt": "2025-06-24T13:55:39.494467+00:00",
-          "EffectiveVersion": "1.12.0.0",
+          "BuiltCommit": "7173f925b37c20fcdb5f395ce74e70b924bb460d",
+          "TimeBuilt": "2025-06-25T15:56:42.0707328+00:00",
+          "EffectiveVersion": "1.12.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.2.10.0": {
@@ -33310,6 +33310,18 @@
             },
             "1.12.0.0": {
               "TimeReleased": "2025-06-24T13:55:39.4945021+00:00",
+              "Changelog": "Update API XII",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "1.12.1.0": {
+              "TimeReleased": "2025-06-25T15:56:42.0707738+00:00",
               "Changelog": "Update API XII",
               "UsedNeeds": [
                 {

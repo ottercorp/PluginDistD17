@@ -2,7 +2,7 @@
   "Author": "Loskh",
   "Name": "StarlightBreaker",
   "InternalName": "StarlightBreaker",
-  "AssemblyVersion": "1.12.0.0",
+  "AssemblyVersion": "1.12.1.0",
   "Description": "关闭屏蔽词过滤,并特殊显示聊天频道或招募板上发出的屏蔽词",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/Loskh/StarlightBreaker",
