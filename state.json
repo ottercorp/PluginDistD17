@@ -26519,9 +26519,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "504b8960900c65ca4647c56781af29c79a045d2e",
-          "TimeBuilt": "2025-06-28T09:34:12.4668483+00:00",
-          "EffectiveVersion": "1.10.2.0",
+          "BuiltCommit": "c26f7ef89501ab679d0c4be4d1cd34ebadf40b66",
+          "TimeBuilt": "2025-06-28T09:52:29.4423108+00:00",
+          "EffectiveVersion": "1.10.3.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.9.1.0": {
@@ -26647,6 +26647,54 @@
             "1.10.2.0": {
               "TimeReleased": "2025-06-28T09:34:12.4668991+00:00",
               "Changelog": "- \u589E\u52A0\u9488\u5BF9\u56FD\u670D\u7684\u8DE8\u6570\u636E\u4E2D\u5FC3\u652F\u6301- \u6C49\u5316",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGui.git",
+                  "Version": "3396ee176fa72ad2dfb2de3294f7125ebce4dae5"
+                },
+                {
+                  "Key": "https://github.com/Ottermandias/OtterGuiInternal.git",
+                  "Version": "41b9257191aa669f3717d3dcbe100bfe1c9f7980"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.5.0"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "JetBrains.Annotations",
+                  "Version": "2024.3.0"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "Microsoft.Extensions.DependencyInjection.Abstractions",
+                  "Version": "9.0.2"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Yarukon"
+            },
+            "1.10.3.0": {
+              "TimeReleased": "2025-06-28T09:52:29.4423472+00:00",
+              "Changelog": "- \u589E\u52A0\u9488\u5BF9\u56FD\u670D\u7684\u8DE8\u6570\u636E\u4E2D\u5FC3\u548C\u670D\u52A1\u5668\u652F\u6301- \u6C49\u5316",
               "UsedNeeds": [
                 {
                   "Key": "https://github.com/Ottermandias/OtterGui.git",
