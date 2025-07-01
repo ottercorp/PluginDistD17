@@ -9175,9 +9175,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "66db9f3ed1e5f2d92d4067607e1142894e76e04c",
-          "TimeBuilt": "2025-06-25T05:21:28.8367364+00:00",
-          "EffectiveVersion": "1.8.3.1",
+          "BuiltCommit": "7882563d3edeaada6506c006e24eb85e0e008f07",
+          "TimeBuilt": "2025-07-01T05:57:18.2452242+00:00",
+          "EffectiveVersion": "1.8.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.2.1": {
@@ -9235,6 +9235,26 @@
             "1.8.3.1": {
               "TimeReleased": "2025-06-25T05:21:28.8367377+00:00",
               "Changelog": "- 7.2\u9002\u914D\u548C\u672C\u5730\u5316\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "zhouhuichen741"
+            },
+            "1.8.3.2": {
+              "TimeReleased": "2025-07-01T05:57:18.2452629+00:00",
+              "Changelog": "- 7.2\u9002\u914D\u548C\u672C\u5730\u5316,\u4FEE\u590D\u9ED1\u9B54\u70BD\u708E\u548F\u5531\u65F6\u95F4\u663E\u793A\u9519\u8BEF\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
