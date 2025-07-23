@@ -1,4 +1,4 @@
-name: Clear cache
+name: Clear cache and Deploy
 on:
   push:
   workflow_dispatch:
@@ -7,9 +7,23 @@ concurrency: regenerate
 jobs:
   generate:
     name: Regenerate PluginMaster
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Clear Web Services cache
         run: curl -X POST --fail https://aonyx.ffxiv.wang/Plugin/ClearCache?key=$env:CACHE_CLEAR_KEY
         env:
           CACHE_CLEAR_KEY: ${{ secrets.CACHE_CLEAR_KEY }}
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Remove .git directory
+      run: rm -rf .git
+    - uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        AWS_S3_BUCKET: ${{ vars.AWS_S3_BUCKET }}
+        AWS_ACCESS_KEY_ID: ${{ vars.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_S3_ENDPOINT: ${{ vars.AWS_S3_ENDPOINT }}
