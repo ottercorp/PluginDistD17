@@ -28831,9 +28831,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "fd6766fa0a9cc11e89973d9289db3a825a9b9084",
-          "TimeBuilt": "2025-02-18T23:22:10.7283786+00:00",
-          "EffectiveVersion": "1.0.16.0",
+          "BuiltCommit": "ebb667e1b3cf939e7ad993fe3b088926f686315a",
+          "TimeBuilt": "2025-08-08T02:29:53.5871558+00:00",
+          "EffectiveVersion": "1.0.17.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.15.0": {
@@ -28891,6 +28891,18 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": null
+            },
+            "1.0.17.0": {
+              "TimeReleased": "2025-08-08T02:29:53.5871929+00:00",
+              "Changelog": "update for api 12",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "LittleNightmare"
             }
           }
         },
