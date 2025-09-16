@@ -13231,9 +13231,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "7d69affe383a02db37c8bff4ab1887ab1593ce2f",
-          "TimeBuilt": "2025-09-16T17:45:08.3553461+00:00",
-          "EffectiveVersion": "1.8.4.1",
+          "BuiltCommit": "ce77f85e6ee97fcedd2593625962db117019b86d",
+          "TimeBuilt": "2025-09-16T19:18:41.4426639+00:00",
+          "EffectiveVersion": "1.8.4.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.2.1": {
@@ -13347,6 +13347,26 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "MapleRecall"
+            },
+            "1.8.4.2": {
+              "TimeReleased": "2025-09-16T19:18:41.4426655+00:00",
+              "Changelog": "- 7.3\u56FD\u670D\u9002\u914D\u548C\u672C\u5730\u5316\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "zhouhuichen741"
             }
           }
         },
@@ -29207,9 +29227,9 @@
           }
         },
         "QoLBar": {
-          "BuiltCommit": "af5692c5b2f9df653d445261714f5ad9bf9da8a3",
-          "TimeBuilt": "2025-08-12T23:39:35.4315871+00:00",
-          "EffectiveVersion": "2.3.3.6",
+          "BuiltCommit": "629155c861a05a4eed50705c05e98d5352fe13ac",
+          "TimeBuilt": "2025-09-16T19:18:49.2116318+00:00",
+          "EffectiveVersion": "2.3.3.7",
           "MinimumVersion": null,
           "Changelogs": {
             "2.3.3.3": {
@@ -29263,6 +29283,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Ookura-Risona"
+            },
+            "2.3.3.7": {
+              "TimeReleased": "2025-09-16T19:18:49.2116329+00:00",
+              "Changelog": "- Fixed for 7.3 (Thanks to Ottermandias)\n- Known Issue: Some icon colors are currently off",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -33651,9 +33687,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "0ba668c0020e94e3c8247e6abe6e8582168e99ee",
-          "TimeBuilt": "2025-06-24T13:23:08.7385804+00:00",
-          "EffectiveVersion": "1.8.0.3",
+          "BuiltCommit": "8526df49dd53d04c03dd9b58489f035f16312144",
+          "TimeBuilt": "2025-09-16T19:18:33.7885106+00:00",
+          "EffectiveVersion": "1.8.1.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.7.0.1": {
@@ -33719,6 +33755,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "12.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "decorwdyun"
+            },
+            "1.8.1.1": {
+              "TimeReleased": "2025-09-16T19:18:33.7885623+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [x ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [ ] \uD83C\uDC04 \u6C49\u5316\r\n- [ ] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
                 }
               ],
               "Reviewer": "OtterCorp",
