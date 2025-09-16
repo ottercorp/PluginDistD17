@@ -38611,9 +38611,9 @@
           }
         },
         "DcTraveler": {
-          "BuiltCommit": "934afd4b2b5f925b4c391e84683836d1b4941e95",
-          "TimeBuilt": "2025-07-06T17:41:19.2753272+00:00",
-          "EffectiveVersion": "0.0.0.5",
+          "BuiltCommit": "919bbf3333203505df99414bc5c301e44377c39a",
+          "TimeBuilt": "2025-09-16T12:48:09.5706484+00:00",
+          "EffectiveVersion": "0.0.0.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.0.0.1": {
@@ -38687,6 +38687,22 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "12.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "0.0.0.6": {
+              "TimeReleased": "2025-09-16T12:48:09.570693+00:00",
+              "Changelog": "- \u9002\u914DAPI13",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.1.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -60171,6 +60187,13 @@
       "Version": "228caf42cf67a5e5353db28bf19b29d0657c7bf9",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2025-08-13T09:08:55.1414364Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "13.1.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-09-16T12:48:09.5982177Z"
     }
   ]
 }
