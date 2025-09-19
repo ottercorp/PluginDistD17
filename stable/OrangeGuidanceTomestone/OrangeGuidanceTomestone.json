@@ -1,9 +1,9 @@
 {
   "Author": "Anna",
-  "Name": "Orange Guidance Tomestone",
+  "Name": "橙辉谏言神典石",
   "InternalName": "OrangeGuidanceTomestone",
-  "AssemblyVersion": "1.10.4.0",
-  "Description": "Dark Souls-like messaging system.",
+  "AssemblyVersion": "1.10.5.0",
+  "Description": "类魂消息系统.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://git.anna.lgbt/anna/OrangeGuidanceTomestone",
   "DalamudApiLevel": 13,
@@ -11,7 +11,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "Leave messages like in Souls games. Great chest ahead.",
+  "Punchline": "像魂游一样查看和留下谏言。前有隐藏道路。",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
   "_Dip17Channel": "stable"

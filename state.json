@@ -515,9 +515,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "8e64418d4ac1dcccff796bae77641035519422f7",
-          "TimeBuilt": "2025-09-16T17:44:46.8381518+00:00",
-          "EffectiveVersion": "1.10.4.0",
+          "BuiltCommit": "b2023f9fc1797e3465b0410f4044fe7e6b2bcdb8",
+          "TimeBuilt": "2025-09-19T18:12:14.5857107+00:00",
+          "EffectiveVersion": "1.10.5.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.2.0": {
@@ -575,6 +575,34 @@
                 {
                   "Key": "Resourcer.Fody",
                   "Version": "1.8.1"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.10.5.0": {
+              "TimeReleased": "2025-09-19T18:12:14.5857813+00:00",
+              "Changelog": "- \u7B80\u5355\u6C49\u5316\u4E00\u4E0B\uFF1F\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.2"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "WebTranslator",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
                 }
               ],
               "Reviewer": "OtterCorp",
@@ -78843,6 +78871,13 @@
       "Version": "6.5.1",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2025-09-17T03:28:24.7082789Z"
+    },
+    {
+      "Type": 1,
+      "Key": "WebTranslator",
+      "Version": "1.0.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-09-19T18:12:14.6175285Z"
     }
   ]
 }
