@@ -29755,9 +29755,9 @@
           }
         },
         "Visibility": {
-          "BuiltCommit": "dd380557d84734c205b369f56165a2ce491fa67e",
-          "TimeBuilt": "2025-06-25T06:54:51.0536072+00:00",
-          "EffectiveVersion": "1.1.8.3",
+          "BuiltCommit": "5e8ddf1fdad1c6cbf5cf113dd6861effe08b4a7e",
+          "TimeBuilt": "2025-09-19T15:06:15.3940689+00:00",
+          "EffectiveVersion": "1.1.9.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.1.8.2": {
@@ -29787,6 +29787,22 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "wozaiha"
+            },
+            "1.1.9.1": {
+              "TimeReleased": "2025-09-19T15:06:15.3941058+00:00",
+              "Changelog": "- Updated plugin for 7.3",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "13.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
             }
           }
         },
