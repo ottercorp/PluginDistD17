@@ -1,9 +1,9 @@
 {
   "Author": "MidoriKami",
-  "Name": "VanillaPlus",
+  "Name": "VanillaPlus (原生界面增强)",
   "InternalName": "VanillaPlus",
-  "AssemblyVersion": "1.0.4.2",
-  "Description": "This plugin is primarily focused on various UI adjustments, behavior adjustments, and adding new native elements to the game.",
+  "AssemblyVersion": "1.0.5.1",
+  "Description": "这个插件主要致力于各种原生UI的调整、行为调整以及向游戏中添加新的原生元素。",
   "ApplicableVersion": "any",
   "Tags": [
     "UI"
@@ -13,7 +13,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "Punchline": "A collection of various game modifications",
+  "Punchline": "一个基于原生界面的多功能插件，提供各种UI和行为调整。",
   "AcceptsFeedback": false,
   "_isDip17Plugin": true,
   "_Dip17Channel": "testing-live"
