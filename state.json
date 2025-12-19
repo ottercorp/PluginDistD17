@@ -1,0 +1,48 @@
+{
+  "Channels": {
+    "stable": {
+      "Plugins": {
+        "DcTraveler": {
+          "BuiltCommit": "8fc09316d239e893a36b9f6bc21d73e91529c79a",
+          "TimeBuilt": "2025-12-19T08:52:22.0095332+00:00",
+          "EffectiveVersion": "1.0.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.0.1": {
+              "TimeReleased": "2025-12-19T08:52:22.0096847+00:00",
+              "Changelog": "- API14",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "wozaiha"
+            }
+          }
+        }
+      }
+    }
+  },
+  "ReviewedNeeds": [
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "14.0.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-19T08:52:22.0329334Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "1.2.39",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-19T08:52:22.0329984Z"
+    }
+  ]
+}

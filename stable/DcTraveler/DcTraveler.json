@@ -1,0 +1,21 @@
+{
+  "Author": "Loskh",
+  "Name": "DcTraveler",
+  "InternalName": "DcTraveler",
+  "AssemblyVersion": "1.0.0.1",
+  "Description": "A sample plugin.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Loskh/DcTraveler",
+  "Tags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "像国际服一样跨大区",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
