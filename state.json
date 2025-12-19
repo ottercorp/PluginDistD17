@@ -25,6 +25,30 @@
               "Submitter": "wozaiha"
             }
           }
+        },
+        "StarlightBreaker": {
+          "BuiltCommit": "e8673570dd2f356c921c2b9f93f6b8f23dd42cf2",
+          "TimeBuilt": "2025-12-19T18:19:14.4456137+00:00",
+          "EffectiveVersion": "1.14.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.14.0.0": {
+              "TimeReleased": "2025-12-19T18:19:14.4456757+00:00",
+              "Changelog": "Update API XIV",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            }
+          }
         }
       }
     }
