@@ -49,6 +49,42 @@
               "Submitter": "Loskh"
             }
           }
+        },
+        "MarketBoardPlugin": {
+          "BuiltCommit": "bb037b5204d5272c77cc995f3cf579f812678b52",
+          "TimeBuilt": "2025-12-20T19:25:09.8211939+00:00",
+          "EffectiveVersion": "1.12.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.12.1.0": {
+              "TimeReleased": "2025-12-20T19:25:09.8212389+00:00",
+              "Changelog": "- Patch 7.4 / API 14 compatibility\n- Allow including Oceania in Cross-DC searches (added a checkbox in settings)\n- Added support for China Cross-DC\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.6.5"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Yarukon"
+            }
+          }
         }
       }
     }
@@ -67,6 +103,27 @@
       "Version": "1.2.39",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2025-12-19T08:52:22.0329984Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Polly.Core",
+      "Version": "8.6.5",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-20T19:25:09.8298826Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StyleCop.Analyzers",
+      "Version": "1.2.0-beta.556",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-20T19:25:09.8299091Z"
+    },
+    {
+      "Type": 1,
+      "Key": "StyleCop.Analyzers.Unstable",
+      "Version": "1.2.0.556",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-20T19:25:09.8299094Z"
     }
   ]
 }
