@@ -1,0 +1,21 @@
+{
+  "Author": "Infi, shdwp, Aelexe",
+  "Name": "Fader Plugin",
+  "InternalName": "FaderPlugin",
+  "AssemblyVersion": "2.7.6.1",
+  "Description": "Fader Plugin",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/Infiziert90/xivFaderPlugin",
+  "Tags": [
+    "UI"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "Punchline": "Automatically hides UI elements.",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}

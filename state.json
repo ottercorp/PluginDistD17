@@ -141,6 +141,258 @@
               "Submitter": "zhouhuichen741"
             }
           }
+        },
+        "ChatTwo": {
+          "BuiltCommit": "4b62530cd640d15904fe622f9e7e17f640d0ab64",
+          "TimeBuilt": "2025-12-21T04:21:37.5167718+00:00",
+          "EffectiveVersion": "1.34.1.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.34.1.0": {
+              "TimeReleased": "2025-12-21T04:21:37.5168157+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [x] \uD83C\uDC04 \u6C49\u5316\r\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.4"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            }
+          }
+        },
+        "Umbra": {
+          "BuiltCommit": "49d1352acea7e2b66f8fee34deba73c63e4d461b",
+          "TimeBuilt": "2025-12-21T04:21:57.8771461+00:00",
+          "EffectiveVersion": "3.1.11.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "3.1.11.0": {
+              "TimeReleased": "2025-12-21T04:21:57.8771483+00:00",
+              "Changelog": "# Umbra 3.1.10\n\n## Fixes \u0026 Improvements\n\n- Tidied up some code \u0026 updated drawing library (By [Haselnussbomber](https://github.com/Haselnussbomber)).\n- Updated Umbra for compatibility with Dalamud API 14 (By [wolfcomp](https://github.com/wolfcomp)).\n- Dynamic Menu: Hide \u0027Move to Top\u0027 and \u0027Move to Bottom\u0027 context menu entries for \u0027Add Item\u0027 entry (By [alexpado](https://github.com/alexpado)).\n- Some small fixes for 7.4.\n\n## Known Problems\n\n- Msq Widget: The progress bar currently only counts overall progression. This is due to invalid data being retrieved.\n\n---\n\nJoin [Umbra\u0027s Discord server](https://discord.gg/xaEnsuAhmm) for the latest updates and information.\nVisit the [website](https://una-xiv.github.io/umbra-docs/) for more information and guides on how to make the most out of Umbra.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MeowZWR/drawing.git",
+                  "Version": "58ddb7c29a76cb13e6f48ee15cf35bc1dd95fcb1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.25"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            }
+          }
+        },
+        "Browsingway": {
+          "BuiltCommit": "d7812128161989b7633bd0de6052b92db9f7217a",
+          "TimeBuilt": "2025-12-21T04:22:24.6218374+00:00",
+          "EffectiveVersion": "1.7.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.7.0": {
+              "TimeReleased": "2025-12-21T04:22:24.6218389+00:00",
+              "Changelog": "- Bump Chromium to 143.0.7499.40\n- Api 14\n",
+              "UsedNeeds": [
+                {
+                  "Key": "FlatSharp.Compiler",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "FlatSharp.Runtime",
+                  "Version": "7.9.0"
+                },
+                {
+                  "Key": "SharedMemory",
+                  "Version": "2.3.2"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "CefSharp.Common.NETCore",
+                  "Version": "143.0.90"
+                },
+                {
+                  "Key": "CefSharp.OffScreen.NETCore",
+                  "Version": "143.0.90"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime",
+                  "Version": "143.0.9"
+                },
+                {
+                  "Key": "chromiumembeddedframework.runtime.win-x64",
+                  "Version": "143.0.9"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            }
+          }
+        },
+        "DelvUI": {
+          "BuiltCommit": "cb52eee0cf93e04ca2eece0b506b42b59250045e",
+          "TimeBuilt": "2025-12-21T04:22:36.1348152+00:00",
+          "EffectiveVersion": "2.6.0.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.6.0.1": {
+              "TimeReleased": "2025-12-21T04:22:36.1348226+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [x] \uD83C\uDC04 \u6C49\u5316\r\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Colourful",
+                  "Version": "3.2.0"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            }
+          }
+        },
+        "FaderPlugin": {
+          "BuiltCommit": "0848f855ccab1623dc45ef3493e11e035ce24d4f",
+          "TimeBuilt": "2025-12-21T04:22:43.9049025+00:00",
+          "EffectiveVersion": "2.7.6.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.7.6.1": {
+              "TimeReleased": "2025-12-21T04:22:43.904904+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [x] \uD83C\uDC04 \u6C49\u5316\r\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            }
+          }
         }
       }
     }
@@ -187,6 +439,237 @@
       "Version": "2.1.8",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2025-12-20T23:13:15.7929959Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.1.4",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258624Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite",
+      "Version": "9.0.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258893Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Pidgin",
+      "Version": "3.3.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258896Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SixLabors.ImageSharp",
+      "Version": "3.1.12",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258898Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Watson.Lite",
+      "Version": "6.3.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258899Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CavemanTcp",
+      "Version": "2.0.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258902Z"
+    },
+    {
+      "Type": 1,
+      "Key": "IpMatcher",
+      "Version": "1.0.5",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258905Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.1.4",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258905Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.1.4",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5258907Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.Data.Sqlite.Core",
+      "Version": "9.0.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259242Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Microsoft.NET.StringTools",
+      "Version": "17.11.4",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259243Z"
+    },
+    {
+      "Type": 1,
+      "Key": "RegexMatcher",
+      "Version": "1.0.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259245Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259248Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.core",
+      "Version": "2.1.10",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259251Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.lib.e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259252Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SQLitePCLRaw.provider.e_sqlite3",
+      "Version": "2.1.10",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259254Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Timestamps",
+      "Version": "1.0.11",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259255Z"
+    },
+    {
+      "Type": 1,
+      "Key": "UrlMatcher",
+      "Version": "3.0.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259256Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Watson.Core",
+      "Version": "6.3.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:37.5259258Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MeowZWR/drawing.git",
+      "Version": "58ddb7c29a76cb13e6f48ee15cf35bc1dd95fcb1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.881533Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Reflection.MetadataLoadContext",
+      "Version": "9.0.4",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.8815337Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.8815338Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.macOS",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.881534Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SkiaSharp.NativeAssets.Win32",
+      "Version": "3.118.0-preview.1.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.8815341Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "1.2.25",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:21:57.8815343Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Compiler",
+      "Version": "7.9.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.6253654Z"
+    },
+    {
+      "Type": 1,
+      "Key": "FlatSharp.Runtime",
+      "Version": "7.9.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.625366Z"
+    },
+    {
+      "Type": 1,
+      "Key": "SharedMemory",
+      "Version": "2.3.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.6253662Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.Common.NETCore",
+      "Version": "143.0.90",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.6253665Z"
+    },
+    {
+      "Type": 1,
+      "Key": "CefSharp.OffScreen.NETCore",
+      "Version": "143.0.90",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.6253667Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime",
+      "Version": "143.0.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.6253669Z"
+    },
+    {
+      "Type": 1,
+      "Key": "chromiumembeddedframework.runtime.win-x64",
+      "Version": "143.0.9",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:24.625367Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Colourful",
+      "Version": "3.2.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-21T04:22:36.1375407Z"
     }
   ]
 }
