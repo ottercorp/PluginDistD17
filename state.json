@@ -51,13 +51,41 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "bb037b5204d5272c77cc995f3cf579f812678b52",
-          "TimeBuilt": "2025-12-20T19:25:09.8211939+00:00",
-          "EffectiveVersion": "1.12.1.0",
+          "BuiltCommit": "c1d93f0ddfcc87b493d78a08d60a0505fa27349a",
+          "TimeBuilt": "2025-12-21T00:07:48.8238575+00:00",
+          "EffectiveVersion": "1.12.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.12.1.0": {
               "TimeReleased": "2025-12-20T19:25:09.8212389+00:00",
+              "Changelog": "- Patch 7.4 / API 14 compatibility\n- Allow including Oceania in Cross-DC searches (added a checkbox in settings)\n- Added support for China Cross-DC\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.6.5"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Yarukon"
+            },
+            "1.12.2.0": {
+              "TimeReleased": "2025-12-21T00:07:48.8239039+00:00",
               "Changelog": "- Patch 7.4 / API 14 compatibility\n- Allow including Oceania in Cross-DC searches (added a checkbox in settings)\n- Added support for China Cross-DC\n",
               "UsedNeeds": [
                 {
