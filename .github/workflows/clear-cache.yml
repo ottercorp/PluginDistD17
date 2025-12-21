@@ -1,5 +1,7 @@
 name: Clear cache and Deploy
 on:
+  schedule:
+    - cron: '0 * * * *'
   push:
   workflow_dispatch:
 concurrency: regenerate
