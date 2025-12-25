@@ -425,6 +425,30 @@
               "Submitter": "MapleRecall"
             }
           }
+        },
+        "Distance": {
+          "BuiltCommit": "8411ea290466e27301de758a223cb67e31bb1866",
+          "TimeBuilt": "2025-12-25T04:39:02.5045856+00:00",
+          "EffectiveVersion": "1.1.3.5",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.1.3.5": {
+              "TimeReleased": "2025-12-25T04:39:02.5046469+00:00",
+              "Changelog": "- Updated for Dalamud API 13.  Thank you damolitionn!\n- Miscellaneous code cleanup.\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            }
+          }
         }
       }
     }
