@@ -449,6 +449,46 @@
               "Submitter": "MapleRecall"
             }
           }
+        },
+        "OrangeGuidanceTomestone": {
+          "BuiltCommit": "3a135041705abbeb3033c317d521bb3f699cf291",
+          "TimeBuilt": "2025-12-26T03:51:38.3913757+00:00",
+          "EffectiveVersion": "1.10.6.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.10.6.0": {
+              "TimeReleased": "2025-12-26T03:51:38.3914162+00:00",
+              "Changelog": "- \u7B80\u5355\u6C49\u5316\u4E00\u4E0B\uFF1F\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.2"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "WebTranslator",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            }
+          }
         }
       }
     }
@@ -733,6 +773,34 @@
       "Version": "44ac1e0c3ae2bf6fb81870ced7c52dd7fb4e38c1",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2025-12-21T18:07:42.8365446Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fody",
+      "Version": "6.9.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-26T03:51:38.4013648Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Resourcer.Fody",
+      "Version": "1.8.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-26T03:51:38.4013926Z"
+    },
+    {
+      "Type": 1,
+      "Key": "WebTranslator",
+      "Version": "1.0.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-26T03:51:38.4013928Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Newtonsoft.Json",
+      "Version": "12.0.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2025-12-26T03:51:38.4013929Z"
     }
   ]
 }
