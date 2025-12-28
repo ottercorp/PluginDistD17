@@ -545,6 +545,30 @@
               "Submitter": "Loskh"
             }
           }
+        },
+        "Accountant": {
+          "BuiltCommit": "15d78683d4eee03aaa841d277af719a45cf7f85f",
+          "TimeBuilt": "2025-12-28T10:11:54.1992377+00:00",
+          "EffectiveVersion": "1.8.2.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.8.2.1": {
+              "TimeReleased": "2025-12-28T10:11:54.1992843+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [ ] \uD83C\uDC04 \u6C49\u5316\r\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            }
+          }
         }
       }
     }
