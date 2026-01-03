@@ -641,6 +641,26 @@
               "Submitter": "Loskh"
             }
           }
+        },
+        "RemotePartyFinder": {
+          "BuiltCommit": "83074027315e6cf38128f06edd2af3ddf185331e",
+          "TimeBuilt": "2026-01-03T12:17:17.0644298+00:00",
+          "EffectiveVersion": "1.0.18.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.0.18.1": {
+              "TimeReleased": "2026-01-03T12:17:17.0644697+00:00",
+              "Changelog": "Update for 7.4",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "LittleNightmare"
+            }
+          }
         }
       }
     },
