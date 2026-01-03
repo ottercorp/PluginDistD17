@@ -27,14 +27,30 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "e8673570dd2f356c921c2b9f93f6b8f23dd42cf2",
-          "TimeBuilt": "2025-12-19T18:19:14.4456137+00:00",
-          "EffectiveVersion": "1.14.0.0",
+          "BuiltCommit": "3bc57fbc900240b21aacccf0a4f49d68e363e1d8",
+          "TimeBuilt": "2026-01-03T16:14:47.4679779+00:00",
+          "EffectiveVersion": "2.14.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.0": {
               "TimeReleased": "2025-12-19T18:19:14.4456757+00:00",
               "Changelog": "Update API XIV",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "2.14.0.0": {
+              "TimeReleased": "2026-01-03T16:14:47.4680195+00:00",
+              "Changelog": "\u91CD\u6784\u903B\u8F91\uFF0C\u5F53\u5B58\u5728\u67D0\u4E9B\u65E0\u6CD5\u53D1\u51FA\u7684\u62DB\u52DF\u6587\u672C\u65F6\uFF0C\u884C\u4E3A\u548C\u539F\u751F\u6E38\u620F\u4E00\u81F4\uFF0C\u4E0D\u4F1A\u51FA\u73B0\u6CA1\u5F00\u63D2\u4EF6\u7684\u73A9\u5BB6\u770B\u5230\u7A7A\u767D\u62DB\u52DF\u7684\u60C5\u51B5\u3002",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
