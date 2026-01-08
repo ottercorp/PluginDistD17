@@ -809,7 +809,32 @@
       }
     },
     "testing-live": {
-      "Plugins": {}
+      "Plugins": {
+        "StarlightBreaker": {
+          "BuiltCommit": "2d5cd9e193855f4b938b1f19655ff5e9c35e949a",
+          "TimeBuilt": "2026-01-08T04:45:52.0492152+00:00",
+          "EffectiveVersion": "2.14.8.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.14.8.0": {
+              "TimeReleased": "2026-01-08T04:45:52.0492721+00:00",
+              "Changelog": "\u4FEE\u590D\u62DB\u52DF",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            }
+          }
+        }
+      }
     }
   },
   "ReviewedNeeds": [
