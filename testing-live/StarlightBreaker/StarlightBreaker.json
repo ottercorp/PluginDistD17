@@ -2,7 +2,7 @@
   "Author": "Loskh",
   "Name": "StarlightBreaker",
   "InternalName": "StarlightBreaker",
-  "AssemblyVersion": "2.14.8.0",
+  "AssemblyVersion": "2.14.9.0",
   "Description": "关闭屏蔽词过滤,并特殊显示聊天频道或招募板上发出的屏蔽词",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 14,
