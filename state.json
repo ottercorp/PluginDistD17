@@ -27,9 +27,9 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "b2280369078075bbd077dc32cd41885229324a98",
-          "TimeBuilt": "2026-01-07T03:53:14.6996085+00:00",
-          "EffectiveVersion": "2.14.7.0",
+          "BuiltCommit": "766faea18891b0c4197ec7a57f4563f6331df600",
+          "TimeBuilt": "2026-01-11T18:30:55.6045896+00:00",
+          "EffectiveVersion": "2.14.10.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.0": {
@@ -115,6 +115,22 @@
             "2.14.7.0": {
               "TimeReleased": "2026-01-07T03:53:14.699647+00:00",
               "Changelog": "\u7531\u4E8E\u6536\u5230\u4E00\u4E9B\u5BFC\u81F4\u62DB\u52DF\u5D29\u6E83\u7684\u53CD\u9988\uFF0C\u62DB\u52DF\u53CD\u5C4F\u853D\u5DF2\u6682\u65F6\u5173\u95ED\u3002",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "2.14.10.0": {
+              "TimeReleased": "2026-01-11T18:30:55.604627+00:00",
+              "Changelog": "\u4FEE\u590D\u62DB\u52DF",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
