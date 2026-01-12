@@ -147,9 +147,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "521620a90362c1206463411066669ce9a5f1ea08",
-          "TimeBuilt": "2025-12-30T17:03:19.7701106+00:00",
-          "EffectiveVersion": "1.12.3.0",
+          "BuiltCommit": "5be02b8100a5089c6c75216cce8176be3501916f",
+          "TimeBuilt": "2026-01-12T03:28:25.6176269+00:00",
+          "EffectiveVersion": "1.12.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.12.1.0": {
@@ -211,6 +211,34 @@
             "1.12.3.0": {
               "TimeReleased": "2025-12-30T17:03:19.7701559+00:00",
               "Changelog": "- Patch 7.4 / API 14 compatibility\n- Allow including Oceania in Cross-DC searches (added a checkbox in settings)\n- Added support for China Cross-DC\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.6.5"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Yarukon"
+            },
+            "1.12.4.0": {
+              "TimeReleased": "2026-01-12T03:28:25.6176676+00:00",
+              "Changelog": "- Fix server check\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
