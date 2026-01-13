@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "DcTraveler": {
-          "BuiltCommit": "8fc09316d239e893a36b9f6bc21d73e91529c79a",
-          "TimeBuilt": "2025-12-19T08:52:22.0095332+00:00",
-          "EffectiveVersion": "1.0.0.1",
+          "BuiltCommit": "0e1d65d49a561b87cd7cf02ac4b2592cf612352c",
+          "TimeBuilt": "2026-01-13T17:03:53.0874475+00:00",
+          "EffectiveVersion": "1.0.0.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -23,6 +23,22 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "wozaiha"
+            },
+            "1.0.0.2": {
+              "TimeReleased": "2026-01-13T17:03:53.0874874+00:00",
+              "Changelog": "\u89E3\u9664\u706B\u7206\u5927\u533A(\u6307\u9E1F\u533A)\u4F20\u9001\u9650\u5236,\u539F\u6765\u624B\u673A\u53E8\u9C7C\u53EF\u4EE5\u8DE8,\u53EA\u6709\u7F51\u9875\u4E0D\u884C",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
             }
           }
         },

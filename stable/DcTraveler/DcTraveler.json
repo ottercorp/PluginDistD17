@@ -1,14 +1,10 @@
 {
-  "Author": "Loskh",
+  "Author": "Loskh(OtterCorp)",
   "Name": "DcTraveler",
   "InternalName": "DcTraveler",
-  "AssemblyVersion": "1.0.0.1",
-  "Description": "A sample plugin.",
+  "AssemblyVersion": "1.0.0.2",
+  "Description": "在选择角色界面,右键角色选择超域传送或返回。需要使用XL启动,并在设置中启动超域传送。(WeGame端暂不支持)",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/Loskh/DcTraveler",
-  "Tags": [
-    "UI"
-  ],
   "DalamudApiLevel": 14,
   "LoadRequiredState": 0,
   "LoadSync": false,
