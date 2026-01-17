@@ -43,9 +43,9 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "766faea18891b0c4197ec7a57f4563f6331df600",
-          "TimeBuilt": "2026-01-11T18:30:55.6045896+00:00",
-          "EffectiveVersion": "2.14.10.0",
+          "BuiltCommit": "ee6cd3ac969d4b9648efb88e100e8b8eedcc828b",
+          "TimeBuilt": "2026-01-17T08:31:14.0652745+00:00",
+          "EffectiveVersion": "2.14.11.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.0": {
@@ -147,6 +147,22 @@
             "2.14.10.0": {
               "TimeReleased": "2026-01-11T18:30:55.604627+00:00",
               "Changelog": "\u4FEE\u590D\u62DB\u52DF",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "2.14.11.0": {
+              "TimeReleased": "2026-01-17T08:31:14.0653183+00:00",
+              "Changelog": "\u6682\u65F6\u7981\u7528\u62DB\u52DF",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -871,9 +887,9 @@
     "testing-live": {
       "Plugins": {
         "StarlightBreaker": {
-          "BuiltCommit": "42d1c862dca41ddaacb59dcdf7ef692fd18679c1",
-          "TimeBuilt": "2026-01-08T16:41:18.0203281+00:00",
-          "EffectiveVersion": "2.14.9.0",
+          "BuiltCommit": "b01986dff9e7c268b7d3c6a3bc45787b25e79a21",
+          "TimeBuilt": "2026-01-17T08:31:25.031866+00:00",
+          "EffectiveVersion": "2.14.12.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.14.8.0": {
@@ -894,6 +910,22 @@
             },
             "2.14.9.0": {
               "TimeReleased": "2026-01-08T16:41:18.0203656+00:00",
+              "Changelog": "\u4FEE\u590D\u62DB\u52DF",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "2.14.12.0": {
+              "TimeReleased": "2026-01-17T08:31:25.0318671+00:00",
               "Changelog": "\u4FEE\u590D\u62DB\u52DF",
               "UsedNeeds": [
                 {
