@@ -43,9 +43,9 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "ee6cd3ac969d4b9648efb88e100e8b8eedcc828b",
-          "TimeBuilt": "2026-01-17T08:31:14.0652745+00:00",
-          "EffectiveVersion": "2.14.11.0",
+          "BuiltCommit": "7b986c943f53bbacd097895139ac77d37bcde55d",
+          "TimeBuilt": "2026-01-28T06:22:46.0203693+00:00",
+          "EffectiveVersion": "2.14.13.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.0": {
@@ -162,6 +162,22 @@
             },
             "2.14.11.0": {
               "TimeReleased": "2026-01-17T08:31:14.0653183+00:00",
+              "Changelog": "\u6682\u65F6\u7981\u7528\u62DB\u52DF",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "Loskh"
+            },
+            "2.14.13.0": {
+              "TimeReleased": "2026-01-28T06:22:46.0204117+00:00",
               "Changelog": "\u6682\u65F6\u7981\u7528\u62DB\u52DF",
               "UsedNeeds": [
                 {
