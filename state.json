@@ -957,6 +957,38 @@
               "Submitter": "Loskh"
             }
           }
+        },
+        "DcTraveler": {
+          "BuiltCommit": "630287165982949d37bc3acef1b4263ff9a03f93",
+          "TimeBuilt": "2026-01-30T15:04:45.3705048+00:00",
+          "EffectiveVersion": "2.0.0.0",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "2.0.0.0": {
+              "TimeReleased": "2026-01-30T15:04:45.3705457+00:00",
+              "Changelog": "\u539F\u751F\uFF0C\u542F\u52A8\uFF01",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6f1788b4bae9f220bd34c9f42302fb0a4e66bcae"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            }
+          }
         }
       }
     }
@@ -1339,6 +1371,13 @@
       "Version": "9.0.2",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-01-05T03:17:29.2686844Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "6f1788b4bae9f220bd34c9f42302fb0a4e66bcae",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-01-30T15:04:45.3800277Z"
     }
   ]
 }
