@@ -2,7 +2,7 @@
   "Author": "Loskh(OtterCorp)",
   "Name": "DcTraveler",
   "InternalName": "DcTraveler",
-  "AssemblyVersion": "2.0.0.0",
+  "AssemblyVersion": "2.0.1.0",
   "Description": "在选择角色界面,右键角色选择超域传送或返回。需要使用XL启动,并在设置中启动超域传送。(WeGame端暂不支持)",
   "ApplicableVersion": "any",
   "DalamudApiLevel": 14,
