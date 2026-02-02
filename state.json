@@ -897,6 +897,34 @@
               "Submitter": "etnAtker"
             }
           }
+        },
+        "DutyPusher": {
+          "BuiltCommit": "ab43c3c65874998cf222e82541ae310c42a4ee54",
+          "TimeBuilt": "2026-02-02T09:08:53.7431794+00:00",
+          "EffectiveVersion": "0.1.4.4",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "0.1.4.4": {
+              "TimeReleased": "2026-02-02T09:08:53.7432218+00:00",
+              "Changelog": "Update Chinese Description\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MorCherlf"
+            }
+          }
         }
       }
     },
@@ -1402,6 +1430,13 @@
       "Version": "6f1788b4bae9f220bd34c9f42302fb0a4e66bcae",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-01-30T15:04:45.3800277Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Dalamud.Loc",
+      "Version": "1.2.1",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-02-02T09:08:53.7522572Z"
     }
   ]
 }
