@@ -2,10 +2,10 @@
   "Author": "MorCherlf",
   "Name": "DutyPusher 狒狒排本小助手",
   "InternalName": "DutyPusher",
-  "AssemblyVersion": "0.1.4.4",
+  "AssemblyVersion": "0.1.4.5",
   "Description": "DutyPusher",
   "ApplicableVersion": "any",
-  "RepoUrl": "https://github.com/MorCherlf/FFXIVDutyPusher",
+  "RepoUrl": "https://github.com/DutyPusher/FFXIVDutyPusher",
   "Tags": [
     "utility",
     "Notification"
@@ -15,7 +15,7 @@
   "LoadSync": false,
   "CanUnloadAsync": false,
   "LoadPriority": 0,
-  "IconUrl": "https://raw.githubusercontent.com/MorCherlf/FFXIVDutyPusher/master/Resources/img/icon.png",
+  "IconUrl": "https://raw.githubusercontent.com/DutyPusher/FFXIVDutyPusher/master/Resources/img/icon.png",
   "Punchline": "在排到本时，通过第三方推送平台向您的设备推送通知",
   "AcceptsFeedback": true,
   "_isDip17Plugin": true,
