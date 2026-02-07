@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "DcTraveler": {
-          "BuiltCommit": "0e1d65d49a561b87cd7cf02ac4b2592cf612352c",
-          "TimeBuilt": "2026-01-13T17:03:53.0874475+00:00",
-          "EffectiveVersion": "1.0.0.2",
+          "BuiltCommit": "1100efb1a0bcd302ce014b31afe79ba334932938",
+          "TimeBuilt": "2026-02-07T07:12:22.2920201+00:00",
+          "EffectiveVersion": "2.0.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -39,6 +39,30 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "Loskh"
+            },
+            "2.0.1.0": {
+              "TimeReleased": "2026-02-07T07:12:22.2920633+00:00",
+              "Changelog": "\u539F\u751F\uFF0C\u542F\u52A8\uFF01",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "6f1788b4bae9f220bd34c9f42302fb0a4e66bcae"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
             }
           }
         },
