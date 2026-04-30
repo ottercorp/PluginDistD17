@@ -3,9 +3,9 @@
     "stable": {
       "Plugins": {
         "DcTraveler": {
-          "BuiltCommit": "1100efb1a0bcd302ce014b31afe79ba334932938",
-          "TimeBuilt": "2026-02-07T07:12:22.2920201+00:00",
-          "EffectiveVersion": "2.0.1.0",
+          "BuiltCommit": "8c745e9186fbbb2db6e69c37d7eedfa93245985d",
+          "TimeBuilt": "2026-04-30T17:24:33.6928455+00:00",
+          "EffectiveVersion": "2.0.2.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.0.1": {
@@ -51,6 +51,30 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "2.0.2.0": {
+              "TimeReleased": "2026-04-30T17:24:33.692887+00:00",
+              "Changelog": "\u539F\u751F\uFF0C\u542F\u52A8\uFF01",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MidoriKami/KamiToolKit",
+                  "Version": "a40db3168c2fef974dc60a150f039ecda694cc9a"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
@@ -1809,6 +1833,20 @@
       "Version": "1.2.1",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-02-02T09:08:53.7522572Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MidoriKami/KamiToolKit",
+      "Version": "a40db3168c2fef974dc60a150f039ecda694cc9a",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-04-30T17:24:33.7025495Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DalamudPackager",
+      "Version": "15.0.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-04-30T17:24:33.7025795Z"
     }
   ]
 }
