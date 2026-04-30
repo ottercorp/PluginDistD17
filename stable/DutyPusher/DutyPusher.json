@@ -2,15 +2,15 @@
   "Author": "MorCherlf",
   "Name": "DutyPusher 狒狒排本小助手",
   "InternalName": "DutyPusher",
-  "AssemblyVersion": "0.1.4.5",
-  "Description": "DutyPusher",
+  "AssemblyVersion": "0.1.4.6",
+  "Description": "您可以使用此插件向您的设备推送排本成功通知",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/DutyPusher/FFXIVDutyPusher",
   "Tags": [
     "utility",
     "Notification"
   ],
-  "DalamudApiLevel": 14,
+  "DalamudApiLevel": 15,
   "LoadRequiredState": 0,
   "LoadSync": false,
   "CanUnloadAsync": false,

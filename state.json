@@ -1275,9 +1275,9 @@
           }
         },
         "DutyPusher": {
-          "BuiltCommit": "887852ef3257d0b7c10f309cd3fff33c956fbe88",
-          "TimeBuilt": "2026-02-04T10:08:36.3047844+00:00",
-          "EffectiveVersion": "0.1.4.5",
+          "BuiltCommit": "b64dc258773481e22b42f5cb8b42ed0ec9ee12f9",
+          "TimeBuilt": "2026-04-30T17:26:09.5413462+00:00",
+          "EffectiveVersion": "0.1.4.6",
           "MinimumVersion": null,
           "Changelogs": {
             "0.1.4.4": {
@@ -1315,6 +1315,26 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MorCherlf"
+            },
+            "0.1.4.6": {
+              "TimeReleased": "2026-04-30T17:26:09.5413877+00:00",
+              "Changelog": "Update API 15 For CN\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "Dalamud.Loc",
+                  "Version": "1.2.1"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "2.0.2"
                 }
               ],
               "Reviewer": "OtterCorp",
@@ -1847,6 +1867,13 @@
       "Version": "15.0.0",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-04-30T17:24:33.7025795Z"
+    },
+    {
+      "Type": 1,
+      "Key": "DotNet.ReproducibleBuilds",
+      "Version": "2.0.2",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-04-30T17:26:09.5514791Z"
     }
   ]
 }
