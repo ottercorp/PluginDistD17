@@ -91,9 +91,9 @@
           }
         },
         "StarlightBreaker": {
-          "BuiltCommit": "7b986c943f53bbacd097895139ac77d37bcde55d",
-          "TimeBuilt": "2026-01-28T06:22:46.0203693+00:00",
-          "EffectiveVersion": "2.14.13.0",
+          "BuiltCommit": "af5c23d65f2b67fb21dfe296b71e29646f845dc9",
+          "TimeBuilt": "2026-05-03T15:06:30.3478465+00:00",
+          "EffectiveVersion": "2.15.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.0": {
@@ -239,6 +239,22 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "Loskh"
+            },
+            "2.15.0.0": {
+              "TimeReleased": "2026-05-03T15:06:30.3479017+00:00",
+              "Changelog": "API15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "wozaiha"
             }
           }
         },
@@ -1579,9 +1595,9 @@
     "testing-live": {
       "Plugins": {
         "StarlightBreaker": {
-          "BuiltCommit": "b01986dff9e7c268b7d3c6a3bc45787b25e79a21",
-          "TimeBuilt": "2026-01-17T08:31:25.031866+00:00",
-          "EffectiveVersion": "2.14.12.0",
+          "BuiltCommit": "af5c23d65f2b67fb21dfe296b71e29646f845dc9",
+          "TimeBuilt": "2026-05-03T15:06:40.9755836+00:00",
+          "EffectiveVersion": "2.15.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "2.14.8.0": {
@@ -1631,6 +1647,22 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "Loskh"
+            },
+            "2.15.0.0": {
+              "TimeReleased": "2026-05-03T15:06:40.9755844+00:00",
+              "Changelog": "API15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "wozaiha"
             }
           }
         },
