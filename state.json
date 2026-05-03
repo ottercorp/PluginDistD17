@@ -363,9 +363,9 @@
           }
         },
         "CharacterPanelRefined": {
-          "BuiltCommit": "a7df8f59664f81438fb82bb346eb7429925020b3",
-          "TimeBuilt": "2025-12-20T23:13:15.7839154+00:00",
-          "EffectiveVersion": "1.8.5.1",
+          "BuiltCommit": "d52fd50276c73b456bed360ed274a8abf3b8d037",
+          "TimeBuilt": "2026-05-03T00:10:22.9891025+00:00",
+          "EffectiveVersion": "1.8.6.1",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.5.1": {
@@ -379,6 +379,26 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "zhouhuichen741"
+            },
+            "1.8.6.1": {
+              "TimeReleased": "2026-05-03T00:10:22.9891443+00:00",
+              "Changelog": "- Update to FFXIV 7.5 and Dalamud 15\n- Add CN\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "2.1.8"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 },
                 {
                   "Key": "DotNet.ReproducibleBuilds",
