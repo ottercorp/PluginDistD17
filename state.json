@@ -1239,9 +1239,9 @@
           }
         },
         "SimpleTweaksPlugin": {
-          "BuiltCommit": "7e9129fa76698eff1906d09afda9a031ba1ed7ac",
-          "TimeBuilt": "2025-12-21T18:07:42.8267293+00:00",
-          "EffectiveVersion": "1.14.0.2",
+          "BuiltCommit": "6c86cb8df5379c86836134b7a1d417994089179b",
+          "TimeBuilt": "2026-05-04T02:31:32.4357037+00:00",
+          "EffectiveVersion": "1.14.1.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.14.0.2": {
@@ -1259,6 +1259,30 @@
                 {
                   "Key": "DotNet.ReproducibleBuilds",
                   "Version": "1.2.39"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.14.1.3": {
+              "TimeReleased": "2026-05-04T02:31:32.4357492+00:00",
+              "Changelog": "CN 7.5",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "KamiToolKit",
+                  "Version": "1.1.7"
                 },
                 {
                   "Key": "SixLabors.ImageSharp",
@@ -2152,6 +2176,13 @@
       "Version": "4.4.0",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-05-02T00:55:46.7632853Z"
+    },
+    {
+      "Type": 1,
+      "Key": "KamiToolKit",
+      "Version": "1.1.7",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-05-04T02:31:32.4451713Z"
     }
   ]
 }
