@@ -259,9 +259,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "3bebf870ec35c6de2d6a3bf6c660cea5fdbc3bce",
-          "TimeBuilt": "2026-05-08T05:41:24.6704276+00:00",
-          "EffectiveVersion": "1.13.0.0",
+          "BuiltCommit": "8f3c588be50cc5ebdd2c4b7919fbe01f2ff3019e",
+          "TimeBuilt": "2026-05-08T06:41:25.0622049+00:00",
+          "EffectiveVersion": "1.13.1.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.12.1.0": {
@@ -378,6 +378,34 @@
             },
             "1.13.0.0": {
               "TimeReleased": "2026-05-08T05:41:24.6704692+00:00",
+              "Changelog": "- CN 7.5\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.6.5"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.13.1.0": {
+              "TimeReleased": "2026-05-08T06:41:25.0622419+00:00",
               "Changelog": "- CN 7.5\n",
               "UsedNeeds": [
                 {
