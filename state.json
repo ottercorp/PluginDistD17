@@ -259,9 +259,9 @@
           }
         },
         "MarketBoardPlugin": {
-          "BuiltCommit": "5be02b8100a5089c6c75216cce8176be3501916f",
-          "TimeBuilt": "2026-01-12T03:28:25.6176269+00:00",
-          "EffectiveVersion": "1.12.4.0",
+          "BuiltCommit": "3bebf870ec35c6de2d6a3bf6c660cea5fdbc3bce",
+          "TimeBuilt": "2026-05-08T05:41:24.6704276+00:00",
+          "EffectiveVersion": "1.13.0.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.12.1.0": {
@@ -375,6 +375,34 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "Yarukon"
+            },
+            "1.13.0.0": {
+              "TimeReleased": "2026-05-08T05:41:24.6704692+00:00",
+              "Changelog": "- CN 7.5\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Polly.Core",
+                  "Version": "8.6.5"
+                },
+                {
+                  "Key": "StyleCop.Analyzers",
+                  "Version": "1.2.0-beta.556"
+                },
+                {
+                  "Key": "StyleCop.Analyzers.Unstable",
+                  "Version": "1.2.0.556"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
             }
           }
         },
@@ -1595,9 +1623,9 @@
           }
         },
         "RemotePartyFinder": {
-          "BuiltCommit": "83074027315e6cf38128f06edd2af3ddf185331e",
-          "TimeBuilt": "2026-01-03T12:17:17.0644298+00:00",
-          "EffectiveVersion": "1.0.18.1",
+          "BuiltCommit": "6a20cbd96ed4589d59ee7077d346dc58cac59070",
+          "TimeBuilt": "2026-05-08T05:41:32.4132196+00:00",
+          "EffectiveVersion": "1.0.19.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.0.18.1": {
@@ -1607,6 +1635,18 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "14.0.1"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "LittleNightmare"
+            },
+            "1.0.19.0": {
+              "TimeReleased": "2026-05-08T05:41:32.4132212+00:00",
+              "Changelog": "Update for api v15",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
                 }
               ],
               "Reviewer": "OtterCorp",
