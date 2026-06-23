@@ -483,9 +483,9 @@
           }
         },
         "ChatTwo": {
-          "BuiltCommit": "78817adb0a67914d9281c1db4afd11e637d7553f",
-          "TimeBuilt": "2026-05-23T13:32:26.8068453+00:00",
-          "EffectiveVersion": "1.40.2.0",
+          "BuiltCommit": "bee0e2e122509bf62b06cce01a21e1b0802e6046",
+          "TimeBuilt": "2026-06-23T11:21:47.9567237+00:00",
+          "EffectiveVersion": "1.40.4.0",
           "MinimumVersion": null,
           "Changelogs": {
             "1.34.1.0": {
@@ -1051,13 +1051,109 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "MeowZWR"
+            },
+            "1.40.4.0": {
+              "TimeReleased": "2026-06-23T11:21:47.9567254+00:00",
+              "Changelog": "\u79FB\u9664Mare\u96C6\u6210\uFF0C\u56E0\u4E3A\u4EE5\u524D\u5C31\u662F\u5206\u79BB\u914D\u7F6E\uFF0C\u7406\u8BBA\u4E0A\u4E0D\u5E94\u8BE5\u51FA\u9519\uFF0C\u5982\u6709\u95EE\u9898\u8BF7\u5220\u9664\u914D\u7F6E\u91CD\u65B0\u5B89\u88C5\u3002",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "MessagePack",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "morelinq",
+                  "Version": "4.4.0"
+                },
+                {
+                  "Key": "Pidgin",
+                  "Version": "3.3.0"
+                },
+                {
+                  "Key": "SixLabors.ImageSharp",
+                  "Version": "3.1.12"
+                },
+                {
+                  "Key": "Watson.Lite",
+                  "Version": "6.3.9"
+                },
+                {
+                  "Key": "CavemanTcp",
+                  "Version": "2.0.9"
+                },
+                {
+                  "Key": "IpMatcher",
+                  "Version": "1.0.5"
+                },
+                {
+                  "Key": "MessagePack.Annotations",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "MessagePackAnalyzer",
+                  "Version": "3.1.7"
+                },
+                {
+                  "Key": "Microsoft.Data.Sqlite.Core",
+                  "Version": "9.0.0"
+                },
+                {
+                  "Key": "Microsoft.NET.StringTools",
+                  "Version": "17.11.4"
+                },
+                {
+                  "Key": "RegexMatcher",
+                  "Version": "1.0.9"
+                },
+                {
+                  "Key": "SQLitePCLRaw.bundle_e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.core",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.lib.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "SQLitePCLRaw.provider.e_sqlite3",
+                  "Version": "2.1.10"
+                },
+                {
+                  "Key": "Timestamps",
+                  "Version": "1.0.11"
+                },
+                {
+                  "Key": "UrlMatcher",
+                  "Version": "3.0.1"
+                },
+                {
+                  "Key": "Watson.Core",
+                  "Version": "6.3.9"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
             }
           }
         },
         "Umbra": {
-          "BuiltCommit": "92cf55ad4fe71246b79274e0ce0f95369991f790",
-          "TimeBuilt": "2026-05-09T07:45:45.7410994+00:00",
-          "EffectiveVersion": "3.1.15.0",
+          "BuiltCommit": "786df25dfa41350662fa375982c0434d630395a0",
+          "TimeBuilt": "2026-06-23T11:22:05.3754265+00:00",
+          "EffectiveVersion": "3.1.16.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.11.0": {
@@ -1231,6 +1327,42 @@
                 {
                   "Key": "DalamudPackager",
                   "Version": "15.0.0"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            },
+            "3.1.16.0": {
+              "TimeReleased": "2026-06-23T11:22:05.3754281+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [x] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [ ] \uD83C\uDC04 \u6C49\u5316\r\n- [ ] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MeowZWR/drawing.git",
+                  "Version": "9fc7fd8f809bf04d8da9612282e7cea9f6540a2e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
                 },
                 {
                   "Key": "System.Reflection.MetadataLoadContext",
@@ -1483,9 +1615,9 @@
           }
         },
         "FaderPlugin": {
-          "BuiltCommit": "290842dc07b87d6cddb7d65fc63d367abfd1cb2f",
-          "TimeBuilt": "2026-05-02T00:39:39.1745337+00:00",
-          "EffectiveVersion": "2.7.7.0",
+          "BuiltCommit": "a80f44bde59a91850c473ebfd6af4e5e506492bd",
+          "TimeBuilt": "2026-06-23T11:21:35.3274641+00:00",
+          "EffectiveVersion": "2.7.7.1",
           "MinimumVersion": null,
           "Changelogs": {
             "2.7.6.1": {
@@ -1507,6 +1639,22 @@
             "2.7.7.0": {
               "TimeReleased": "2026-05-02T00:39:39.17458+00:00",
               "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [x] \uD83C\uDC04 \u6C49\u5316\r\n- [ ] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            },
+            "2.7.7.1": {
+              "TimeReleased": "2026-06-23T11:21:35.3275005+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [x] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [ ] \uD83C\uDC04 \u6C49\u5316\r\n- [ ] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
@@ -2577,6 +2725,34 @@
       "Version": "2.4.2",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-06-14T11:29:43.1470695Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack",
+      "Version": "3.1.7",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-06-23T11:21:47.9599573Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePack.Annotations",
+      "Version": "3.1.7",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-06-23T11:21:47.9599929Z"
+    },
+    {
+      "Type": 1,
+      "Key": "MessagePackAnalyzer",
+      "Version": "3.1.7",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-06-23T11:21:47.959993Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MeowZWR/drawing.git",
+      "Version": "9fc7fd8f809bf04d8da9612282e7cea9f6540a2e",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-06-23T11:22:05.378506Z"
     }
   ]
 }
