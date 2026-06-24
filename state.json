@@ -1927,9 +1927,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "3d2eb5301b24d6135a2ded2922daa3bde6d813ed",
-          "TimeBuilt": "2026-06-24T13:46:52.643562+00:00",
-          "EffectiveVersion": "1.8.3.2",
+          "BuiltCommit": "0e6e037e44e75b70cd246786fa345b6f63bcbbcf",
+          "TimeBuilt": "2026-06-24T14:26:15.9086554+00:00",
+          "EffectiveVersion": "1.8.3.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.2.1": {
@@ -1951,6 +1951,22 @@
             "1.8.3.2": {
               "TimeReleased": "2026-06-24T13:46:52.6436039+00:00",
               "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\n- [x] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\n- [ ] \uD83C\uDC04 \u6C49\u5316\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\n\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\n\n* \u540C\u6B65 Accountant \u4E0A\u6E38\u81F3 1.8.3.1\uFF08Ottermandias/Accountant@f6184b4\uFF09\uFF0C\u5E76\u5728\u5176\u57FA\u7840\u4E0A\u91CD\u65B0\u5E94\u7528\u56FD\u670D\u4E16\u754C\u8BC6\u522B\u4FEE\u590D\uFF08IsValid: Region 101 / RowId \u003E= 1024\uFF09\uFF0C\u7248\u672C\u53F7\u4E3A 1.8.3.2\u3002\n* \u53C2\u8003 #419\u3002\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.8.3.3": {
+              "TimeReleased": "2026-06-24T14:26:15.9087074+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\n- [ ] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\n- [ ] \uD83C\uDC04 \u6C49\u5316\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\n- [x] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\n\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\n\n* \u7EED #472\uFF1A\u4FEE\u590D\u56FD\u670D\u5D29\u6E83\u3002\u5F53\u73A9\u5BB6\u5B58\u6863\u4E2D\u7684\u4E16\u754C ID\uFF08\u5982 1173 \u5B87\u5B99\u548C\u97F3\uFF09\u672A\u88AB\u7EB3\u5165 Jumbo Cactpot \u91CD\u7F6E\u65F6\u95F4\u8868\u65F6\uFF0CGetJumboCactpotResetHour \u4F1A\u629B\u51FA ArgumentOutOfRangeException\uFF0C\u5E76\u5728 TimerWindow \u7ED8\u5236\u5FAA\u73AF\u4E2D\u5D29\u6E83\u3002\n* \u73B0\u6539\u4E3A\u5BF9\u672A\u77E5\u4E16\u754C\u8FD4\u56DE\u9ED8\u8BA4\u91CD\u7F6E\u5C0F\u65F6\uFF0812\uFF0C\u4E0E\u56FD\u670D\u6570\u636E\u4E2D\u5FC3\u9ED8\u8BA4\u503C\u4E00\u81F4\uFF09\uFF0C\u4E0D\u518D\u629B\u5F02\u5E38\u3002\n* \u7248\u672C\u53F7 1.8.3.3\uFF0CMapleRecall/Accountant@0e6e037\u3002\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
