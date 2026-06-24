@@ -1791,9 +1791,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "07b1caf2f4467f6ec8141d448e58ef6a3a5f46ed",
-          "TimeBuilt": "2026-06-24T03:06:16.4373304+00:00",
-          "EffectiveVersion": "1.10.6.2",
+          "BuiltCommit": "9ddc62140992c1790f86f169e62b52af73b6c7ad",
+          "TimeBuilt": "2026-06-24T03:15:19.2646908+00:00",
+          "EffectiveVersion": "1.10.6.3",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.6.0": {
@@ -1863,6 +1863,38 @@
             "1.10.6.2": {
               "TimeReleased": "2026-06-24T03:06:16.4373731+00:00",
               "Changelog": "- \u9002\u914D 7.5\uFF08api15\uFF09\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.3"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "WebTranslator",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.10.6.3": {
+              "TimeReleased": "2026-06-24T03:15:19.2647367+00:00",
+              "Changelog": "- \u6062\u590D\u82F1\u6587\u63D2\u4EF6\u4FE1\u606F\u5E76\u66F4\u65B0\u7248\u672C\u53F7\u81F3 1.10.6.3\n",
               "UsedNeeds": [
                 {
                   "Key": "DalamudPackager",
