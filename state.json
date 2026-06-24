@@ -1927,9 +1927,9 @@
           }
         },
         "Accountant": {
-          "BuiltCommit": "15d78683d4eee03aaa841d277af719a45cf7f85f",
-          "TimeBuilt": "2025-12-28T10:11:54.1992377+00:00",
-          "EffectiveVersion": "1.8.2.1",
+          "BuiltCommit": "3d2eb5301b24d6135a2ded2922daa3bde6d813ed",
+          "TimeBuilt": "2026-06-24T13:46:52.643562+00:00",
+          "EffectiveVersion": "1.8.3.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.8.2.1": {
@@ -1947,6 +1947,22 @@
               ],
               "Reviewer": "OtterCorp",
               "Submitter": "Loskh"
+            },
+            "1.8.3.2": {
+              "TimeReleased": "2026-06-24T13:46:52.6436039+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\n- [x] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\n- [ ] \uD83C\uDC04 \u6C49\u5316\n- [x] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\n\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\n\n* \u540C\u6B65 Accountant \u4E0A\u6E38\u81F3 1.8.3.1\uFF08Ottermandias/Accountant@f6184b4\uFF09\uFF0C\u5E76\u5728\u5176\u57FA\u7840\u4E0A\u91CD\u65B0\u5E94\u7528\u56FD\u670D\u4E16\u754C\u8BC6\u522B\u4FEE\u590D\uFF08IsValid: Region 101 / RowId \u003E= 1024\uFF09\uFF0C\u7248\u672C\u53F7\u4E3A 1.8.3.2\u3002\n* \u53C2\u8003 #419\u3002\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
             }
           }
         },
