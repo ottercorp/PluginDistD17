@@ -1791,9 +1791,9 @@
           }
         },
         "OrangeGuidanceTomestone": {
-          "BuiltCommit": "d36961cf491bbf3d21df875f6fc4ef7f24e8f86f",
-          "TimeBuilt": "2025-12-28T08:27:43.0544666+00:00",
-          "EffectiveVersion": "1.10.6.1",
+          "BuiltCommit": "07b1caf2f4467f6ec8141d448e58ef6a3a5f46ed",
+          "TimeBuilt": "2026-06-24T03:06:16.4373304+00:00",
+          "EffectiveVersion": "1.10.6.2",
           "MinimumVersion": null,
           "Changelogs": {
             "1.10.6.0": {
@@ -1843,6 +1843,38 @@
                 {
                   "Key": "Fody",
                   "Version": "6.9.2"
+                },
+                {
+                  "Key": "Resourcer.Fody",
+                  "Version": "1.8.1"
+                },
+                {
+                  "Key": "WebTranslator",
+                  "Version": "1.0.1"
+                },
+                {
+                  "Key": "Newtonsoft.Json",
+                  "Version": "12.0.2"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            },
+            "1.10.6.2": {
+              "TimeReleased": "2026-06-24T03:06:16.4373731+00:00",
+              "Changelog": "- \u9002\u914D 7.5\uFF08api15\uFF09\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "Fody",
+                  "Version": "6.9.3"
                 },
                 {
                   "Key": "Resourcer.Fody",
@@ -2753,6 +2785,13 @@
       "Version": "9fc7fd8f809bf04d8da9612282e7cea9f6540a2e",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-06-23T11:22:05.378506Z"
+    },
+    {
+      "Type": 1,
+      "Key": "Fody",
+      "Version": "6.9.3",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-06-24T03:06:16.4474608Z"
     }
   ]
 }
