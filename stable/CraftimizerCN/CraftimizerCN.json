@@ -1,0 +1,39 @@
+{
+  "Author": "Asriel(原作) / InfSein(翻译)",
+  "Name": "CraftimizerCN",
+  "InternalName": "CraftimizerCN",
+  "AssemblyVersion": "2.11.0.2",
+  "Description": "Allows you to generate macros and simulate all sorts of crafts without having to open another app. Open your crafting log to get started!",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/InfSein/CraftimizerCN",
+  "Tags": [
+    "crafting",
+    "doh",
+    "craft",
+    "macro",
+    "solver",
+    "generator",
+    "generate",
+    "simulate",
+    "sim",
+    "simulator"
+  ],
+  "CategoryTags": [
+    "Jobs"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    "https://infsein.github.io/static/CraftimizerCN/1.png",
+    "https://infsein.github.io/static/CraftimizerCN/2.png",
+    "https://infsein.github.io/static/CraftimizerCN/3.png"
+  ],
+  "IconUrl": "https://git.camora.dev/asriel/Craftimizer/raw/branch/main/icon.png",
+  "Punchline": "Simulate crafts, create computer-assisted macros, and get mid-craft suggestions from the comfort of your own game!",
+  "AcceptsFeedback": true,
+  "_isDip17Plugin": true,
+  "_Dip17Channel": "stable"
+}
