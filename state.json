@@ -1175,9 +1175,9 @@
           }
         },
         "Umbra": {
-          "BuiltCommit": "786df25dfa41350662fa375982c0434d630395a0",
-          "TimeBuilt": "2026-06-23T11:22:05.3754265+00:00",
-          "EffectiveVersion": "3.1.16.0",
+          "BuiltCommit": "515a0cda40113cd551b514c5e941c732ab5b73ad",
+          "TimeBuilt": "2026-07-31T15:19:01.6311811+00:00",
+          "EffectiveVersion": "3.1.17.0",
           "MinimumVersion": null,
           "Changelogs": {
             "3.1.11.0": {
@@ -1379,6 +1379,42 @@
                 {
                   "Key": "https://github.com/MeowZWR/drawing.git",
                   "Version": "9fc7fd8f809bf04d8da9612282e7cea9f6540a2e"
+                },
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Reflection.MetadataLoadContext",
+                  "Version": "9.0.4"
+                },
+                {
+                  "Key": "SkiaSharp",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.macOS",
+                  "Version": "3.118.0-preview.1.2"
+                },
+                {
+                  "Key": "SkiaSharp.NativeAssets.Win32",
+                  "Version": "3.118.0-preview.1.2"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MeowZWR"
+            },
+            "3.1.17.0": {
+              "TimeReleased": "2026-07-31T15:19:01.6312191+00:00",
+              "Changelog": "## \uD83E\uDDA6\u8FD9\u4E2APR\u505A\u4E86\u5565\uFF1F\r\n\u003C!-- \u628A [ ] \u6539\u6210 [x] \u52FE\u4E0A  --\u003E\r\n- [x] \u2B06\uFE0F \u540C\u6B65\u4E0A\u6E38\r\n- [ ] \uD83C\uDC04 \u6C49\u5316\r\n- [ ] \uD83D\uDEE0\uFE0F \u9002\u914D\u56FD\u670D\r\n- [ ] \uD83D\uDC1E \u4FEEBug\uFF08\u63D2\u4EF6\u672C\u8EABBug\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u539FRepo\uFF09\r\n- [ ] \uD83C\uDD95 \u65B0\u63D2\u4EF6\uFF08\u975E\u56FD\u670D\u7279\u4F9B\u8BF7\u4F18\u5148\u63D0\u4EA4\u5230\u4E0A\u6E38\uFF09\r\n\r\n## \uD83D\uDCC3\u8BE6\u7EC6\u8BF4\u660E\r\n\r\n* \u6CA1\u6709\r\n\u003C!-- \u6CA1\u6709\u5C31\u4E0D\u5199\u5427 --\u003E\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u003Cbr\u003E\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003E ### \u2728Tips\r\n\u003E * \u4E0A\u6E38\uD83D\uDC10[GoatCorp](https://github.com/goatcorp/DalamudPluginsD17)\r\n\u003E * \u56DE\u590D \u0060@aonyxbot rebuild\u0060 \u6765\u89E6\u53D1 Build\r\n\u003E * \u6709\u95EE\u9898\uFF1F\u627EReview\uFF1F\u8FDB\u6CDB\u736D\u9891\u9053\u770B\u770B\u5427!\r\n\u003E [\u3010\u827E\u6B27\u6CFD\u4E9A\u6CDB\u736D\u4FDD\u62A4\u534F\u4F1A\u3011](https://pd.qq.com/s/adka09q6e)\r\n",
+              "UsedNeeds": [
+                {
+                  "Key": "https://github.com/MeowZWR/drawing.git",
+                  "Version": "1613d38ab3967feea9b0ebb9f3734b67c7d52c41"
                 },
                 {
                   "Key": "DalamudPackager",
@@ -3065,6 +3101,13 @@
       "Version": "10.0.3",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-07-01T15:45:29.1425487Z"
+    },
+    {
+      "Type": 2,
+      "Key": "https://github.com/MeowZWR/drawing.git",
+      "Version": "1613d38ab3967feea9b0ebb9f3734b67c7d52c41",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-07-31T15:19:01.6389837Z"
     }
   ]
 }
