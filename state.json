@@ -2433,6 +2433,38 @@
               "Submitter": "InfSein"
             }
           }
+        },
+        "ItemSearchPlugin": {
+          "BuiltCommit": "55914cc66c5657e854931c305a32992d900d2e8b",
+          "TimeBuilt": "2026-09-09T12:01:15.5670471+00:00",
+          "EffectiveVersion": "1.10.6.1",
+          "MinimumVersion": null,
+          "Changelogs": {
+            "1.10.6.1": {
+              "TimeReleased": "2026-09-09T12:01:15.5670894+00:00",
+              "Changelog": "-# \u56FD\u670D\u4E2D\u6587\u641C\u7D22\u4E0E\u672C\u5730\u5316\u652F\u6301\n",
+              "UsedNeeds": [
+                {
+                  "Key": "DalamudPackager",
+                  "Version": "15.0.0"
+                },
+                {
+                  "Key": "DotNet.ReproducibleBuilds",
+                  "Version": "1.2.39"
+                },
+                {
+                  "Key": "System.Linq.Async",
+                  "Version": "7.0.0"
+                },
+                {
+                  "Key": "System.Interactive.Async",
+                  "Version": "7.0.0"
+                }
+              ],
+              "Reviewer": "OtterCorp",
+              "Submitter": "MapleRecall"
+            }
+          }
         }
       }
     },
@@ -3108,6 +3140,20 @@
       "Version": "1613d38ab3967feea9b0ebb9f3734b67c7d52c41",
       "ReviewedBy": "OtterCorp",
       "ReviewedAt": "2026-07-31T15:19:01.6389837Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Linq.Async",
+      "Version": "7.0.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-09-09T12:01:15.57572Z"
+    },
+    {
+      "Type": 1,
+      "Key": "System.Interactive.Async",
+      "Version": "7.0.0",
+      "ReviewedBy": "OtterCorp",
+      "ReviewedAt": "2026-09-09T12:01:15.5757445Z"
     }
   ]
 }
